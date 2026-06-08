@@ -2,7 +2,7 @@
 import os
 import json
 import numpy as np
-from sentence_transformers import SentenceTransformer
+from embeddings import embed_query
 from datetime import datetime
 
 # -----------------------------
@@ -11,16 +11,12 @@ from datetime import datetime
 CACHE_DIR  = os.path.join(os.getcwd(), "data", "cache")
 CACHE_FILE = os.path.join(CACHE_DIR, "semantic_cache.json")
 
-# Umbral de similitud coseno para considerar hit de caché
-# 0.92 = consultas casi idénticas semánticamente
-SIMILARITY_THRESHOLD = 0.4
+# 0.85 = consultas semánticamente casi idénticas.
+# El valor anterior (0.4) era demasiado permisivo: cualquier par de frases
+# en español supera 0.4 de similitud coseno, generando falsos cache hits.
+SIMILARITY_THRESHOLD = 0.85
 
 os.makedirs(CACHE_DIR, exist_ok=True)
-
-# Mismo modelo que retriever para consistencia de embeddings
-print("[INFO] Cargando modelo para caché semántica...")
-embed_model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
-print("[INFO] Caché lista.")
 
 # -----------------------------
 # ESTRUCTURA DE CACHÉ
@@ -69,10 +65,7 @@ def search_cache(query: str) -> dict | None:
     if not cache["entries"]:
         return None
 
-    query_vector = embed_model.encode(
-        query,
-        normalize_embeddings=True
-    )
+    query_vector = embed_query(query)
 
     best_score = 0.0
     best_entry = None
@@ -80,6 +73,9 @@ def search_cache(query: str) -> dict | None:
 
     for i, entry in enumerate(cache["entries"]):
         cached_vector = np.array(entry["vector"], dtype=np.float32)
+        if cached_vector.shape != query_vector.shape:
+            # Vector de dimensión distinta — entrada antigua de otro modelo, ignorar
+            continue
         score = _cosine_similarity(query_vector, cached_vector)
         if score > best_score:
             best_score = score
@@ -117,10 +113,7 @@ def add_to_cache(query: str, response: dict, category: str):
     """
     cache = _load_cache()
 
-    query_vector = embed_model.encode(
-        query,
-        normalize_embeddings=True
-    )
+    query_vector = embed_query(query)
 
     entry = {
         "query":      query,

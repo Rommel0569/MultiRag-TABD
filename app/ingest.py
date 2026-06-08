@@ -7,8 +7,8 @@ import faiss
 import easyocr
 import cv2
 from pdf2image import convert_from_path
-from sentence_transformers import SentenceTransformer
-import faiss
+from embeddings import embed_passage, EMBED_DIM
+
 # -----------------------------
 # CONFIGURACIÓN
 # -----------------------------
@@ -34,10 +34,6 @@ print("[INFO] Cargando EasyOCR (español + inglés)...")
 ocr_reader = easyocr.Reader(['es', 'en'], gpu=False)
 print("[INFO] EasyOCR listo.")
 
-print("[INFO] Cargando modelo de embeddings...")
-embed_model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
-EMBED_DIM   = embed_model.get_sentence_embedding_dimension()
-print(f"[INFO] Embeddings listos. Dimensión: {EMBED_DIM}")
 
 # -----------------------------
 # PREPROCESAMIENTO DE IMAGEN
@@ -45,26 +41,22 @@ print(f"[INFO] Embeddings listos. Dimensión: {EMBED_DIM}")
 # -----------------------------
 def preprocess_image(pil_image):
     """
-    Mejora la calidad de la imagen para OCR usando OpenCV.
-    Convierte PIL → numpy → escala de grises → blur → threshold adaptativo.
+    Mejora la calidad de la imagen para OCR.
+    CLAHE + sharpening: mejor que adaptive threshold para PDFs digitales/impresos
+    porque no invierte el fondo y preserva el contraste local correctamente.
     """
     image = np.array(pil_image)
+    gray  = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
 
-    # Convertir a escala de grises
-    gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
+    # CLAHE: mejora contraste local sin saturar ni invertir el fondo
+    clahe    = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
+    enhanced = clahe.apply(gray)
 
-    # Suavizado gaussiano para reducir ruido
-    blur = cv2.GaussianBlur(gray, (5, 5), 0)
+    # Sharpening suave para bordes de letras más definidos
+    kernel   = np.array([[0, -1, 0], [-1, 5, -1], [0, -1, 0]], dtype=np.float32)
+    sharp    = cv2.filter2D(enhanced, -1, kernel)
 
-    # Threshold adaptativo — mejor para documentos escaneados
-    thresh = cv2.adaptiveThreshold(
-        blur, 255,
-        cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
-        cv2.THRESH_BINARY,
-        11, 2
-    )
-
-    return thresh
+    return sharp
 
 # -----------------------------
 # OCR CON EASYOCR
@@ -97,8 +89,13 @@ def ocr_pdf(pdf_path):
 # -----------------------------
 # CHUNKING
 # -----------------------------
-def chunk_text(text, chunk_size=512, overlap=50):
-    """Divide texto en chunks de palabras con solapamiento."""
+def chunk_text(text, chunk_size=200, overlap=20):
+    """
+    Divide texto en chunks de ~200 palabras con solapamiento de 20.
+    200 palabras ≈ 280 tokens en español, bien dentro del límite de 512
+    tokens de multilingual-e5-base. Antes era 512 palabras (>700 tokens),
+    lo que causaba truncamiento silencioso del embedding.
+    """
     words  = text.split()
     chunks = []
     start  = 0
@@ -145,10 +142,7 @@ def ingest():
                 print(f"  [CHUNK] Página {page_num} → {len(chunks)} chunks")
 
                 for chunk in chunks:
-                    vector = embed_model.encode(
-                        chunk,
-                        normalize_embeddings=True
-                    )
+                    vector = embed_passage(chunk)
                     all_vectors.append(vector)
                     all_texts.append({
                         "id":       str(uuid.uuid4()),
