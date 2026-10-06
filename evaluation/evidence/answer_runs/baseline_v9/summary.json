@@ -1,0 +1,10 @@
+{
+  "requested": 500,
+  "completed_without_runtime_error": 500,
+  "errors": 0,
+  "variant": "baseline",
+  "pair_id": "paired500_20260930_textractv9_llama3",
+  "route_correct_count": null,
+  "route_accuracy_on_completed": null,
+  "metric_warning": "Exploratory. References are OCR-derived candidates; route score is not article-comparable without a validated, split-controlled set. Answer correctness requires source review/independent judging."
+}

@@ -1,0 +1,147 @@
+{
+  "status": "complete",
+  "created_utc": "2026-09-30T21:07:50.011039-05:00",
+  "model": "gemini-3.1-flash-lite",
+  "judge_temperature": 0,
+  "ragas": "0.2.14",
+  "python": "3.13.9 (tags/v3.13.9:8183fa5, Oct 14 2025, 14:09:13) [MSC v.1944 64 bit (AMD64)]",
+  "inputs": {
+    "V1_baseline": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\evaluation\\revision_20260930\\manual_validation\\ragas_input_4variants_500\\ablacion_V1_baseline.json",
+    "V2_baseline_rerank": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\evaluation\\revision_20260930\\manual_validation\\ragas_input_4variants_500\\ablacion_V2_baseline_rerank.json",
+    "V3_router_hibrida": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\evaluation\\revision_20260930\\manual_validation\\ragas_input_4variants_500\\ablacion_V3_router_hibrida.json",
+    "V4_completo": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\evaluation\\revision_20260930\\manual_validation\\ragas_input_4variants_500\\ablacion_V4_completo.json"
+  },
+  "input_sha256": {
+    "V1_baseline": "58b1b1e0ccb6a0891e227a32037ec00e1c7abaf6ba1bcf6501d5d5f87297a0eb",
+    "V2_baseline_rerank": "040a73130738fa334afe1de657e0577590c7ac8a9cd307792032f09ad278727c",
+    "V3_router_hibrida": "d7d79d45f9ee4c06e72788d5ef96858375e48ba99f5040cdaf1174d62db54604",
+    "V4_completo": "4546d53780e55cefc0b96b04092697dfc6b7b95f7a7630abef08abd3578c38f1"
+  },
+  "references": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\evaluation\\revision_20260930\\manual_validation\\queries_500_pdf_verified_ai_adjudicated.json",
+  "references_sha256": "b4edc0cc7bd8fceabb3a9e6000b0a269e5804bde4747be5ae9b8873edb72a683",
+  "generation_manifest": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\evaluation\\revision_20260930\\manual_validation\\ragas_input_4variants_500\\generation_manifest.json",
+  "generation_manifest_sha256": "ff2190f7b6f70c7369e40eccc4017462f1b8a9674f4b7a52f168abdb160c8d8e",
+  "generation_input_tokens": 0,
+  "generation_output_tokens": 0,
+  "metrics": [
+    "faithfulness",
+    "answer_relevancy",
+    "context_precision",
+    "context_recall"
+  ],
+  "embeddings": "local intfloat/multilingual-e5-base (no Gemini embedding API usage)",
+  "run_config": {
+    "max_workers": 64,
+    "max_retries": 2,
+    "max_wait": 30,
+    "timeout": 180,
+    "seed": 42,
+    "batch_size": 16
+  },
+  "pricing_usd_per_million_tokens": {
+    "input": 0.25,
+    "output": 1.5
+  },
+  "pen_per_usd_estimate": 3.45,
+  "max_spend_pen": 19.0,
+  "stop_threshold_pen": 18.5,
+  "input_tokens": 16868987,
+  "output_tokens": 1707528,
+  "cost_usd": 6.77853875,
+  "cost_pen_estimate": 23.3859586875,
+  "note": "Generation and routing use local Ollama; only RAGAS judging uses Gemini. LLM API request count is not equal to rows × metrics; context_precision may call once per retrieved context. Spend is measured from returned token usage metadata.",
+  "updated_utc": "2026-09-30T23:15:43.832629-05:00",
+  "max_row_cost_pen": 0.0131884875,
+  "completed_rows": 2000,
+  "execution_segments": [
+    {
+      "started_utc": "2026-09-30T21:26:27.802223-05:00",
+      "max_workers": 64,
+      "resumed_after_completed_rows": 23,
+      "previous_max_workers": 1
+    },
+    {
+      "started_utc": "2026-09-30T21:36:14.837713-05:00",
+      "max_workers": 64,
+      "resumed_after_completed_rows": 167,
+      "previous_max_workers": 64
+    },
+    {
+      "started_utc": "2026-09-30T22:18:24.527947-05:00",
+      "max_workers": 64,
+      "resumed_after_completed_rows": 948,
+      "previous_max_workers": 64
+    },
+    {
+      "started_utc": "2026-09-30T22:19:19.15943-05:00",
+      "max_workers": 64,
+      "resumed_after_completed_rows": 948,
+      "previous_max_workers": 64
+    },
+    {
+      "started_utc": "2026-09-30T22:21:16.963398-05:00",
+      "max_workers": 64,
+      "resumed_after_completed_rows": 948,
+      "previous_max_workers": 64
+    },
+    {
+      "started_utc": "2026-09-30T22:28:05.689934-05:00",
+      "max_workers": 64,
+      "resumed_after_completed_rows": 948,
+      "previous_max_workers": 64
+    }
+  ],
+  "max_batch_cost_pen": 0.24387705,
+  "budget_changes": [
+    {
+      "changed_utc": "2026-09-30T21:36:14.837702-05:00",
+      "previous_max_spend_pen": 22.0,
+      "previous_stop_threshold_pen": 20.0,
+      "new_max_spend_pen": 35.0,
+      "new_stop_threshold_pen": 33.0,
+      "reason": "User explicitly authorized exceeding the prior S/22 cap to complete the 2,000-row ablation; operational cap raised to S/35 with S/33 stop threshold."
+    },
+    {
+      "changed_utc": "2026-09-30T22:19:19.159414-05:00",
+      "previous_max_spend_pen": 35.0,
+      "previous_stop_threshold_pen": 33.0,
+      "new_max_spend_pen": 19.0,
+      "new_stop_threshold_pen": 18.5,
+      "reason": "User set S/19.00 as the remaining authorized budget after recharging; the evaluator stops at S/18.50 of additional spend to preserve a small margin.",
+      "budget_baseline_cumulative_pen": 12.764844750000002
+    }
+  ],
+  "failed_variant": "V2_baseline_rerank",
+  "failed_queries": [
+    "¿Qué dice el artículo 107 del reglamento de admisión?",
+    "¿Qué dice el artículo 108 del reglamento de admisión?",
+    "¿Qué restaurantes económicos recomiendas cerca de la UNSA?",
+    "¿Qué cafeterías están abiertas ahora cerca de la universidad?",
+    "¿Dónde puedo almorzar menú por menos de veinte soles en Arequipa?",
+    "¿Cuál es el mejor lugar para comer rocoto relleno en Arequipa?",
+    "¿Qué pizzería cerca del centro tiene delivery?",
+    "¿Cómo estará el clima en Arequipa esta tarde?",
+    "¿Va a llover mañana en Arequipa?",
+    "¿Cuál es la temperatura actual en Lima?",
+    "¿Qué ropa debería llevar para viajar a Cusco esta semana?",
+    "¿Cómo estará el clima este fin de semana en Mollendo?",
+    "¿Cuánto está el dólar hoy en Perú?",
+    "¿A cuánto equivale 100 dólares en soles al cambio actual?",
+    "¿Cuál fue el tipo de cambio del euro esta mañana?",
+    "¿Conviene comprar dólares ahora?"
+  ],
+  "error_type": "TimeoutError",
+  "error": "",
+  "budget_baseline_cost_pen": 12.764844750000002,
+  "spend_since_budget_authorization_pen": 10.621113937499999,
+  "verification_probe": {
+    "model": "gemini-3.1-flash-lite",
+    "timestamp_utc": "2026-10-01T03:27:42.99898Z",
+    "input_tokens": 5,
+    "output_tokens": 1,
+    "result": "success"
+  },
+  "result_rows": 2000,
+  "max_spend_scope": "additional spend since budget_baseline_cost_pen",
+  "cumulative_estimated_cap_pen": 31.76484475
+}

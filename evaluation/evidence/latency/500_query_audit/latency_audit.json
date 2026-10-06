@@ -1,0 +1,364 @@
+{
+  "audit_created_utc": "2026-10-02T01:12:38.605867+00:00",
+  "analysis_script": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\evaluation\\evidence\\latency\\500_query_audit\\analyze_latency_runs.py",
+  "analysis_script_sha256": "11d5cad38ae25c4c92606bc7c5a227117c0f93b1fc9963186a445213cf6bfeb1",
+  "primary_pair": {
+    "baseline": "baseline_v9",
+    "three_phase": "three_phase_final_latency"
+  },
+  "primary_pair_checks": {
+    "matching_pair_id": true,
+    "matching_query_sha256": true,
+    "matching_index_hashes": true,
+    "matching_pipeline_source_hashes": false,
+    "differing_pipeline_files": [
+      "pipeline.py",
+      "structured_answers.py"
+    ],
+    "shared_question_ids": 500,
+    "baseline_refs_unvalidated_flag": true,
+    "three_phase_refs_unvalidated_flag": true
+  },
+  "primary_latency": {
+    "baseline": {
+      "n": 500,
+      "mean_s": 2.11688,
+      "stddev_s_population": 1.1855289391659742,
+      "min_s": 0.599,
+      "p50_s": 1.9275,
+      "p90_s": 3.619,
+      "p95_s": 4.218,
+      "p99_s": 6.479,
+      "max_s": 9.328
+    },
+    "three_phase": {
+      "n": 500,
+      "mean_s": 0.022926,
+      "stddev_s_population": 0.1290000485426265,
+      "min_s": 0.0,
+      "p50_s": 0.002,
+      "p90_s": 0.009,
+      "p95_s": 0.192,
+      "p99_s": 0.196,
+      "max_s": 2.683
+    },
+    "paired_baseline_minus_three_phase": {
+      "n": 500,
+      "mean_s": 2.093954,
+      "stddev_s_population": 1.2085849543511618,
+      "min_s": -1.6349999999999998,
+      "p50_s": 1.924,
+      "p90_s": 3.619,
+      "p95_s": 4.21,
+      "p99_s": 6.477,
+      "max_s": 9.325
+    },
+    "paired_rows_three_phase_faster": 499,
+    "paired_rows_equal": 0,
+    "paired_rows_three_phase_slower": 1,
+    "baseline_token_rows": 500,
+    "three_phase_token_rows": 0
+  },
+  "per_category": [
+    {
+      "category": "CRONOGRAMA",
+      "n": 25,
+      "baseline_mean_s": 1.6212,
+      "baseline_p50_s": 1.412,
+      "baseline_p95_s": 1.97,
+      "three_phase_mean_s": 0.001,
+      "three_phase_p50_s": 0.001,
+      "three_phase_p95_s": 0.001,
+      "paired_mean_difference_s": 1.6202,
+      "paired_median_difference_s": 1.411
+    },
+    {
+      "category": "FUERA_DE_DOMINIO",
+      "n": 50,
+      "baseline_mean_s": 1.0598,
+      "baseline_p50_s": 0.969,
+      "baseline_p95_s": 1.81,
+      "three_phase_mean_s": 0.19624,
+      "three_phase_p50_s": 0.192,
+      "three_phase_p95_s": 0.197,
+      "paired_mean_difference_s": 0.86356,
+      "paired_median_difference_s": 0.8055
+    },
+    {
+      "category": "REGLAMENTO",
+      "n": 105,
+      "baseline_mean_s": 1.6715333333333333,
+      "baseline_p50_s": 1.033,
+      "baseline_p95_s": 4.333,
+      "three_phase_mean_s": 0.00013333333333333334,
+      "three_phase_p50_s": 0.0,
+      "three_phase_p95_s": 0.001,
+      "paired_mean_difference_s": 1.6714,
+      "paired_median_difference_s": 1.033
+    },
+    {
+      "category": "TEMARIO",
+      "n": 145,
+      "baseline_mean_s": 2.821958620689655,
+      "baseline_p50_s": 2.766,
+      "baseline_p95_s": 4.039,
+      "three_phase_mean_s": 0.008289655172413793,
+      "three_phase_p50_s": 0.008,
+      "three_phase_p95_s": 0.009,
+      "paired_mean_difference_s": 2.8136689655172415,
+      "paired_median_difference_s": 2.758
+    },
+    {
+      "category": "VACANTES",
+      "n": 175,
+      "baseline_mean_s": 2.1727142857142856,
+      "baseline_p50_s": 1.905,
+      "baseline_p95_s": 4.314,
+      "three_phase_mean_s": 0.002342857142857143,
+      "three_phase_p50_s": 0.002,
+      "three_phase_p95_s": 0.003,
+      "paired_mean_difference_s": 2.170371428571429,
+      "paired_median_difference_s": 1.9020000000000001
+    }
+  ],
+  "older_27_query_component_profile": {
+    "log_path": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\evaluation\\resultados_latencia.txt",
+    "log_sha256": "6176ed2fb9bfe4343d9db8c3361e50081fad82a0996330aeeb81c3a236149d4b",
+    "log_encoding": "utf-16",
+    "script_path": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\evaluation\\profile_latency.py",
+    "script_sha256": "de7b277c29ae83fd0947a5efe19a5aa9fff29de7b5a96591df35f6e53e638e39",
+    "ok_rows": 27,
+    "skipped_ood_rows": 3,
+    "components": {
+      "enrutador": {
+        "mean_s_rounded": 2.68,
+        "stddev_s_rounded": 0.63,
+        "share_percent_rounded": 24.1
+      },
+      "densa_faiss": {
+        "mean_s_rounded": 0.05,
+        "stddev_s_rounded": 0.05,
+        "share_percent_rounded": 0.5
+      },
+      "lexica_bm25": {
+        "mean_s_rounded": 0.0,
+        "stddev_s_rounded": 0.0,
+        "share_percent_rounded": 0.0
+      },
+      "fusion_rrf": {
+        "mean_s_rounded": 0.0,
+        "stddev_s_rounded": 0.0,
+        "share_percent_rounded": 0.0
+      },
+      "rerank_crossenc": {
+        "mean_s_rounded": 1.69,
+        "stddev_s_rounded": 1.13,
+        "share_percent_rounded": 15.2
+      },
+      "generacion_llm": {
+        "mean_s_rounded": 6.66,
+        "stddev_s_rounded": 2.47,
+        "share_percent_rounded": 60.1
+      },
+      "total": {
+        "mean_s_rounded": 11.08,
+        "stddev_s_rounded": 3.34,
+        "share_percent_rounded": 100.0
+      }
+    }
+  },
+  "runs": [
+    {
+      "run_name": "baseline_v9",
+      "manifest_sha256": "efb374b66678539f603a70d22e76660e3b2877de2970344db6fb711b66c47f74",
+      "answers_sha256": "a89e3fca1c65741696128940e84aff9c309d3205757cda0e2cb58f72b3447de6",
+      "created_utc": "2026-09-30T03:57:18.023074+00:00",
+      "variant": "baseline",
+      "pair_id": "paired500_20260930_textractv9_llama3",
+      "model": "llama3:8b",
+      "temperature": 0.1,
+      "cache_mode": "disabled for paired architecture comparison",
+      "index_dir": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\data\\index_textract_85_v9",
+      "query_file_sha256": "47de5f36529322810bdda0680c19eb1a89773ae7b234292a46364ef13f533004",
+      "index_files_sha256": {
+        "CRONOGRAMA.index": "2a0090b5564c9d1138e3408a794004bedd45b549a8857d2bf7be1929eb57c3e9",
+        "CRONOGRAMA.json": "34ec48ee25b4d34f237f0b5611624ac2d6c3f77bb842e6c7999759b209e8d17c",
+        "manifest.json": "bdc023dffb03128d00f93c89b29e608a80e5468eb49adad9fbeb47a11eb27eb5",
+        "REGLAMENTO.index": "414064dcfe0e26f192186fcbfb6e27b45c8e12753490a45fc9a443b0d0fe5b28",
+        "REGLAMENTO.json": "65f8ca3b3f64f183b1543f3390f22887fef0d802c90279c273c17fbe06d84211",
+        "TEMARIO.index": "eea4af0b6610d8ddc4d82e9ea1d1175093b37aa8c00e829458427d57ed5c09de",
+        "TEMARIO.json": "207bd20eca68244d53d44c60297cc21c52816bdc1e1662a911cd681502c77fdc",
+        "VACANTES.index": "89396549451e8e615aff9b42d53492f64cdf581cd2ca630a7c91c8058d4080cc",
+        "VACANTES.json": "55d6f65684e74c386101e6eb212f8dd8bbcf9f936135e7a33f73483a6296baa4"
+      },
+      "pipeline_source_sha256": {
+        "llm.py": "ae672cf198b80e44e1a023c3e2c53822a62a31c2bdd82fcbbbb05b3875026fc7",
+        "router.py": "7ff1fe0d5786cc84d4995b499fa86401156092476b97cbf0667e8162c5d5227c",
+        "retriever.py": "b8eba22a8294f8f27b647089c81b7b84577bdf0dc9da54a69e26534caee10dbe",
+        "structured_answers.py": "8d2c30f4912cc8a5a71f1978c7a0cabae21840a630c5bb6922f13a773902514a",
+        "pipeline.py": "13f1cafd3715a39b54df392bde3d723b7cbaccf477f4e109ddd968f0080ec762"
+      },
+      "query_references_unvalidated": true,
+      "rows": 500,
+      "errors": 0,
+      "phase_counts": {
+        "baseline_global_dense_top5": 500
+      },
+      "category_counts": {
+        "CRONOGRAMA": 25,
+        "VACANTES": 175,
+        "TEMARIO": 145,
+        "REGLAMENTO": 105,
+        "FUERA_DE_DOMINIO": 50
+      },
+      "tokens_used_sum": 504893,
+      "tokens_used_nonzero_rows": 500,
+      "elapsed_all": {
+        "n": 500,
+        "mean_s": 2.11688,
+        "stddev_s_population": 1.1855289391659742,
+        "min_s": 0.599,
+        "p50_s": 1.9275,
+        "p90_s": 3.619,
+        "p95_s": 4.218,
+        "p99_s": 6.479,
+        "max_s": 9.328
+      },
+      "elapsed_in_domain": {
+        "n": 450,
+        "mean_s": 2.2343333333333333,
+        "stddev_s_population": 1.1888796257167689,
+        "min_s": 0.599,
+        "p50_s": 2.0265,
+        "p90_s": 3.665,
+        "p95_s": 4.297,
+        "p99_s": 6.508,
+        "max_s": 9.328
+      },
+      "elapsed_ood": {
+        "n": 50,
+        "mean_s": 1.0598,
+        "stddev_s_population": 0.3038092822808415,
+        "min_s": 0.825,
+        "p50_s": 0.969,
+        "p90_s": 1.234,
+        "p95_s": 1.81,
+        "p99_s": 2.37,
+        "max_s": 2.37
+      },
+      "elapsed_excluding_first_row": {
+        "n": 499,
+        "mean_s": 2.110432865731463,
+        "stddev_s_population": 1.177927283992842,
+        "min_s": 0.599,
+        "p50_s": 1.926,
+        "p90_s": 3.619,
+        "p95_s": 4.218,
+        "p99_s": 6.508,
+        "max_s": 9.328
+      }
+    },
+    {
+      "run_name": "three_phase_final_latency",
+      "manifest_sha256": "9fa121befe9f7f0990e81bff68ca9c2d0f2523ba9f9ba1aa9fcabcd64cdc94b1",
+      "answers_sha256": "11c9a9aaec0c6e366f592210c9098da54d8f3f66b05ed93a7ffdddb54c523796",
+      "created_utc": "2026-09-30T04:26:16.018452+00:00",
+      "variant": "three_phase",
+      "pair_id": "paired500_20260930_textractv9_llama3",
+      "model": "llama3:8b",
+      "temperature": 0.1,
+      "cache_mode": "disabled for paired architecture comparison",
+      "index_dir": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\data\\index_textract_85_v9",
+      "query_file_sha256": "47de5f36529322810bdda0680c19eb1a89773ae7b234292a46364ef13f533004",
+      "index_files_sha256": {
+        "CRONOGRAMA.index": "2a0090b5564c9d1138e3408a794004bedd45b549a8857d2bf7be1929eb57c3e9",
+        "CRONOGRAMA.json": "34ec48ee25b4d34f237f0b5611624ac2d6c3f77bb842e6c7999759b209e8d17c",
+        "manifest.json": "bdc023dffb03128d00f93c89b29e608a80e5468eb49adad9fbeb47a11eb27eb5",
+        "REGLAMENTO.index": "414064dcfe0e26f192186fcbfb6e27b45c8e12753490a45fc9a443b0d0fe5b28",
+        "REGLAMENTO.json": "65f8ca3b3f64f183b1543f3390f22887fef0d802c90279c273c17fbe06d84211",
+        "TEMARIO.index": "eea4af0b6610d8ddc4d82e9ea1d1175093b37aa8c00e829458427d57ed5c09de",
+        "TEMARIO.json": "207bd20eca68244d53d44c60297cc21c52816bdc1e1662a911cd681502c77fdc",
+        "VACANTES.index": "89396549451e8e615aff9b42d53492f64cdf581cd2ca630a7c91c8058d4080cc",
+        "VACANTES.json": "55d6f65684e74c386101e6eb212f8dd8bbcf9f936135e7a33f73483a6296baa4"
+      },
+      "pipeline_source_sha256": {
+        "llm.py": "ae672cf198b80e44e1a023c3e2c53822a62a31c2bdd82fcbbbb05b3875026fc7",
+        "router.py": "7ff1fe0d5786cc84d4995b499fa86401156092476b97cbf0667e8162c5d5227c",
+        "retriever.py": "b8eba22a8294f8f27b647089c81b7b84577bdf0dc9da54a69e26534caee10dbe",
+        "structured_answers.py": "daa52fd8c923bfa9e1395c76c2a9f032d519b27be8b3222cd0cf08f7f5048c42",
+        "pipeline.py": "94c08565b028bdfb0459258bb61e981ba554635342fc3e57b59daecfc84bd016"
+      },
+      "query_references_unvalidated": true,
+      "rows": 500,
+      "errors": 0,
+      "phase_counts": {
+        "structured_table_date_cell": 25,
+        "structured_table_cell": 175,
+        "structured_topic_section_extract": 145,
+        "structured_article_extract": 105,
+        "router_ood": 50
+      },
+      "category_counts": {
+        "CRONOGRAMA": 25,
+        "VACANTES": 175,
+        "TEMARIO": 145,
+        "REGLAMENTO": 105,
+        "FUERA_DE_DOMINIO": 50
+      },
+      "tokens_used_sum": 0,
+      "tokens_used_nonzero_rows": 0,
+      "elapsed_all": {
+        "n": 500,
+        "mean_s": 0.022926,
+        "stddev_s_population": 0.1290000485426265,
+        "min_s": 0.0,
+        "p50_s": 0.002,
+        "p90_s": 0.009,
+        "p95_s": 0.192,
+        "p99_s": 0.196,
+        "max_s": 2.683
+      },
+      "elapsed_in_domain": {
+        "n": 450,
+        "mean_s": 0.003668888888888889,
+        "stddev_s_population": 0.0033352209470186678,
+        "min_s": 0.0,
+        "p50_s": 0.002,
+        "p90_s": 0.008,
+        "p95_s": 0.009,
+        "p99_s": 0.009,
+        "max_s": 0.013
+      },
+      "elapsed_ood": {
+        "n": 50,
+        "mean_s": 0.19624,
+        "stddev_s_population": 0.3646021700429113,
+        "min_s": 0.0,
+        "p50_s": 0.192,
+        "p90_s": 0.196,
+        "p95_s": 0.197,
+        "p99_s": 2.683,
+        "max_s": 2.683
+      },
+      "elapsed_excluding_first_row": {
+        "n": 499,
+        "mean_s": 0.022967935871743488,
+        "stddev_s_population": 0.12912583760744223,
+        "min_s": 0.0,
+        "p50_s": 0.002,
+        "p90_s": 0.009,
+        "p95_s": 0.192,
+        "p99_s": 0.196,
+        "max_s": 2.683
+      }
+    }
+  ],
+  "interpretation_limits": [
+    "The two primary 500-query runs share the query-bank hash, index hashes, pair label, model setting, and disabled-cache mode, but pipeline.py and structured_answers.py source hashes differ.",
+    "Each architecture timing is one run, collected sequentially rather than interleaved or repeated under randomized order; paired per-question differences are descriptive and are not a causal or significance test.",
+    "Per-query elapsed_seconds are rounded to milliseconds and measure the runner's request interval, not cold-start/model-loading latency.",
+    "The expanded three-phase run resolved all 450 in-domain rows through structured-answer phases and all 50 OOD rows through the OOD phase; generated-answer tokens_used was zero for every row. The baseline used the global dense top-5 plus Llama generator for all 500 rows.",
+    "The run manifests mark the query references as unvalidated OCR candidates. That flag does not invalidate timing, but these runs cannot independently support answer-accuracy claims.",
+    "Router token usage and per-component time were not recorded in the 500-query JSONL. The 24.1% router share belongs only to the older 27 successful in-domain profile, which timed a different all-components path."
+  ]
+}

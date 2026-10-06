@@ -1,0 +1,35 @@
+{
+  "run_id": "20260930T035718_022429Z",
+  "created_utc": "2026-09-30T03:57:18.023074+00:00",
+  "generator": "ollama",
+  "model": "llama3:8b",
+  "temperature": 0.1,
+  "router_model": null,
+  "variant": "baseline",
+  "pair_id": "paired500_20260930_textractv9_llama3",
+  "query_file": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\evaluation\\queries_500_disambiguated_candidates.json",
+  "query_file_sha256": "47de5f36529322810bdda0680c19eb1a89773ae7b234292a46364ef13f533004",
+  "query_count_requested": 500,
+  "query_references_unvalidated": true,
+  "index_dir": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\data\\index_textract_85_v9",
+  "index_files_sha256": {
+    "CRONOGRAMA.index": "2a0090b5564c9d1138e3408a794004bedd45b549a8857d2bf7be1929eb57c3e9",
+    "CRONOGRAMA.json": "34ec48ee25b4d34f237f0b5611624ac2d6c3f77bb842e6c7999759b209e8d17c",
+    "manifest.json": "bdc023dffb03128d00f93c89b29e608a80e5468eb49adad9fbeb47a11eb27eb5",
+    "REGLAMENTO.index": "414064dcfe0e26f192186fcbfb6e27b45c8e12753490a45fc9a443b0d0fe5b28",
+    "REGLAMENTO.json": "65f8ca3b3f64f183b1543f3390f22887fef0d802c90279c273c17fbe06d84211",
+    "TEMARIO.index": "eea4af0b6610d8ddc4d82e9ea1d1175093b37aa8c00e829458427d57ed5c09de",
+    "TEMARIO.json": "207bd20eca68244d53d44c60297cc21c52816bdc1e1662a911cd681502c77fdc",
+    "VACANTES.index": "89396549451e8e615aff9b42d53492f64cdf581cd2ca630a7c91c8058d4080cc",
+    "VACANTES.json": "55d6f65684e74c386101e6eb212f8dd8bbcf9f936135e7a33f73483a6296baa4"
+  },
+  "pipeline_source_sha256": {
+    "llm.py": "ae672cf198b80e44e1a023c3e2c53822a62a31c2bdd82fcbbbb05b3875026fc7",
+    "router.py": "7ff1fe0d5786cc84d4995b499fa86401156092476b97cbf0667e8162c5d5227c",
+    "retriever.py": "b8eba22a8294f8f27b647089c81b7b84577bdf0dc9da54a69e26534caee10dbe",
+    "structured_answers.py": "8d2c30f4912cc8a5a71f1978c7a0cabae21840a630c5bb6922f13a773902514a",
+    "pipeline.py": "13f1cafd3715a39b54df392bde3d723b7cbaccf477f4e109ddd968f0080ec762"
+  },
+  "cache_mode": "disabled for paired architecture comparison",
+  "scope": "paired architecture comparison on identical questions/index/generator; references remain unvalidated"
+}

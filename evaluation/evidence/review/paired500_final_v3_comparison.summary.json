@@ -1,0 +1,51 @@
+{
+  "paired_n": 500,
+  "baseline_source_page_hit": 399,
+  "experimental_source_page_hit": 450,
+  "baseline_number_coverage_mean": 0.5773,
+  "experimental_number_coverage_mean": 0.8522,
+  "baseline_exact_reference_phrase": 158,
+  "experimental_exact_reference_phrase": 414,
+  "baseline_runtime_errors": 0,
+  "experimental_runtime_errors": 0,
+  "baseline_elapsed_seconds_total": 1058.44,
+  "experimental_elapsed_seconds_total": 11.44,
+  "baseline_elapsed_seconds_mean": 2.117,
+  "experimental_elapsed_seconds_mean": 0.023,
+  "baseline_phase_counts": {
+    "baseline_global_dense_top5": 500
+  },
+  "experimental_phase_counts": {
+    "structured_table_date_cell": 25,
+    "structured_table_cell": 175,
+    "structured_topic_section_extract": 145,
+    "structured_article_extract": 105,
+    "router_ood": 50
+  },
+  "warning": "Lexical/source-page diagnostics do not establish semantic correctness. Only references explicitly marked source-reviewed were manually corrected; remaining candidate references are unvalidated.",
+  "query_texts_match": true,
+  "paired_conditions_match": true,
+  "paired_condition_keys_checked": [
+    "pair_id",
+    "generator",
+    "model",
+    "temperature",
+    "query_file_sha256",
+    "index_files_sha256",
+    "cache_mode",
+    "query_count_requested"
+  ],
+  "baseline_run_manifest": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\evaluation\\runs\\paired500_20260930_baseline_v9\\manifest.json",
+  "experimental_run_manifest": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\evaluation\\runs\\paired500_20260930_three_phase_final_v3\\manifest.json",
+  "pipeline_source_hash_differences": {
+    "pipeline.py": {
+      "baseline": "13f1cafd3715a39b54df392bde3d723b7cbaccf477f4e109ddd968f0080ec762",
+      "experimental": "97acfb9913d2f4b5e21572fbd401c280b515fd5f664dcec244e6f734f727fa69"
+    },
+    "structured_answers.py": {
+      "baseline": "8d2c30f4912cc8a5a71f1978c7a0cabae21840a630c5bb6922f13a773902514a",
+      "experimental": "ac8843ab4f37fdba1f980a0aa80ac91d7d5bd730cfa5c4f5f09489cb1687b635"
+    }
+  },
+  "source_reviewed_reference_file": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\evaluation\\queries_500_source_reviewed_refs.json"
+}

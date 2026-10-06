@@ -1,0 +1,43 @@
+LATENCY AUDIT — archived CEPRUNSA Multi-RAG runs
+Generated UTC: 2026-10-02T01:12:38.605867+00:00
+Purpose: quantify what can be established from saved latency artifacts without rerunning answer generation.
+
+PRIMARY 500-QUERY PAIR
+Baseline run: baseline_v9
+Three-phase run: three_phase_final_latency
+Same pair_id: True; same query SHA-256: True; same index file hashes: True; same application source hashes: False.
+Application source files with different recorded hashes: pipeline.py, structured_answers.py.
+Shared query IDs: 500; cache disabled in both manifests; both manifests flag OCR candidate references as unvalidated: True / True.
+
+End-to-end request latency (seconds; one run per implementation; milliseconds-rounded JSONL values):
+Baseline: n=500, mean=2.1169, population SD=1.1855, median=1.9275, p90=3.6190, p95=4.2180, p99=6.4790, max=9.3280.
+Three-phase: n=500, mean=0.0229, population SD=0.1290, median=0.0020, p90=0.0090, p95=0.1920, p99=0.1960, max=2.6830.
+Paired baseline-minus-three-phase difference: mean=2.0940s, median=1.9240s; three-phase faster in 499/500 rows, equal in 0, slower in 1.
+Rows with nonzero recorded answer tokens: baseline=500; three-phase=0.
+
+Interpretation of the selected 500-query runs:
+The baseline used global dense top-5 retrieval followed by Llama generation for all 500 queries. The selected three-phase run reports 175 structured_table_cell, 145 structured_topic_section_extract, 105 structured_article_extract, 25 structured_table_date_cell, and 50 router_ood rows. Thus all 450 in-domain answers bypassed answer generation; generated-answer tokens_used is zero. These values compare the end-to-end implementations as logged, but do not isolate the router or establish the speed of an LLM-generated-answer version of Multi-RAG.
+Although query and index hashes match, pipeline.py and structured_answers.py hashes differ between the selected baseline and three-phase runs. Runs were not repeated or randomized/interleaved. Therefore these are descriptive measurements, not a controlled causal latency claim or a statistical test. Startup/model loading is excluded, and JSONL elapsed_seconds is rounded to 0.001 s.
+The 500-run manifests also set query_references_unvalidated=true. This does not affect timing, but these runs should not be presented as independent accuracy validation.
+
+OLDER COMPONENT PROFILE (27 in-domain rows; 3 OOD rows skipped)
+Source log: evaluation\resultados_latencia.txt (SHA-256 6176ed2fb9bfe4343d9db8c3361e50081fad82a0996330aeeb81c3a236149d4b). Profiler source: evaluation\profile_latency.py (SHA-256 de7b277c29ae83fd0947a5efe19a5aa9fff29de7b5a96591df35f6e53e638e39).
+Timed rows: 27 successful, 3 OOD skipped. The profiler separately timed router, FAISS, BM25, RRF, cross-encoder reranking, Llama generation, and total; model/index initialization occurs before per-query timers.
+enrutador: mean 2.68s; SD 0.63s; 24.1% of reported total.
+densa_faiss: mean 0.05s; SD 0.05s; 0.5% of reported total.
+lexica_bm25: mean 0.00s; SD 0.00s; 0.0% of reported total.
+fusion_rrf: mean 0.00s; SD 0.00s; 0.0% of reported total.
+rerank_crossenc: mean 1.69s; SD 1.13s; 15.2% of reported total.
+generacion_llm: mean 6.66s; SD 2.47s; 60.1% of reported total.
+total: mean 11.08s; SD 3.34s; 100.0% of reported total.
+
+The reported 24.1% router share therefore applies only to this earlier 27-query profile and its specific pipeline. It is not a component share measured on the expanded 500-query run.
+
+ADDITIONAL SAVED THREE-PHASE RUNS
+latency_runs_summary.csv lists the other saved 500-query runs. They are retained for traceability, not pooled as repeats: their manifests record code-hash changes and/or different index versions.
+
+REPRODUCE
+From the project root, run: .\venv\Scripts\python.exe evaluation\revision_20261001\latency_audit\analyze_latency_runs.py
+Outputs: latency_audit.json, latency_runs_summary.csv, latency_by_category.csv, latency_paired_rows.csv, and this file.
+
+Manuscript consequence: report the 27-query component profile explicitly as preliminary, or obtain a component-timed profile under the exact final 500-query implementation. The Methodology must also state that the selected expanded three-phase run resolved in-domain questions through structured extraction rather than Llama answer generation. Do not label the aggregate difference as an isolated router effect.

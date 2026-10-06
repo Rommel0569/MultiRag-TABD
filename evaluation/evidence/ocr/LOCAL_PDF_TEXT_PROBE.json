@@ -1,0 +1,897 @@
+{
+  "method": "Local Poppler pdftotext text-layer probe; no page images or PDF content sent externally.",
+  "heuristic_note": "Labels triage text-layer availability/quality only; they do not prove semantic correctness.",
+  "engine": "C:\\Users\\USER\\Downloads\\Release-26.02.0-0\\poppler-26.02.0\\Library\\bin\\pdftotext.EXE",
+  "documents": [
+    {
+      "file": "CRONOGRAMA DE ADMISIÓN 2027.pdf",
+      "pages": 4,
+      "summary": {
+        "needs_ocr": 4
+      },
+      "page_results": [
+        {
+          "page": 1,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 2,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 3,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 4,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        }
+      ],
+      "text_extractor": "C:\\Users\\USER\\Downloads\\Release-26.02.0-0\\poppler-26.02.0\\Library\\bin\\pdftotext.exe"
+    },
+    {
+      "file": "CUADRO DE VACANTES 2027.pdf",
+      "pages": 4,
+      "summary": {
+        "needs_ocr": 4
+      },
+      "page_results": [
+        {
+          "page": 1,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 2,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 3,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 4,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        }
+      ],
+      "text_extractor": "C:\\Users\\USER\\Downloads\\Release-26.02.0-0\\poppler-26.02.0\\Library\\bin\\pdftotext.exe"
+    },
+    {
+      "file": "REGLAMENTO DE ADMISIÓN 2027.pdf",
+      "pages": 32,
+      "summary": {
+        "needs_ocr": 32
+      },
+      "page_results": [
+        {
+          "page": 1,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 2,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 3,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 4,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 5,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 6,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 7,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 8,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 9,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 10,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 11,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 12,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 13,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 14,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 15,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 16,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 17,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 18,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 19,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 20,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 21,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 22,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 23,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 24,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 25,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 26,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 27,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 28,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 29,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 30,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 31,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 32,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        }
+      ],
+      "text_extractor": "C:\\Users\\USER\\Downloads\\Release-26.02.0-0\\poppler-26.02.0\\Library\\bin\\pdftotext.exe"
+    },
+    {
+      "file": "TEMARIO Y MATRIZ DE EVALUACIÓN 2027.pdf",
+      "pages": 45,
+      "summary": {
+        "needs_ocr": 45
+      },
+      "page_results": [
+        {
+          "page": 1,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 2,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 3,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 4,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 5,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 6,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 7,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 8,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 9,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 10,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 11,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 12,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 13,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 14,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 15,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 16,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 17,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 18,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 19,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 20,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 21,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 22,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 23,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 24,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 25,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 26,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 27,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 28,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 29,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 30,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 31,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 32,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 33,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 34,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 35,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 36,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 37,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 38,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 39,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 40,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 41,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 42,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 43,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 44,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        },
+        {
+          "page": 45,
+          "status": "needs_ocr",
+          "reason": "too_little_native_text",
+          "nonspace_characters": 0,
+          "word_tokens_2plus": 0,
+          "alphanumeric_ratio": 0.0,
+          "digit_ratio_of_alphanumeric": 0.0,
+          "suspicious_character_ratio": 0.0
+        }
+      ],
+      "text_extractor": "C:\\Users\\USER\\Downloads\\Release-26.02.0-0\\poppler-26.02.0\\Library\\bin\\pdftotext.exe"
+    }
+  ]
+}

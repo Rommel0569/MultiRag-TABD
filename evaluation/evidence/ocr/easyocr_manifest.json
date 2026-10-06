@@ -1,0 +1,39 @@
+{
+  "source": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\data\\pdfs\\CUADRO DE VACANTES 2027.pdf",
+  "sha256": "02c0ac30f96733536ee9f192b89e49e81ab640b64c2d549f00246acfbaefeaf8",
+  "dpi": 300,
+  "threads": 4,
+  "python": "3.13.9 (tags/v3.13.9:8183fa5, Oct 14 2025, 14:09:13) [MSC v.1944 64 bit (AMD64)]",
+  "versions": {
+    "easyocr": "1.7.2",
+    "torch": "2.12.0",
+    "opencv-python": "4.13.0.92"
+  },
+  "engine_sha256": "c03d3453ca042f6b09547b0b9639cf18935269bcce04035c8ffa377674ae4acc",
+  "pages": [
+    {
+      "page": 1,
+      "elapsed_s": 82.24440440000035,
+      "tables": 0,
+      "cells": 0
+    },
+    {
+      "page": 2,
+      "elapsed_s": 82.68646320002154,
+      "tables": 0,
+      "cells": 0
+    },
+    {
+      "page": 3,
+      "elapsed_s": 87.41905969998334,
+      "tables": 1,
+      "cells": 787
+    },
+    {
+      "page": 4,
+      "elapsed_s": 249.78944950003643,
+      "tables": 1,
+      "cells": 784
+    }
+  ]
+}

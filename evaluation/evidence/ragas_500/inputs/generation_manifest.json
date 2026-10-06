@@ -1,0 +1,36 @@
+{
+  "status": "generation_complete",
+  "created_utc": "2026-10-01T02:06:41.231357+00:00",
+  "generator_provider": "ollama",
+  "generator_model": "llama3:8b",
+  "generator_temperature": 0.1,
+  "query_count": 500,
+  "index_dir": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\data\\index_textract_85_v9",
+  "paired_architecture_pair_id": "paired500_20260930_textractv9_llama3",
+  "variant_sources": {
+    "references": {
+      "path": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\evaluation\\revision_20260930\\manual_validation\\queries_500_pdf_verified_ai_adjudicated.json",
+      "sha256": "b4edc0cc7bd8fceabb3a9e6000b0a269e5804bde4747be5ae9b8873edb72a683"
+    },
+    "V1_answers": {
+      "path": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\evaluation\\runs\\paired500_20260930_baseline_v9\\answers.jsonl",
+      "sha256": "a89e3fca1c65741696128940e84aff9c309d3205757cda0e2cb58f72b3447de6"
+    },
+    "V4_answers": {
+      "path": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\evaluation\\runs\\paired500_20260930_three_phase_final_v3\\answers.jsonl",
+      "sha256": "d987bc6389d380ce6a2d439757d6be245358636b6c51bcc2c23d503dbe18d0c9"
+    },
+    "V2V3_manifest": {
+      "path": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\evaluation\\runs\\ablation_500_textractv9_llama3_20260930\\manifest.json",
+      "sha256": "78721b9d2c439151a10aea77e2c6d1d63f84c11abcb7ece69414f92dfd1a731c"
+    }
+  },
+  "variant_input_sha256": {
+    "ablacion_V1_baseline.json": "58b1b1e0ccb6a0891e227a32037ec00e1c7abaf6ba1bcf6501d5d5f87297a0eb",
+    "ablacion_V2_baseline_rerank.json": "040a73130738fa334afe1de657e0577590c7ac8a9cd307792032f09ad278727c",
+    "ablacion_V3_router_hibrida.json": "d7d79d45f9ee4c06e72788d5ef96858375e48ba99f5040cdaf1174d62db54604",
+    "ablacion_V4_completo.json": "4546d53780e55cefc0b96b04092697dfc6b7b95f7a7630abef08abd3578c38f1"
+  },
+  "ragas_inputs": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\evaluation\\revision_20260930\\manual_validation\\ragas_input_4variants_500",
+  "note": "Ollama generated answers; only the RAGAS judge uses Gemini. V1 and V4 are prior paired v9 runs; V2/V3 were generated with evaluation/ablation.py on the same v9 index, model, temperature, and 500-query set."
+}

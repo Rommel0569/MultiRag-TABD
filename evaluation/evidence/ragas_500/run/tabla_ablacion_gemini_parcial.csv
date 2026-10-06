@@ -1,0 +1,3 @@
+variant,n_rows,faithfulness,answer_relevancy,context_precision,context_recall,n_faithfulness,n_answer_relevancy,n_context_precision,n_context_recall
+V1_baseline,500,0.576304933954934,0.7383383669481383,0.7114972221558002,0.7923333333333333,500,500,500,500
+V2_baseline_rerank,448,0.6760504190749727,0.8291231885616009,0.7446800594496391,0.833891369047619,448,448,448,448

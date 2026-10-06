@@ -1,0 +1,50 @@
+{
+  "created_utc": "2026-09-30T21:40:30.039487+00:00",
+  "n_queries": 500,
+  "ai_adjudication_sha256": "c99a961fb0def48758cfc518571bbfbff737305657be8f346506d36d5bdf598c",
+  "final_adjudication_sha256": "9054366238c99b70fd5e7b2d91bfe3ffa63fcc8f059fdb0f465967571fbf790d",
+  "visual_override_ids": [
+    249,
+    253,
+    329,
+    363,
+    369,
+    386,
+    395,
+    416,
+    429
+  ],
+  "visual_override_source_pages": {
+    "363": 9,
+    "369": 10,
+    "386": 14,
+    "395": 16,
+    "416": 19,
+    "249": 10,
+    "253": 11,
+    "329": 26,
+    "429": 21
+  },
+  "unresolved_reference_ids": [],
+  "status_counts": {
+    "baseline:abstain_correct": 47,
+    "baseline:correct": 336,
+    "baseline:incorrect": 111,
+    "baseline:partially_correct": 6,
+    "reference:corrected": 243,
+    "reference:supported": 257,
+    "three_phase:abstain_correct": 50,
+    "three_phase:correct": 438,
+    "three_phase:incorrect": 3,
+    "three_phase:partially_correct": 9
+  },
+  "method_note": "Full 500-row reference and paired-answer review: direct date/cell source checks for 200; scope/abstention checks for 50 OOD; llama3:8b adjudication against Textract text of cited PDF page(s) for 250 Temario/Reglamento rows; ambiguous items visually checked against rendered PDF pages. AI-assisted audit, not two-human gold labeling.",
+  "files_preserved": [
+    "source_adjudication_500.jsonl",
+    "queries_500_source_reviewed_refs.json (unchanged)",
+    "paired500_20260930_baseline_v9/answers.jsonl (unchanged)",
+    "paired500_20260930_three_phase_final_v3/answers.jsonl (unchanged)"
+  ],
+  "superseded_first_pass_note": "A preliminary override file was superseded after an ID-to-query lookup error was found in the visual cross-check. It is preserved as source_adjudication_500_first_pass_superseded.jsonl and is excluded from final counts and RAGAS inputs.",
+  "superseded_first_pass_file": "source_adjudication_500_first_pass_superseded.jsonl"
+}\n

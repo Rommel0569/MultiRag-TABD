@@ -1,0 +1,99 @@
+{
+  "input_csv": "C:\\Users\\USER\\Documents\\TOPICOS\\ceprunsa_mvrag\\evaluation\\revision_20260930\\manual_validation\\ragas_gemini_500_ablation_4variants_20260930\\ragas_scores_checkpoint.csv",
+  "rows_per_variant": 500,
+  "pairing": "query order and category equality checked between V1 and V4",
+  "scipy_version": "1.17.1",
+  "test": "two-sided Wilcoxon signed-rank; Holm correction across four metrics per subset",
+  "subsets": [
+    {
+      "subset": "in_domain_450",
+      "rows": [
+        {
+          "metric": "faithfulness",
+          "n": 450,
+          "v1_mean": 0.6368202969869637,
+          "v4_mean": 0.9321644620811288,
+          "mean_paired_delta_v4_minus_v1": 0.2953441650941651,
+          "wilcoxon_signed_rank_statistic": 3682.0,
+          "p_two_sided": 2.0226684045120475e-34,
+          "p_holm_four_metrics": 8.09067361804819e-34
+        },
+        {
+          "metric": "answer_relevancy",
+          "n": 450,
+          "v1_mean": 0.8203759632757092,
+          "v4_mean": 0.8924231117632803,
+          "mean_paired_delta_v4_minus_v1": 0.07204714848757109,
+          "wilcoxon_signed_rank_statistic": 39931.0,
+          "p_two_sided": 0.00011991306850529813,
+          "p_holm_four_metrics": 0.00011991306850529813
+        },
+        {
+          "metric": "context_precision",
+          "n": 450,
+          "v1_mean": 0.7135185184473704,
+          "v4_mean": 0.9306172838575865,
+          "mean_paired_delta_v4_minus_v1": 0.21709876541021603,
+          "wilcoxon_signed_rank_statistic": 24.0,
+          "p_two_sided": 4.671381558102748e-23,
+          "p_holm_four_metrics": 1.4014144674308244e-22
+        },
+        {
+          "metric": "context_recall",
+          "n": 450,
+          "v1_mean": 0.7937037037037036,
+          "v4_mean": 0.9677777777777777,
+          "mean_paired_delta_v4_minus_v1": 0.17407407407407408,
+          "wilcoxon_signed_rank_statistic": 116.5,
+          "p_two_sided": 9.774427852177727e-18,
+          "p_holm_four_metrics": 1.9548855704355455e-17
+        }
+      ]
+    },
+    {
+      "subset": "out_of_domain_50",
+      "rows": [
+        {
+          "metric": "faithfulness",
+          "n": 50,
+          "v1_mean": 0.03166666666666666,
+          "v4_mean": 0.0,
+          "mean_paired_delta_v4_minus_v1": -0.03166666666666666,
+          "wilcoxon_signed_rank_statistic": 0.0,
+          "p_two_sided": 0.06559969214707187,
+          "p_holm_four_metrics": 0.13119938429414374
+        },
+        {
+          "metric": "answer_relevancy",
+          "n": 50,
+          "v1_mean": 0.0,
+          "v4_mean": 0.0,
+          "mean_paired_delta_v4_minus_v1": 0.0,
+          "wilcoxon_signed_rank_statistic": 0.0,
+          "p_two_sided": 1.0,
+          "p_holm_four_metrics": 1.0
+        },
+        {
+          "metric": "context_precision",
+          "n": 50,
+          "v1_mean": 0.6933055555316697,
+          "v4_mean": 0.0,
+          "mean_paired_delta_v4_minus_v1": -0.6933055555316697,
+          "wilcoxon_signed_rank_statistic": 0.0,
+          "p_two_sided": 4.995629959620086e-09,
+          "p_holm_four_metrics": 1.9982519838480343e-08
+        },
+        {
+          "metric": "context_recall",
+          "n": 50,
+          "v1_mean": 0.78,
+          "v4_mean": 0.14,
+          "mean_paired_delta_v4_minus_v1": -0.64,
+          "wilcoxon_signed_rank_statistic": 58.5,
+          "p_two_sided": 2.0907161196514423e-07,
+          "p_holm_four_metrics": 6.272148358954327e-07
+        }
+      ]
+    }
+  ]
+}

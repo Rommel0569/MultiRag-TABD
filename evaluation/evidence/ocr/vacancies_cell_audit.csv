@@ -1,0 +1,649 @@
+﻿id,query,program_row,table_grid_row,requested_column,table_cell_value_textract,candidate_reference_value_unvalidated,answer_final_numeric_value,candidate_matches_table_ocr,answer_matches_table_ocr,page_crop_bbox,audit_status,model_answer
+26,¿Cuántas vacantes hay para Ingeniería Agronómica en el examen ordinario de Fase I?,Ingeniería Agronómica,3,ORDINARIO Fase I,15,15,15,True,True,"[350, 382, 3013, 412]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Ingeniería Agronómica, hay 15 vacantes en el ORDINARIO / Fase I."
+27,¿Cuántas vacantes hay para Ingeniería Agronómica en el examen ordinario de Fase II?,Ingeniería Agronómica,3,ORDINARIO Fase II,23,23,23,True,True,"[350, 382, 3013, 412]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila ""ORDINARIO / Fase II"" y la columna ""VACANTES"", se encuentra el valor 23."
+28,¿Cuántas vacantes hay para Ingeniería Agronómica en total por examen ordinario?,Ingeniería Agronómica,3,ORDINARIO total,38,38,38,True,True,"[350, 382, 3013, 412]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 38"
+29,¿Cuántas vacantes hay para Ingeniería Agronómica en CEPRUNSA Fase I?,Ingeniería Agronómica,3,CEPRUNSA Fase I,10,10,10,True,True,"[350, 382, 3013, 412]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila de ""CEPRUNSA"" y la columna de ""Fase I"", se encuentra el valor de 10 vacantes para el Programa de Estudios ""Ingeniería Agronómica"" en la Fase I."
+30,¿Cuántas vacantes hay para Ingeniería Agronómica en CEPRUNSA Fase II?,Ingeniería Agronómica,3,CEPRUNSA Fase II,10,10,23,True,False,"[350, 382, 3013, 412]",generated_answer_disagrees_with_table_cell,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Ingeniería Agronómica, en CEPRUNSA, la cantidad de vacantes en Fase II es de 23."
+31,¿Cuántas vacantes hay para Ingeniería Agronómica en el Ciclo Quintos de CEPRUNSA?,Ingeniería Agronómica,3,CEPRUNSA Ciclo Quintos,12,12,12,True,True,"[350, 382, 3013, 412]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, la respuesta es:
+
+CEPRUNSA / Ciclo Quintos: 12
+
+(Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3)"
+32,¿Cuántas vacantes hay para Ingeniería Agronómica en total por CEPRUNSA?,Ingeniería Agronómica,3,CEPRUNSA total,32,32,32,True,True,"[350, 382, 3013, 412]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, la respuesta es: CEPRUNSA / Total de Vacantes: 32 (Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3)"
+33,¿Cuántas vacantes hay para Ingeniería Agronómica sumando todo el proceso de admisión?,Ingeniería Agronómica,3,TOTAL GENERAL,140,140,93,True,False,"[350, 382, 3013, 412]",generated_answer_disagrees_with_table_cell,"Según el contexto, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 38 (Fase I) + ORDINARIO / Fase II: 23 (Fase II) + CEPRUNSA / Total de Vacantes: 32 (Total de Vacantes) = 93
+
+Por lo tanto, hay un total de 93 vacantes para Ingeniería Agronómica en el proceso de admisión."
+34,¿Cuántas vacantes hay para Biologia en el examen ordinario de Fase I?,Biologia,4,ORDINARIO Fase I,30,30,30,True,True,"[350, 412, 3013, 442]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en el programa de Estudios: Biologia, hay 30 vacantes en el examen ordinario de Fase I."
+35,¿Cuántas vacantes hay para Biologia en el examen ordinario de Fase II?,Biologia,4,ORDINARIO Fase II,30,30,30,True,True,"[350, 412, 3013, 442]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3, hay 30 vacantes para Biología en el examen ordinario de Fase II."
+36,¿Cuántas vacantes hay para Biologia en total por examen ordinario?,Biologia,4,ORDINARIO total,60,60,299,True,False,"[350, 412, 3013, 442]",generated_answer_disagrees_with_table_cell,"Según el Fragmento 1, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 60
+
+Y según el Fragmento 4, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 239
+
+En total, hay 60 + 239 = 299 vacantes para Biologia en total por examen ordinario."
+37,¿Cuántas vacantes hay para Biologia en CEPRUNSA Fase I?,Biologia,4,CEPRUNSA Fase I,8,8,8,True,True,"[350, 412, 3013, 442]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila de ""CEPRUNSA"" y la columna de ""Fase I"", se encuentra la respuesta: 8"
+38,¿Cuántas vacantes hay para Biologia en CEPRUNSA Fase II?,Biologia,4,CEPRUNSA Fase II,7,7,7,True,True,"[350, 412, 3013, 442]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Biologia, en CEPRUNSA, la cantidad de vacantes en Fase II es de 7.
+
+Por lo tanto, la respuesta es: 7"
+39,¿Cuántas vacantes hay para Biologia en el Ciclo Quintos de CEPRUNSA?,Biologia,4,CEPRUNSA Ciclo Quintos,8,8,8,True,True,"[350, 412, 3013, 442]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se menciona que para el Programa de Estudios: Biologia, CEPRUNSA / Ciclo Quintos tiene 8 vacantes."
+40,¿Cuántas vacantes hay para Biologia en total por CEPRUNSA?,Biologia,4,CEPRUNSA total,23,23,23,True,True,"[350, 412, 3013, 442]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Biologia, CEPRUNSA tiene un total de vacantes de 23."
+41,¿Cuántas vacantes hay para Biologia sumando todo el proceso de admisión?,Biologia,4,TOTAL GENERAL,83,83,206,True,False,"[350, 412, 3013, 442]",generated_answer_disagrees_with_table_cell,"Para responder a esta consulta, debemos sumar las vacantes para Biología en los diferentes procesos y fases.
+
+En el Cuadro de Vacantes 2027, p.4 (Fragmento 1), se indica que hay 17 vacantes para Biología en el Proceso Extraordinario.
+
+En el Cuadro de Vacantes 2027, p.3 (Fragmento 2), se indica que hay 23 vacantes para Biología en el CEPRUNSA, que es parte del proceso ordinario.
+
+En el Cuadro de Vacantes 2027, p.4 (Fragmento 3), se indica que hay 28 vacantes para Biología en el Área de Biológicas, que es parte del proceso ordinario.
+
+En el Cuadro de Vacantes 2027, p.5 (Fragmento 5), se indica que hay 138 vacantes para Biología en el Subtotal Biomédicas, que es parte del proceso ordinario.
+
+Para calcular el total de vacantes para Biología, debemos sumar las vacantes en cada proceso y fase:
+
+17 (Proceso Extraordinario) + 23 (CEPRUNSA) + 28 (Área de Biológicas) + 138 (Subtotal Biomédicas) = 206
+
+Por lo tanto, hay 206 vacantes para Biología sumando todo el proceso de admisión."
+42,¿Cuántas vacantes hay para Ciencias de la Nutrición en el examen ordinario de Fase I?,Ciencias de la Nutrición,5,ORDINARIO Fase I,20,20,20,True,True,"[350, 442, 3013, 473]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en el programa de Estudios ""Ciencias de la Nutrición"" hay 20 vacantes en el examen ordinario de Fase I."
+43,¿Cuántas vacantes hay para Ciencias de la Nutrición en el examen ordinario de Fase II?,Ciencias de la Nutrición,5,ORDINARIO Fase II,23,23,23,True,True,"[350, 442, 3013, 473]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en el programa de Estudios ""Ciencias de la Nutrición"", en el examen ordinario de Fase II hay 23 vacantes."
+44,¿Cuántas vacantes hay para Ciencias de la Nutrición en total por examen ordinario?,Ciencias de la Nutrición,5,ORDINARIO total,43,43,43,True,True,"[350, 442, 3013, 473]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+ORDINARIO / Fase I: 20
+ORDINARIO / Fase II: 23
+ORDINARIO / Total de Vacantes: 43
+
+En total, hay 43 vacantes para Ciencias de la Nutrición en el proceso ordinario."
+45,¿Cuántas vacantes hay para Ciencias de la Nutrición en CEPRUNSA Fase I?,Ciencias de la Nutrición,5,CEPRUNSA Fase I,12,12,12,True,True,"[350, 442, 3013, 473]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila de ""CEPRUNSA"" y la columna de ""Fase I"", se encuentra el valor de 12 vacantes para el Programa de Estudios ""Ciencias de la Nutrición"" en la Fase I de CEPRUNSA."
+46,¿Cuántas vacantes hay para Ciencias de la Nutrición en CEPRUNSA Fase II?,Ciencias de la Nutrición,5,CEPRUNSA Fase II,13,13,13,True,True,"[350, 442, 3013, 473]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila de ""CEPRUNSA"" y la columna de ""Fase II"", se encuentra el valor de 13 vacantes para el Programa de Estudios ""Ciencias de la Nutrición"" en la Fase II de CEPRUNSA."
+47,¿Cuántas vacantes hay para Ciencias de la Nutrición en el Ciclo Quintos de CEPRUNSA?,Ciencias de la Nutrición,5,CEPRUNSA Ciclo Quintos,15,15,15,True,True,"[350, 442, 3013, 473]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se puede ver que para el Programa de Estudios: Ciencias de la Nutrición, CEPRUNSA / Ciclo Quintos tiene 15 vacantes."
+48,¿Cuántas vacantes hay para Ciencias de la Nutrición en total por CEPRUNSA?,Ciencias de la Nutrición,5,CEPRUNSA total,40,40,40,True,True,"[350, 442, 3013, 473]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+CEPRUNSA / Total de Vacantes: 40
+
+En la fila de ""CEPRUNSA"" y la columna de ""Total de Vacantes"", se encuentra el valor 40."
+49,¿Cuántas vacantes hay para Ciencias de la Nutrición sumando todo el proceso de admisión?,Ciencias de la Nutrición,5,TOTAL GENERAL,83,83,111,True,False,"[350, 442, 3013, 473]",generated_answer_disagrees_with_table_cell,"Según el contexto, la consulta se refiere a la suma total de vacantes para Ciencias de la Nutrición en el proceso de admisión.
+
+En el Fragmento 1, se menciona que hay 28 vacantes para Ciencias de la Nutrición en el proceso extraordinario.
+
+En el Fragmento 2, se menciona que hay 43 vacantes para Ciencias de la Nutrición en el proceso ordinario (Fase I y Fase II) y 40 vacantes para Ciencias de la Nutrición en el proceso CEPRUNSA (Fase I, Fase II y Ciclo Quintos).
+
+No hay información en el contexto sobre vacantes para Ciencias de la Nutrición en el proceso de admisión en general o en la sede específica.
+
+Por lo tanto, la respuesta es: 28 (proceso extraordinario) + 43 (proceso ordinario) + 40 (proceso CEPRUNSA) = 111 vacantes para Ciencias de la Nutrición en total."
+50,¿Cuántas vacantes hay para Ingeniería Pesquera en el examen ordinario de Fase I?,Ingeniería Pesquera,6,ORDINARIO Fase I,14,14,14,True,True,"[350, 473, 3013, 503]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en el cuadro de vacantes para el programa de estudios Ingeniería Pesquera, en la ORDINARIO / Fase I hay 14 vacantes."
+51,¿Cuántas vacantes hay para Ingeniería Pesquera en el examen ordinario de Fase II?,Ingeniería Pesquera,6,ORDINARIO Fase II,17,17,17,True,True,"[350, 473, 3013, 503]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+ORDINARIO / Fase II: 17"
+52,¿Cuántas vacantes hay para Ingeniería Pesquera en total por examen ordinario?,Ingeniería Pesquera,6,ORDINARIO total,31,31,31,True,True,"[350, 473, 3013, 503]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 31
+
+Es decir, hay 31 vacantes para Ingeniería Pesquera en total por examen ordinario."
+53,¿Cuántas vacantes hay para Ingeniería Pesquera en CEPRUNSA Fase I?,Ingeniería Pesquera,6,CEPRUNSA Fase I,10,10,10,True,True,"[350, 473, 3013, 503]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en la fila de ""Ingeniería Pesquera"" y la columna de ""CEPRUNSA / Fase I"", se encuentra el valor de 10 vacantes."
+54,¿Cuántas vacantes hay para Ingeniería Pesquera en CEPRUNSA Fase II?,Ingeniería Pesquera,6,CEPRUNSA Fase II,11,11,11,True,True,"[350, 473, 3013, 503]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Ingeniería Pesquera, en CEPRUNSA, la cantidad de vacantes en Fase II es de 11."
+55,¿Cuántas vacantes hay para Ingeniería Pesquera en el Ciclo Quintos de CEPRUNSA?,Ingeniería Pesquera,6,CEPRUNSA Ciclo Quintos,12,12,12,True,True,"[350, 473, 3013, 503]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, la respuesta es:
+
+CEPRUNSA / Ciclo Quintos: 12
+
+(Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3)"
+56,¿Cuántas vacantes hay para Ingeniería Pesquera en total por CEPRUNSA?,Ingeniería Pesquera,6,CEPRUNSA total,33,33,33,True,True,"[350, 473, 3013, 503]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+CEPRUNSA / Total de Vacantes: 33"
+57,¿Cuántas vacantes hay para Ingeniería Pesquera sumando todo el proceso de admisión?,Ingeniería Pesquera,6,TOTAL GENERAL,64,64,64,True,True,"[350, 473, 3013, 503]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 31 (Fase I: 14 + Fase II: 17)
+CEPRUNSA / Total de Vacantes: 33 (Fase I: 10 + Fase II: 11 + Ciclo Quintos: 12)
+TOTAL GENERAL: 64
+
+Por lo tanto, en total hay 64 vacantes para Ingeniería Pesquera en el proceso de admisión."
+58,¿Cuántas vacantes hay para Enfermeria en el examen ordinario de Fase I?,Enfermeria,7,ORDINARIO Fase I,15,15,15,True,True,"[350, 503, 3013, 535]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en el programa de Estudios de Enfermería, hay 15 vacantes en el examen ordinario de Fase I."
+59,¿Cuántas vacantes hay para Enfermeria en el examen ordinario de Fase II?,Enfermeria,7,ORDINARIO Fase II,22,22,22,True,True,"[350, 503, 3013, 535]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el programa de estudios de Enfermeria, hay un total de 22 vacantes en el examen ordinario de Fase II (Fragmento 1)."
+60,¿Cuántas vacantes hay para Enfermeria en total por examen ordinario?,Enfermeria,7,ORDINARIO total,37,37,2461,True,False,"[350, 503, 3013, 535]",generated_answer_disagrees_with_table_cell,"Según el Fragmento 1, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 37
+
+Y según el Fragmento 2, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 2424
+
+Por lo tanto, en total hay 37 + 2424 = 2461 vacantes para Enfermeria por examen ordinario."
+61,¿Cuántas vacantes hay para Enfermeria en CEPRUNSA Fase I?,Enfermeria,7,CEPRUNSA Fase I,11,11,11,True,True,"[350, 503, 3013, 535]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Enfermeria, en CEPRUNSA, en la Fase I, hay 11 vacantes."
+62,¿Cuántas vacantes hay para Enfermeria en CEPRUNSA Fase II?,Enfermeria,7,CEPRUNSA Fase II,12,12,22,True,False,"[350, 503, 3013, 535]",generated_answer_disagrees_with_table_cell,"Según el Fragmento 1, en CEPRUNSA, para el Programa de Estudios de Enfermeria, hay 22 vacantes en la Fase II."
+63,¿Cuántas vacantes hay para Enfermeria en el Ciclo Quintos de CEPRUNSA?,Enfermeria,7,CEPRUNSA Ciclo Quintos,14,14,14,True,True,"[350, 503, 3013, 535]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se menciona que para el Programa de Estudios: Enfermeria, en CEPRUNSA, hay:
+
+* CEPRUNSA / Fase I: 11
+* CEPRUNSA / Fase II: 12
+* CEPRUNSA / Ciclo Quintos: 14
+* CEPRUNSA / Total de Vacantes: 37
+
+Para responder a la consulta, la respuesta es: 14"
+64,¿Cuántas vacantes hay para Enfermeria en total por CEPRUNSA?,Enfermeria,7,CEPRUNSA total,37,37,37,True,True,"[350, 503, 3013, 535]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Enfermeria, CEPRUNSA tiene un total de vacantes de 37.
+
+Por lo tanto, la respuesta es: 37"
+65,¿Cuántas vacantes hay para Enfermeria sumando todo el proceso de admisión?,Enfermeria,7,TOTAL GENERAL,74,74,2088,True,False,"[350, 503, 3013, 535]",generated_answer_disagrees_with_table_cell,"Según el contexto, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 2027 (Fragmento 1)
+
+Enfermeria; Programa de Estudios: Enfermeria; Total Proceso Extraordinario: 24 (Fragmento 2)
+
+ORDINARIO / Total de Vacantes: 37 (Fragmento 3)
+
+TOTAL GENERAL: 74 (Fragmento 3)
+
+TOTAL GENERAL: 4739 (Fragmento 4)
+
+La suma total de vacantes para Enfermeria es:
+
+2027 (Ordinario) + 24 (Extraordinario) + 37 (Total) = 2088
+
+Por lo tanto, la respuesta es: 2088"
+66,¿Cuántas vacantes hay para Medicina en el examen ordinario de Fase I?,Medicina,8,ORDINARIO Fase I,13,13,13,True,True,"[350, 535, 3013, 564]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 2, en el programa de Estudios ""Medicina"", en la Fase I del proceso ordinario, hay 13 vacantes."
+67,¿Cuántas vacantes hay para Medicina en el examen ordinario de Fase II?,Medicina,8,ORDINARIO Fase II,17,17,17,True,True,"[350, 535, 3013, 564]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el programa de estudios ""Medicina"", en el examen ordinario, en la fase II, hay 17 vacantes para el proceso ordinario (Fragmento 1) y 132 vacantes para el subtotal de biomédicas (Fragmento 3). Sin embargo, como se trata de la pregunta específica sobre el programa de estudios ""Medicina"", la respuesta correcta es la primera: 17 vacantes para Medicina en el examen ordinario de Fase II."
+68,¿Cuántas vacantes hay para Medicina en total por examen ordinario?,Medicina,8,ORDINARIO total,30,30,30,True,True,"[350, 535, 3013, 564]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en el programa de estudios Medicina, hay un total de 30 vacantes para el proceso ordinario.
+
+La respuesta es: 30"
+69,¿Cuántas vacantes hay para Medicina en CEPRUNSA Fase I?,Medicina,8,CEPRUNSA Fase I,12,12,12,True,True,"[350, 535, 3013, 564]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila de ""VACANTES"" y la columna de ""CEPRUNSA / Fase I"", se encuentra el valor de 12 vacantes para el Programa de Estudios de Medicina en la Fase I de CEPRUNSA."
+70,¿Cuántas vacantes hay para Medicina en CEPRUNSA Fase II?,Medicina,8,CEPRUNSA Fase II,12,12,12,True,True,"[350, 535, 3013, 564]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Medicina, en CEPRUNSA, la cantidad de vacantes en la Fase II es de 12."
+71,¿Cuántas vacantes hay para Medicina en el Ciclo Quintos de CEPRUNSA?,Medicina,8,CEPRUNSA Ciclo Quintos,13,13,13,True,True,"[350, 535, 3013, 564]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se menciona que para el Programa de Estudios: Medicina, en el Ciclo Quintos de CEPRUNSA hay 13 vacantes.
+
+Respuesta: 13"
+72,¿Cuántas vacantes hay para Medicina en total por CEPRUNSA?,Medicina,8,CEPRUNSA total,37,37,37,True,True,"[350, 535, 3013, 564]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Medicina, CEPRUNSA tiene:
+
+* ORDINARIO / Fase I: 12
+* ORDINARIO / Fase II: 12
+* ORDINARIO / Ciclo Quintos: 13
+* ORDINARIO / Total de Vacantes: 37
+
+Por lo tanto, en total, hay 37 vacantes para Medicina en CEPRUNSA."
+73,¿Cuántas vacantes hay para Medicina sumando todo el proceso de admisión?,Medicina,8,TOTAL GENERAL,67,67,71,True,False,"[350, 535, 3013, 564]",generated_answer_disagrees_with_table_cell,"La respuesta se basa en el contexto proporcionado.
+
+En el Fragmento 2, se menciona que en el Programa de Estudios ""Medicina"" hay:
+
+* Primeros Puestos: 10
+* Titulados o Graduados: 1
+* Victimas del Terrorismo: 1
+* Deportista $ destacados: 1
+* Personas con discapacidad: 3
+* Convenio Andrés Bello: 0
+* Traslados Internos: 1
+* Egresados COAR: 1
+* Egresados y Bachilleres de Univ. con Licencia: 1
+* Total Proceso Extraordinario: 21
+
+En el Fragmento 3, se menciona que en el Programa de Estudios ""SUBTOTAL BIOMÉDICAS"" (que incluye Medicina) hay:
+
+* Primeros Puestos: 50
+* Traslados Externos: 8
+* Titulados o Graduados: 8
+* Victimas del Terrorismo: 7
+* Deportista $ destacados: 12
+* Personas con discapacidad: 25
+* Convenio Andrés Bello: 6
+* Traslados Internos: 7
+* Egresados COAR: 10
+* Bachillerat o Internacion: 3
+* Egresados y Bachilleres de Univ. con Licencia: 2
+* Total Proceso Extraordinario: 138
+
+Para calcular el total de vacantes para Medicina, debemos sumar las vacantes mencionadas en el Fragmento 2 con las vacantes mencionadas en el Fragmento 3 que corresponden al Programa de Estudios ""SUBTOTAL BIOMÉDICAS"" (que incluye Medicina).
+
+La respuesta es:
+
+21 (Total Proceso Extraordinario en el Fragmento 2) + 50 (Primeros Puestos en el Fragmento 3) = 71
+
+Por lo tanto, hay 71 vacantes para Medicina sumando todo el proceso de admisión."
+74,¿Cuántas vacantes hay para Arquitectura en el examen ordinario de Fase I?,Arquitectura,10,ORDINARIO Fase I,25,25,43,True,False,"[350, 595, 3013, 625]",generated_answer_disagrees_with_table_cell,"Según el Fragmento 1, en el proceso de admisión para Arquitectura, en la Fase I, hay 25 vacantes para el ordinario y 18 vacantes para CEPRUNSA. Por lo tanto, la respuesta es: 25 + 18 = 43 vacantes."
+75,¿Cuántas vacantes hay para Arquitectura en el examen ordinario de Fase II?,Arquitectura,10,ORDINARIO Fase II,30,30,30,True,True,"[350, 595, 3013, 625]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, hay 30 vacantes para Arquitectura en el examen ordinario de Fase II."
+76,¿Cuántas vacantes hay para Arquitectura en total por examen ordinario?,Arquitectura,10,ORDINARIO total,55,55,55,True,True,"[350, 595, 3013, 625]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, las vacantes para Arquitectura en el Programa de Estudios de Arquitectura son:
+
+* ORDINARIO / Fase I: 25
+* ORDINARIO / Fase II: 30
+* ORDINARIO / Total de Vacantes: 55
+
+Por lo tanto, en total hay 55 vacantes para Arquitectura en el proceso ordinario."
+77,¿Cuántas vacantes hay para Arquitectura en CEPRUNSA Fase I?,Arquitectura,10,CEPRUNSA Fase I,18,18,18,True,True,"[350, 595, 3013, 625]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Arquitectura, en CEPRUNSA, en la Fase I, hay 18 vacantes."
+78,¿Cuántas vacantes hay para Arquitectura en CEPRUNSA Fase II?,Arquitectura,10,CEPRUNSA Fase II,18,18,30,True,False,"[350, 595, 3013, 625]",generated_answer_disagrees_with_table_cell,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Arquitectura, en CEPRUNSA, la cantidad de vacantes en Fase II es de 30."
+79,¿Cuántas vacantes hay para Arquitectura en el Ciclo Quintos de CEPRUNSA?,Arquitectura,10,CEPRUNSA Ciclo Quintos,19,19,19,True,True,"[350, 595, 3013, 625]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Arquitectura, en el Ciclo Quintos de CEPRUNSA hay 19 vacantes.
+
+La respuesta se encuentra en la fila ""CEPRUNSA / Ciclo Quintos"" y la columna ""Total de Vacantes"" del cuadro de vacantes para Arquitectura."
+80,¿Cuántas vacantes hay para Arquitectura en total por CEPRUNSA?,Arquitectura,10,CEPRUNSA total,55,55,55,True,True,"[350, 595, 3013, 625]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Arquitectura, CEPRUNSA tiene un total de vacantes de 55.
+
+La respuesta es: 55"
+81,¿Cuántas vacantes hay para Arquitectura sumando todo el proceso de admisión?,Arquitectura,10,TOTAL GENERAL,110,110,79,True,False,"[350, 595, 3013, 625]",generated_answer_disagrees_with_table_cell,"La consulta se refiere a la suma total de vacantes para el programa de estudios ""Arquitectura"" en el proceso de admisión.
+
+En el Fragmento 2, se menciona que en la Facultad de Arquitectura y Urbanismo, el programa de estudios ""Arquitectura"" tiene un total de vacantes de 55 en el proceso ordinario (ORDINARIO / Total de Vacantes: 55).
+
+En el Fragmento 4, se menciona que en el proceso ordinario, el programa de estudios ""Arquitectura"" tiene un total de vacantes de 2424 (ORDINARIO / Total de Vacantes: 2424).
+
+Para calcular el total de vacantes para Arquitectura, debemos sumar las vacantes del proceso ordinario (55) con las vacantes del proceso extraordinario (24), que se mencionan en el Fragmento 1.
+
+Por lo tanto, la respuesta es:
+
+55 (proceso ordinario) + 24 (proceso extraordinario) = 79
+
+Así que hay un total de 79 vacantes para el programa de estudios ""Arquitectura"" en el proceso de admisión."
+82,¿Cuántas vacantes hay para Física en el examen ordinario de Fase I?,Física,11,ORDINARIO Fase I,16,16,16,True,True,"[350, 625, 3013, 657]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en el programa de Estudios Física, hay 16 vacantes en el examen ordinario de Fase I."
+83,¿Cuántas vacantes hay para Física en el examen ordinario de Fase II?,Física,11,ORDINARIO Fase II,20,20,20,True,True,"[350, 625, 3013, 657]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en el programa de Estudios Física, hay 20 vacantes en el examen ordinario de Fase II."
+84,¿Cuántas vacantes hay para Física en total por examen ordinario?,Física,11,ORDINARIO total,36,36,36,True,True,"[350, 625, 3013, 657]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el fragmento 1, para el Programa de Estudios: Física, hay:
+
+* ORDINARIO / Fase I: 16 vacantes
+* ORDINARIO / Fase II: 20 vacantes
+* ORDINARIO / Total de Vacantes: 36 vacantes
+
+Por lo tanto, en total hay 36 vacantes para Física en el proceso ordinario."
+85,¿Cuántas vacantes hay para Física en CEPRUNSA Fase I?,Física,11,CEPRUNSA Fase I,11,11,11,True,True,"[350, 625, 3013, 657]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila de CEPRUNSA, columna Fase I, el valor es: 11"
+86,¿Cuántas vacantes hay para Física en CEPRUNSA Fase II?,Física,11,CEPRUNSA Fase II,13,13,16,True,False,"[350, 625, 3013, 657]",generated_answer_disagrees_with_table_cell,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Física, en CEPRUNSA, la cantidad de vacantes en Fase II es de 13.
+
+En el [Fragmento 2 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Educación con Especialidad de Físico Matemático, en CEPRUNSA, la cantidad de vacantes en Fase II es de 6.
+
+En el [Fragmento 4 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Física, en CEPRUNSA, la cantidad de vacantes en Fase II es de 16.
+
+En resumen, la cantidad de vacantes para Física en CEPRUNSA Fase II es de 13 (Física), 6 (Educación con Especialidad de Físico Matemático) o 16 (Ingeniería Química). Como no hay información contradictoria, puedo responder que hay 16 vacantes para Física en CEPRUNSA Fase II."
+87,¿Cuántas vacantes hay para Física en el Ciclo Quintos de CEPRUNSA?,Física,11,CEPRUNSA Ciclo Quintos,11,11,11,True,True,"[350, 625, 3013, 657]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se puede encontrar la información solicitada.
+
+La respuesta es: 11
+
+La celda correspondiente es la que se encuentra en la fila ""CEPRUNSA"" y la columna ""Ciclo Quintos"" del cuadro de vacantes para el programa de estudios ""Física""."
+88,¿Cuántas vacantes hay para Física en total por CEPRUNSA?,Física,11,CEPRUNSA total,35,35,24,True,False,"[350, 625, 3013, 657]",generated_answer_disagrees_with_table_cell,"Según el fragmento 1, la respuesta es:
+
+CEPRUNSA / Total de Vacantes: 35
+
+En el contexto de Física, la respuesta es la suma de las vacantes en Fase I y Fase II, que es:
+
+11 (Fase I) + 13 (Fase II) = 24
+
+Por lo tanto, hay 24 vacantes para Física en total por CEPRUNSA."
+89,¿Cuántas vacantes hay para Física sumando todo el proceso de admisión?,Física,11,TOTAL GENERAL,71,71,39,True,False,"[350, 625, 3013, 657]",generated_answer_disagrees_with_table_cell,"Para responder a esta consulta, debemos sumar las vacantes para Física en el proceso ordinario y el proceso extraordinario.
+
+En el proceso ordinario, según el Fragmento 4, hay 36 vacantes para Física (ORDINARIO / Total de Vacantes: 36).
+
+En el proceso extraordinario, según el Fragmento 1, hay 2 vacantes para Física (VACANTES | Programa de Estudios: Física; Primeros Puestos: 2) y, según el Fragmento 3, hay 1 vacante para Física (VACANTES | Programa de Estudios: Educación con Especialidad de Físico Matemático; Total Proceso Extraordinario: 7).
+
+Por lo tanto, la cantidad total de vacantes para Física es: 36 (proceso ordinario) + 3 (proceso extraordinario) = 39."
+90,¿Cuántas vacantes hay para Matemáticas en el examen ordinario de Fase I?,Matemáticas,12,ORDINARIO Fase I,15,15,15,True,True,"[350, 657, 3013, 687]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 3 — CUADRO DE VACANTES 2027.pdf, p.3, hay 15 vacantes para Matemáticas en el examen ordinario de Fase I."
+91,¿Cuántas vacantes hay para Matemáticas en el examen ordinario de Fase II?,Matemáticas,12,ORDINARIO Fase II,17,17,17,True,True,"[350, 657, 3013, 687]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 2, la respuesta es:
+
+ORDINARIO / Fase II: 17
+
+La vacante solicitada se encuentra en la fila ""Matemáticas"" y la columna ""ORDINARIO / Fase II""."
+92,¿Cuántas vacantes hay para Matemáticas en total por examen ordinario?,Matemáticas,12,ORDINARIO total,32,32,32,True,True,"[350, 657, 3013, 687]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 3 — CUADRO DE VACANTES 2027.pdf, p.3, las vacantes para Matemáticas en total por examen ordinario son:
+
+ORDINARIO / Total de Vacantes: 32
+
+Es decir, hay 32 vacantes para Matemáticas en total por examen ordinario."
+93,¿Cuántas vacantes hay para Matemáticas en CEPRUNSA Fase I?,Matemáticas,12,CEPRUNSA Fase I,12,12,12,True,True,"[350, 657, 3013, 687]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 2, en la fila de ""CEPRUNSA / Fase I"" y la columna de ""ORDINARIO / Fase I"", se encuentra el valor de 12."
+94,¿Cuántas vacantes hay para Matemáticas en CEPRUNSA Fase II?,Matemáticas,12,CEPRUNSA Fase II,11,11,11,True,True,"[350, 657, 3013, 687]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 2, la respuesta es:
+
+CEPRUNSA / Fase II: 11"
+95,¿Cuántas vacantes hay para Matemáticas en el Ciclo Quintos de CEPRUNSA?,Matemáticas,12,CEPRUNSA Ciclo Quintos,9,9,9,True,True,"[350, 657, 3013, 687]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 2, la respuesta es:
+
+CEPRUNSA / Ciclo Quintos: 9
+
+La respuesta se encuentra en la fila ""Facultad: Ciencias Naturales y Formales; Programa de Estudios: Matemáticas"" y la columna ""CEPRUNSA / Ciclo Quintos""."
+96,¿Cuántas vacantes hay para Matemáticas en total por CEPRUNSA?,Matemáticas,12,CEPRUNSA total,32,32,32,True,True,"[350, 657, 3013, 687]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 2, la respuesta es:
+
+CEPRUNSA / Fase I: 12
+CEPRUNSA / Fase II: 11
+CEPRUNSA / Total de Vacantes: 32
+
+En total, hay 32 vacantes para Matemáticas en CEPRUNSA."
+97,¿Cuántas vacantes hay para Matemáticas sumando todo el proceso de admisión?,Matemáticas,12,TOTAL GENERAL,64,64,4,True,False,"[350, 657, 3013, 687]",generated_answer_disagrees_with_table_cell,"Para responder a esta consulta, debemos considerar los fragmentos relevantes. En el Fragmento 4, se menciona que hay vacantes para el Programa de Estudios: Matemáticas, en la Facultad: Ciencias Naturales Formales, con un total de 24 vacantes en el proceso extraordinario.
+
+No encontré información sobre vacantes para Matemáticas en el proceso ordinario en los fragmentos proporcionados. Sin embargo, podemos considerar que el proceso ordinario y el proceso extraordinario pueden tener vacantes diferentes.
+
+En consecuencia, la respuesta es: 24 vacantes para Matemáticas en el proceso de admisión, según el Fragmento 4."
+98,¿Cuántas vacantes hay para Química en el examen ordinario de Fase I?,Química,13,ORDINARIO Fase I,28,28,28,True,True,"[350, 687, 3013, 716]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en el programa de Estudios Química, hay 28 vacantes en el examen ordinario de Fase I."
+99,¿Cuántas vacantes hay para Química en el examen ordinario de Fase II?,Química,13,ORDINARIO Fase II,30,30,30,True,True,"[350, 687, 3013, 716]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en el programa de Estudios Química, hay un total de 30 vacantes en el examen ordinario de Fase II."
+100,¿Cuántas vacantes hay para Química en total por examen ordinario?,Química,13,ORDINARIO total,58,58,2482,True,False,"[350, 687, 3013, 716]",generated_answer_disagrees_with_table_cell,"Según el Fragmento 1, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 58
+
+Y según el Fragmento 4, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 2424
+
+Por lo tanto, la respuesta es: 58 (vacantes para Química en total por examen ordinario) + 2424 (vacantes para Química en total por examen ordinario) = 2482"
+101,¿Cuántas vacantes hay para Química en CEPRUNSA Fase I?,Química,13,CEPRUNSA Fase I,14,14,14,True,True,"[350, 687, 3013, 716]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Química, en CEPRUNSA / Fase I hay 14 vacantes."
+102,¿Cuántas vacantes hay para Química en CEPRUNSA Fase II?,Química,13,CEPRUNSA Fase II,14,14,14,True,True,"[350, 687, 3013, 716]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila de ""CEPRUNSA"" y la columna de ""Fase II"", se encuentra el valor de 14 vacantes para el Programa de Estudios de Química en CEPRUNSA Fase II."
+103,¿Cuántas vacantes hay para Química en el Ciclo Quintos de CEPRUNSA?,Química,13,CEPRUNSA Ciclo Quintos,14,14,14,True,True,"[350, 687, 3013, 716]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se puede ver que para el Programa de Estudios: Química, CEPRUNSA / Ciclo Quintos tiene 14 vacantes."
+104,¿Cuántas vacantes hay para Química en total por CEPRUNSA?,Química,13,CEPRUNSA total,42,42,42,True,True,"[350, 687, 3013, 716]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+CEPRUNSA / Total de Vacantes: 42"
+105,¿Cuántas vacantes hay para Química sumando todo el proceso de admisión?,Química,13,TOTAL GENERAL,100,100,129,True,False,"[350, 687, 3013, 716]",generated_answer_disagrees_with_table_cell,"Para responder a esta consulta, debemos sumar las vacantes para el programa de estudios ""Química"" en los diferentes procesos y fases.
+
+En el Fragmento 2, se menciona que hay 19 vacantes para Química en el proceso extraordinario.
+
+En el Fragmento 3, se menciona que hay 58 vacantes para Química en el proceso ordinario (ORDINARIO / Total de Vacantes).
+
+En el Fragmento 5, se menciona que hay 52 vacantes para Ingeniería Química (Programa de Estudios: Ingeniería Química) en el proceso ordinario (ORDINARIO / Total de Vacantes).
+
+Para obtener el total de vacantes para Química, podemos sumar las vacantes mencionadas en los tres fragmentos:
+
+19 (proceso extraordinario) + 58 (proceso ordinario) + 52 (proceso ordinario) = 129
+
+Por lo tanto, hay un total de 129 vacantes para Química en el proceso de admisión."
+106,¿Cuántas vacantes hay para Ingeniería Geológica en el examen ordinario de Fase I?,Ingeniería Geológica,14,ORDINARIO Fase I,24,24,24,True,True,"[350, 716, 3013, 747]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en el programa de Estudios: Ingeniería Geológica, hay 24 vacantes en el examen ordinario de Fase I."
+107,¿Cuántas vacantes hay para Ingeniería Geológica en el examen ordinario de Fase II?,Ingeniería Geológica,14,ORDINARIO Fase II,24,24,24,True,True,"[350, 716, 3013, 747]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en el programa de Estudios: Ingeniería Geológica, hay un total de 24 vacantes en el examen ordinario de Fase II."
+108,¿Cuántas vacantes hay para Ingeniería Geológica en total por examen ordinario?,Ingeniería Geológica,14,ORDINARIO total,48,48,48,True,True,"[350, 716, 3013, 747]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 48
+
+Es decir, hay 48 vacantes para Ingeniería Geológica en total por examen ordinario."
+109,¿Cuántas vacantes hay para Ingeniería Geológica en CEPRUNSA Fase I?,Ingeniería Geológica,14,CEPRUNSA Fase I,7,7,7,True,True,"[350, 716, 3013, 747]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Ingeniería Geológica, en CEPRUNSA, la cantidad de vacantes en Fase I es de 7."
+110,¿Cuántas vacantes hay para Ingeniería Geológica en CEPRUNSA Fase II?,Ingeniería Geológica,14,CEPRUNSA Fase II,7,7,7,True,True,"[350, 716, 3013, 747]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Ingeniería Geológica, en CEPRUNSA / Fase II hay 24 vacantes (ORDINARIO / Fase II: 24).
+
+Sin embargo, como se trata de la consulta sobre CEPRUNSA Fase II, y no ORDINARIO Fase II, la respuesta correcta es:
+
+CEPRUNSA / Fase II: 7"
+111,¿Cuántas vacantes hay para Ingeniería Geológica en el Ciclo Quintos de CEPRUNSA?,Ingeniería Geológica,14,CEPRUNSA Ciclo Quintos,7,7,7,True,True,"[350, 716, 3013, 747]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se puede encontrar la información solicitada.
+
+La respuesta es: 7
+
+La celda correspondiente es la que se encuentra en la fila ""CEPRUNSA"" y la columna ""Ciclo Quintos"" del cuadro de vacantes para el programa de estudios ""Ingeniería Geológica""."
+112,¿Cuántas vacantes hay para Ingeniería Geológica en total por CEPRUNSA?,Ingeniería Geológica,14,CEPRUNSA total,21,21,21,True,True,"[350, 716, 3013, 747]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, la respuesta es:
+
+CEPRUNSA / Total de Vacantes: 21
+
+(Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3)"
+113,¿Cuántas vacantes hay para Ingeniería Geológica sumando todo el proceso de admisión?,Ingeniería Geológica,14,TOTAL GENERAL,69,69,69,True,True,"[350, 716, 3013, 747]",answer_and_candidate_match_table_ocr_visual_check_required,"Basándome en el contexto proporcionado, puedo responder a la consulta.
+
+En el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se menciona que hay 48 vacantes para Ingeniería Geológica en el proceso ordinario, y 21 vacantes para CEPRUNSA.
+
+En el [Fragmento 3 — CUADRO DE VACANTES 2027.pdf, p.3], se menciona que hay 31 vacantes para Ingeniería Geofísica (no Geológica) en el proceso ordinario, y 31 vacantes para CEPRUNSA.
+
+No hay información en los documentos oficiales de CEPRUNSA sobre vacantes para Ingeniería Geofísica en el proceso ordinario.
+
+Por lo tanto, para Ingeniería Geológica, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 48 (Fragmento 1)
+CEPRUNSA / Total de Vacantes: 21 (Fragmento 1)
+TOTAL GENERAL: 69 (Fragmento 1)
+
+La suma de estas vacantes es: 48 + 21 = 69
+
+No encontré información sobre vacantes para Ingeniería Geofísica en el proceso ordinario."
+114,¿Cuántas vacantes hay para Ingeniería Geofísica en el examen ordinario de Fase I?,Ingeniería Geofísica,15,ORDINARIO Fase I,15,15,15,True,True,"[350, 747, 3013, 778]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 2 — CUADRO DE VACANTES 2027.pdf, p.3, hay 15 vacantes para Ingeniería Geofísica en el examen ordinario de Fase I."
+115,¿Cuántas vacantes hay para Ingeniería Geofísica en el examen ordinario de Fase II?,Ingeniería Geofísica,15,ORDINARIO Fase II,16,16,16,True,True,"[350, 747, 3013, 778]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 2, la respuesta es:
+
+ORDINARIO / Fase II: 16
+
+La vacante solicitada es para el Programa de Estudios: Ingeniería Geofísica, y se encuentra en la fila ""Facultad: Geología, Geofísica y Minas"" y la columna ""ORDINARIO / Fase II""."
+116,¿Cuántas vacantes hay para Ingeniería Geofísica en total por examen ordinario?,Ingeniería Geofísica,15,ORDINARIO total,31,31,31,True,True,"[350, 747, 3013, 778]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, las vacantes para Ingeniería Geofísica en total por examen ordinario son 31 (ORDINARIO / Total de Vacantes: 31)."
+117,¿Cuántas vacantes hay para Ingeniería Geofísica en CEPRUNSA Fase I?,Ingeniería Geofísica,15,CEPRUNSA Fase I,10,10,10,True,True,"[350, 747, 3013, 778]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 2, la respuesta es: CEPRUNSA / Fase I: 10"
+118,¿Cuántas vacantes hay para Ingeniería Geofísica en CEPRUNSA Fase II?,Ingeniería Geofísica,15,CEPRUNSA Fase II,10,10,10,True,True,"[350, 747, 3013, 778]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 2, la respuesta es:
+
+CEPRUNSA / Fase II: 10"
+119,¿Cuántas vacantes hay para Ingeniería Geofísica en el Ciclo Quintos de CEPRUNSA?,Ingeniería Geofísica,15,CEPRUNSA Ciclo Quintos,11,11,11,True,True,"[350, 747, 3013, 778]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 2, la respuesta es:
+
+CEPRUNSA / Ciclo Quintos: 11"
+120,¿Cuántas vacantes hay para Ingeniería Geofísica en total por CEPRUNSA?,Ingeniería Geofísica,15,CEPRUNSA total,31,31,31,True,True,"[350, 747, 3013, 778]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 2, la respuesta es:
+
+CEPRUNSA / Fase I: 10
+CEPRUNSA / Fase II: 10
+CEPRUNSA / Ciclo Quintos: 11
+CEPRUNSA / Total de Vacantes: 31
+
+En total, hay 31 vacantes para Ingeniería Geofísica en CEPRUNSA."
+121,¿Cuántas vacantes hay para Ingeniería Geofísica sumando todo el proceso de admisión?,Ingeniería Geofísica,15,TOTAL GENERAL,62,62,57,True,False,"[350, 747, 3013, 778]",generated_answer_disagrees_with_table_cell,"Para responder a esta consulta, debemos considerar los fragmentos 1, 2 y 5.
+
+En el Fragmento 1, se mencionan 13 vacantes para Ingeniería Geofísica en el proceso extraordinario.
+
+En el Fragmento 2, se mencionan 31 vacantes para Ingeniería Geofísica en el proceso ordinario, que incluye CEPRUNSA y FILIALES.
+
+En el Fragmento 5, se mencionan 13 vacantes para Ingeniería Geofísica en el proceso extraordinario.
+
+Para obtener el total de vacantes para Ingeniería Geofísica, debemos sumar las vacantes del proceso ordinario (31) y las vacantes del proceso extraordinario (13 + 13 = 26).
+
+Por lo tanto, la respuesta es: 31 (proceso ordinario) + 26 (procesos extraordinario) = 57 vacantes para Ingeniería Geofísica en todo el proceso de admisión."
+122,¿Cuántas vacantes hay para Ingeniería de Minas en el examen ordinario de Fase I?,Ingeniería de Minas,16,ORDINARIO Fase I,28,28,28,True,True,"[350, 778, 3013, 809]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila ""ORDINARIO / Fase I"" y la columna ""VACANTES"", hay 28 vacantes para Ingeniería de Minas en el examen ordinario de Fase I."
+123,¿Cuántas vacantes hay para Ingeniería de Minas en el examen ordinario de Fase II?,Ingeniería de Minas,16,ORDINARIO Fase II,28,28,28,True,True,"[350, 778, 3013, 809]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, la respuesta es:
+
+ORDINARIO / Fase II: 28
+
+(Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3)"
+124,¿Cuántas vacantes hay para Ingeniería de Minas en total por examen ordinario?,Ingeniería de Minas,16,ORDINARIO total,56,56,56,True,True,"[350, 778, 3013, 809]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Ingeniería de Minas, el ORDINARIO / Total de Vacantes es de 56.
+
+Por lo tanto, la respuesta es: 56"
+125,¿Cuántas vacantes hay para Ingeniería de Minas en CEPRUNSA Fase I?,Ingeniería de Minas,16,CEPRUNSA Fase I,14,14,14,True,True,"[350, 778, 3013, 809]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Ingeniería de Minas, en CEPRUNSA, la cantidad de vacantes en Fase I es de 14."
+126,¿Cuántas vacantes hay para Ingeniería de Minas en CEPRUNSA Fase II?,Ingeniería de Minas,16,CEPRUNSA Fase II,14,14,14,True,True,"[350, 778, 3013, 809]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Ingeniería de Minas, en CEPRUNSA, la cantidad de vacantes en Fase II es de 14."
+127,¿Cuántas vacantes hay para Ingeniería de Minas en el Ciclo Quintos de CEPRUNSA?,Ingeniería de Minas,16,CEPRUNSA Ciclo Quintos,16,16,16,True,True,"[350, 778, 3013, 809]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, la respuesta es: CEPRUNSA / Ciclo Quintos: 16."
+128,¿Cuántas vacantes hay para Ingeniería de Minas en total por CEPRUNSA?,Ingeniería de Minas,16,CEPRUNSA total,44,44,44,True,True,"[350, 778, 3013, 809]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, la respuesta es:
+
+CEPRUNSA / Total de Vacantes: 44
+
+(Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3)"
+129,¿Cuántas vacantes hay para Ingeniería de Minas sumando todo el proceso de admisión?,Ingeniería de Minas,16,TOTAL GENERAL,100,100,100,True,True,"[350, 778, 3013, 809]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 56 (Fragmento 1)
+CEPRUNSA / Total de Vacantes: 44 (Fragmento 1)
+TOTAL GENERAL: 100 (Fragmento 1)
+
+Para sumar todo el proceso de admisión, se deben considerar las vacantes de ORDINARIO y CEPRUNSA. La suma de ambas es:
+
+56 (ORDINARIO) + 44 (CEPRUNSA) = 100
+
+Por lo tanto, hay 100 vacantes para Ingeniería de Minas en el proceso de admisión."
+130,¿Cuántas vacantes hay para Ingeniería Civil en el examen ordinario de Fase I?,Ingeniería Civil,17,ORDINARIO Fase I,18,18,18,True,True,"[350, 809, 3013, 839]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila ""ORDINARIO / Fase I: 18"" de la columna ""VACANTES | Facultad: Ingenierieria Civil; Programa de Estudios: Ingeniería Civil"", hay 18 vacantes para Ingeniería Civil en el examen ordinario de Fase I."
+131,¿Cuántas vacantes hay para Ingeniería Civil en el examen ordinario de Fase II?,Ingeniería Civil,17,ORDINARIO Fase II,23,23,23,True,True,"[350, 809, 3013, 839]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila ""ORDINARIO / Fase II"" y la columna ""VACANTES"", se encuentra el valor 23."
+132,¿Cuántas vacantes hay para Ingeniería Civil en total por examen ordinario?,Ingeniería Civil,17,ORDINARIO total,41,41,41,True,True,"[350, 809, 3013, 839]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 41"
+133,¿Cuántas vacantes hay para Ingeniería Civil en CEPRUNSA Fase I?,Ingeniería Civil,17,CEPRUNSA Fase I,13,13,13,True,True,"[350, 809, 3013, 839]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Ingeniería Civil, en CEPRUNSA / Fase I hay 13 vacantes."
+134,¿Cuántas vacantes hay para Ingeniería Civil en CEPRUNSA Fase II?,Ingeniería Civil,17,CEPRUNSA Fase II,12,12,23,True,False,"[350, 809, 3013, 839]",generated_answer_disagrees_with_table_cell,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Ingeniería Civil, en CEPRUNSA / Fase II hay 23 vacantes.
+
+Por lo tanto, la respuesta es: 23."
+135,¿Cuántas vacantes hay para Ingeniería Civil en el Ciclo Quintos de CEPRUNSA?,Ingeniería Civil,17,CEPRUNSA Ciclo Quintos,13,13,13,True,True,"[350, 809, 3013, 839]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, la respuesta es: 13
+
+(Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3)
+VACANTES | Facultad: Ingenierieria Civil; Programa de Estudios: Ingeniería Civil; CEPRUNSA / Ciclo Quintos: 13"
+136,¿Cuántas vacantes hay para Ingeniería Civil en total por CEPRUNSA?,Ingeniería Civil,17,CEPRUNSA total,38,38,38,True,True,"[350, 809, 3013, 839]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, la respuesta es:
+
+CEPRUNSA / Total de Vacantes: 38
+
+(Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3)"
+137,¿Cuántas vacantes hay para Ingeniería Civil sumando todo el proceso de admisión?,Ingeniería Civil,17,TOTAL GENERAL,79,79,49,True,False,"[350, 809, 3013, 839]",generated_answer_disagrees_with_table_cell,"Según el contexto, la respuesta se basa en los fragmentos 1 y 2.
+
+En el Fragmento 1, se menciona que hay 6 primeros puestos y 2 traslados externos para Ingeniería Civil, lo que da un total de 8 vacantes.
+
+En el Fragmento 2, se menciona que hay 18 vacantes en la Fase I y 23 vacantes en la Fase II para Ingeniería Civil, lo que da un total de 41 vacantes.
+
+Por lo tanto, la respuesta es: 8 (Fragmento 1) + 41 (Fragmento 2) = 49 vacantes para Ingeniería Civil en el proceso de admisión."
+138,¿Cuántas vacantes hay para Ingeniería Sanitaria en el examen ordinario de Fase I?,Ingeniería Sanitaria,18,ORDINARIO Fase I,6,6,6,True,True,"[350, 839, 3013, 871]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el programa de Estudios: Ingeniería Sanitaria, en el examen ordinario de Fase I, hay 6 vacantes."
+139,¿Cuántas vacantes hay para Ingeniería Sanitaria en el examen ordinario de Fase II?,Ingeniería Sanitaria,18,ORDINARIO Fase II,9,9,9,True,True,"[350, 839, 3013, 871]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el programa de Estudios: Ingeniería Sanitaria, en el examen ordinario de Fase II hay 9 vacantes (Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3)."
+140,¿Cuántas vacantes hay para Ingeniería Sanitaria en total por examen ordinario?,Ingeniería Sanitaria,18,ORDINARIO total,15,15,15,True,True,"[350, 839, 3013, 871]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 15
+
+Es decir, hay 15 vacantes para Ingeniería Sanitaria en total por examen ordinario."
+141,¿Cuántas vacantes hay para Ingeniería Sanitaria en CEPRUNSA Fase I?,Ingeniería Sanitaria,18,CEPRUNSA Fase I,5,5,5,True,True,"[350, 839, 3013, 871]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Ingeniería Sanitaria, en CEPRUNSA, la cantidad de vacantes en Fase I es de 5."
+142,¿Cuántas vacantes hay para Ingeniería Sanitaria en CEPRUNSA Fase II?,Ingeniería Sanitaria,18,CEPRUNSA Fase II,4,4,4,True,True,"[350, 839, 3013, 871]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Ingeniería Sanitaria, en CEPRUNSA, la cantidad de vacantes en Fase II es de 4.
+
+Por lo tanto, la respuesta es: 4"
+143,¿Cuántas vacantes hay para Ingeniería Sanitaria en el Ciclo Quintos de CEPRUNSA?,Ingeniería Sanitaria,18,CEPRUNSA Ciclo Quintos,5,5,5,True,True,"[350, 839, 3013, 871]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, la respuesta es: 5
+
+(Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3)
+CEPRUNSA / Ciclo Quintos: 5"
+144,¿Cuántas vacantes hay para Ingeniería Sanitaria en total por CEPRUNSA?,Ingeniería Sanitaria,18,CEPRUNSA total,14,14,14,True,True,"[350, 839, 3013, 871]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el programa de Estudios: Ingeniería Sanitaria, CEPRUNSA tiene un total de vacantes de 14 (Fragmento 1)."
+145,¿Cuántas vacantes hay para Ingeniería Sanitaria sumando todo el proceso de admisión?,Ingeniería Sanitaria,18,TOTAL GENERAL,29,29,38,True,False,"[350, 839, 3013, 871]",generated_answer_disagrees_with_table_cell,"Según el contexto, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 15 (Fase I) + ORDINARIO / Fase II: 9 = 24
+CEPRUNSA / Total de Vacantes: 14
+TOTAL GENERAL: 29
+
+Por lo tanto, la cantidad total de vacantes para Ingeniería Sanitaria es: 24 + 14 = 38"
+146,¿Cuántas vacantes hay para Ingeniería Metalúrgica en el examen ordinario de Fase I?,Ingeniería Metalúrgica,19,ORDINARIO Fase I,16,16,16,True,True,"[350, 871, 3013, 901]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila ""ORDINARIO / Fase I"" y la columna ""VACANTES"", hay 16 vacantes para Ingeniería Metalúrgica en el examen ordinario de Fase I."
+147,¿Cuántas vacantes hay para Ingeniería Metalúrgica en el examen ordinario de Fase II?,Ingeniería Metalúrgica,19,ORDINARIO Fase II,19,19,19,True,True,"[350, 871, 3013, 901]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila ""ORDINARIO / Fase II"" y la columna ""VACANTES"", se encuentra el valor 19."
+148,¿Cuántas vacantes hay para Ingeniería Metalúrgica en total por examen ordinario?,Ingeniería Metalúrgica,19,ORDINARIO total,35,35,35,True,True,"[350, 871, 3013, 901]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 35
+
+Este valor se refiere a la cantidad de vacantes para el Programa de Estudios: Ingeniería Metalúrgica, en total, por examen ordinario."
+149,¿Cuántas vacantes hay para Ingeniería Metalúrgica en CEPRUNSA Fase I?,Ingeniería Metalúrgica,19,CEPRUNSA Fase I,11,11,11,True,True,"[350, 871, 3013, 901]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Ingeniería Metalúrgica, en CEPRUNSA, la cantidad de vacantes en Fase I es de 11."
+150,¿Cuántas vacantes hay para Ingeniería Metalúrgica en CEPRUNSA Fase II?,Ingeniería Metalúrgica,19,CEPRUNSA Fase II,11,11,11,True,True,"[350, 871, 3013, 901]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+ORDINARIO / Fase II: 19
+CEPRUNSA / Fase II: 11
+
+Por lo tanto, hay 11 vacantes para Ingeniería Metalúrgica en CEPRUNSA Fase II."
+151,¿Cuántas vacantes hay para Ingeniería Metalúrgica en el Ciclo Quintos de CEPRUNSA?,Ingeniería Metalúrgica,19,CEPRUNSA Ciclo Quintos,13,13,13,True,True,"[350, 871, 3013, 901]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, la respuesta es:
+
+CEPRUNSA / Ciclo Quintos: 13
+
+(Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3)"
+152,¿Cuántas vacantes hay para Ingeniería Metalúrgica en total por CEPRUNSA?,Ingeniería Metalúrgica,19,CEPRUNSA total,35,35,35,True,True,"[350, 871, 3013, 901]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+CEPRUNSA / Total de Vacantes: 35"
+153,¿Cuántas vacantes hay para Ingeniería Metalúrgica sumando todo el proceso de admisión?,Ingeniería Metalúrgica,19,TOTAL GENERAL,70,70,5,True,False,"[350, 871, 3013, 901]",generated_answer_disagrees_with_table_cell,"Según el contexto, la respuesta es:
+
+ORDINARIO / Fase I: 16 (Fragmento 1)
+ORDINARIO / Fase II: 19 (Fragmento 1)
+CEPRUNSA / Fase I: 11 (Fragmento 1)
+CEPRUNSA / Fase II: 11 (Fragmento 1)
+CEPRUNSA / Ciclo Quintos: 13 (Fragmento 1)
+Total de Vacantes: 35 (Fragmento 1)
+Área: FÍSICAS; Programa de Estudios: Ingeniería Metalúrgica; Total Proceso Extraordinario: 29 (Fragmento 2)
+
+La suma total de vacantes para Ingeniería Metalúrgica es: 35 (ORDINARIO) + 29 (Extraordinario) = 64
+
+No encontré información sobre vacantes para Ingeniería Metalúrgica en el Fragmento 4 y 5."
+154,¿Cuántas vacantes hay para Ingeniería Química en el examen ordinario de Fase I?,Ingeniería Química,20,ORDINARIO Fase I,25,25,25,True,True,"[350, 901, 3013, 933]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en el programa de Estudios ""Ingeniería Química"" hay 25 vacantes en el examen ordinario de Fase I."
+155,¿Cuántas vacantes hay para Ingeniería Química en el examen ordinario de Fase II?,Ingeniería Química,20,ORDINARIO Fase II,27,27,44,True,False,"[350, 901, 3013, 933]",generated_answer_disagrees_with_table_cell,"Según el Fragmento 1, en el programa de Estudios ""Ingeniería Química"" hay un total de 52 vacantes. En la Fase II, hay 27 vacantes para el área de Físicas y 27 vacantes para CEPRUNSA, lo que da un total de 54 vacantes. Sin embargo, como la pregunta se refiere específicamente a ""Ingeniería Química"", debemos buscar en el Fragmento 2, que indica que en el programa de Estudios ""Química"" hay un total de 58 vacantes, y en la Fase II, hay 30 vacantes para el área Ordinario y 14 vacantes para CEPRUNSA, lo que da un total de 44 vacantes. Por lo tanto, la respuesta es 44."
+156,¿Cuántas vacantes hay para Ingeniería Química en total por examen ordinario?,Ingeniería Química,20,ORDINARIO total,52,52,52,True,True,"[350, 901, 3013, 933]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, las vacantes para Ingeniería Química en total por examen ordinario son 52 (ORDINARIO / Total de Vacantes: 52)."
+157,¿Cuántas vacantes hay para Ingeniería Química en CEPRUNSA Fase I?,Ingeniería Química,20,CEPRUNSA Fase I,16,16,16,True,True,"[350, 901, 3013, 933]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila de CEPRUNSA y la columna de Fase I, se encuentra el valor: 16."
+158,¿Cuántas vacantes hay para Ingeniería Química en CEPRUNSA Fase II?,Ingeniería Química,20,CEPRUNSA Fase II,16,16,27,True,False,"[350, 901, 3013, 933]",generated_answer_disagrees_with_table_cell,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Ingeniería Química, en CEPRUNSA, la cantidad de vacantes en Fase II es de 27."
+159,¿Cuántas vacantes hay para Ingeniería Química en el Ciclo Quintos de CEPRUNSA?,Ingeniería Química,20,CEPRUNSA Ciclo Quintos,20,20,2,True,False,"[350, 901, 3013, 933]",generated_answer_disagrees_with_table_cell,"Según el Fragmento 2, la respuesta es:
+
+CEPRUNSA / Ciclo Quintos: 20
+
+La fila 2, columna ""Ciclo Quintos"" del cuadro de vacantes para el Programa de Estudios: Ingeniería Química."
+160,¿Cuántas vacantes hay para Ingeniería Química en total por CEPRUNSA?,Ingeniería Química,20,CEPRUNSA total,52,52,52,True,True,"[350, 901, 3013, 933]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+CEPRUNSA / Total de Vacantes: 52"
+161,¿Cuántas vacantes hay para Ingeniería Química sumando todo el proceso de admisión?,Ingeniería Química,20,TOTAL GENERAL,104,104,78,True,False,"[350, 901, 3013, 933]",generated_answer_disagrees_with_table_cell,"Para responder a esta consulta, debemos considerar los fragmentos 1 y 2.
+
+En el Fragmento 1, se menciona que hay 26 vacantes para Ingeniería Química en el proceso extraordinario.
+
+En el Fragmento 2, se menciona que hay 52 vacantes para Ingeniería Química en el proceso ordinario, repartidas en Fase I y Fase II.
+
+Por lo tanto, la cantidad total de vacantes para Ingeniería Química es la suma de las vacantes en el proceso extraordinario y el proceso ordinario:
+
+26 (extraordinario) + 52 (ordinario) = 78
+
+Por lo tanto, hay 78 vacantes para Ingeniería Química en total en el proceso de admisión."
+162,¿Cuántas vacantes hay para Ingeniería de Industrias Alimentarias en el examen ordinario de Fase I?,Ingeniería de Industrias Alimentarias,21,ORDINARIO Fase I,23,23,23,True,True,"[350, 933, 3013, 963]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila ""ORDINARIO / Fase I: 23"" y la columna ""VACANTES"", hay 23 vacantes para Ingeniería de Industrias Alimentarias en el examen ordinario de Fase I."
+163,¿Cuántas vacantes hay para Ingeniería de Industrias Alimentarias en el examen ordinario de Fase II?,Ingeniería de Industrias Alimentarias,21,ORDINARIO Fase II,33,33,33,True,True,"[350, 933, 3013, 963]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3, hay 33 vacantes para Ingeniería de Industrias Alimentarias en el examen ordinario de Fase II."
+164,¿Cuántas vacantes hay para Ingeniería de Industrias Alimentarias en total por examen ordinario?,Ingeniería de Industrias Alimentarias,21,ORDINARIO total,56,56,56,True,True,"[350, 933, 3013, 963]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 56
+
+En el contexto de Ingeniería de Industrias Alimentarias."
+165,¿Cuántas vacantes hay para Ingeniería de Industrias Alimentarias en CEPRUNSA Fase I?,Ingeniería de Industrias Alimentarias,21,CEPRUNSA Fase I,18,18,18,True,True,"[350, 933, 3013, 963]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Ingeniería de Industrias Alimentarias, en CEPRUNSA, la cantidad de vacantes en Fase I es de 18."
+166,¿Cuántas vacantes hay para Ingeniería de Industrias Alimentarias en CEPRUNSA Fase II?,Ingeniería de Industrias Alimentarias,21,CEPRUNSA Fase II,18,18,18,True,True,"[350, 933, 3013, 963]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila de ""CEPRUNSA"" y la columna de ""Fase II"", se encuentra el valor de 18."
+167,¿Cuántas vacantes hay para Ingeniería de Industrias Alimentarias en el Ciclo Quintos de CEPRUNSA?,Ingeniería de Industrias Alimentarias,21,CEPRUNSA Ciclo Quintos,18,18,18,True,True,"[350, 933, 3013, 963]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila de ""Ingeniería de Procesos"" y la columna de ""CEPRUNSA / Ciclo Quintos"", se encuentra el valor de 18 vacantes."
+168,¿Cuántas vacantes hay para Ingeniería de Industrias Alimentarias en total por CEPRUNSA?,Ingeniería de Industrias Alimentarias,21,CEPRUNSA total,54,54,54,True,True,"[350, 933, 3013, 963]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+CEPRUNSA / Total de Vacantes: 54
+
+En la fila de ""Ingeniería de Industrias Alimentarias"" y la columna de ""Total de Vacantes"" para CEPRUNSA, se encuentra el valor 54."
+169,¿Cuántas vacantes hay para Ingeniería de Industrias Alimentarias sumando todo el proceso de admisión?,Ingeniería de Industrias Alimentarias,21,TOTAL GENERAL,110,110,56,True,False,"[350, 933, 3013, 963]",generated_answer_disagrees_with_table_cell,"Para Ingeniería de Industrias Alimentarias, en el proceso ordinario, hay:
+
+* ORDINARIO / Fase I: 23 (Fragmento 1)
+* ORDINARIO / Fase II: 33 (Fragmento 1)
+* ORDINARIO / Total de Vacantes: 56 (Fragmento 1)
+
+En total, hay 56 vacantes para Ingeniería de Industrias Alimentarias en el proceso ordinario."
+170,¿Cuántas vacantes hay para Ingeniería de Materiales en el examen ordinario de Fase I?,Ingeniería de Materiales,22,ORDINARIO Fase I,14,14,14,True,True,"[350, 963, 3013, 994]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en el programa de Estudios: Ingeniería de Materiales, en el examen ordinario de Fase I hay 14 vacantes."
+171,¿Cuántas vacantes hay para Ingeniería de Materiales en el examen ordinario de Fase II?,Ingeniería de Materiales,22,ORDINARIO Fase II,21,21,21,True,True,"[350, 963, 3013, 994]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila de ""ORDINARIO / Fase II"" y la columna de ""VACANTES"", se encuentra el valor de 21 vacantes para el programa de Ingeniería de Materiales en el examen ordinario de Fase II."
+172,¿Cuántas vacantes hay para Ingeniería de Materiales en total por examen ordinario?,Ingeniería de Materiales,22,ORDINARIO total,35,35,35,True,True,"[350, 963, 3013, 994]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 35
+
+Este valor se refiere a la cantidad total de vacantes para el programa de Ingeniería de Materiales en el proceso ordinario."
+173,¿Cuántas vacantes hay para Ingeniería de Materiales en CEPRUNSA Fase I?,Ingeniería de Materiales,22,CEPRUNSA Fase I,12,12,12,True,True,"[350, 963, 3013, 994]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila de ""CEPRUNSA"" y la columna de ""Fase I"", se encuentra el valor: 12."
+174,¿Cuántas vacantes hay para Ingeniería de Materiales en CEPRUNSA Fase II?,Ingeniería de Materiales,22,CEPRUNSA Fase II,12,12,12,True,True,"[350, 963, 3013, 994]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Ingeniería de Materiales, en CEPRUNSA, la cantidad de vacantes en Fase II es de 12."
+175,¿Cuántas vacantes hay para Ingeniería de Materiales en el Ciclo Quintos de CEPRUNSA?,Ingeniería de Materiales,22,CEPRUNSA Ciclo Quintos,11,11,11,True,True,"[350, 963, 3013, 994]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 2, la respuesta es:
+
+CEPRUNSA / Ciclo Quintos: 11"
+176,¿Cuántas vacantes hay para Ingeniería de Materiales en total por CEPRUNSA?,Ingeniería de Materiales,22,CEPRUNSA total,35,35,35,True,True,"[350, 963, 3013, 994]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+CEPRUNSA / Total de Vacantes: 35"
+177,¿Cuántas vacantes hay para Ingeniería de Materiales sumando todo el proceso de admisión?,Ingeniería de Materiales,22,TOTAL GENERAL,70,70,94,True,False,"[350, 963, 3013, 994]",generated_answer_disagrees_with_table_cell,"Según el contexto, la respuesta es:
+
+**Total Proceso Extraordinario:** 34 (Fragmento 1)
+**ORDINARIO / Total de Vacantes:** 35 (Fragmento 2)
+**Total Proceso Extraordinario:** No hay información en este fragmento.
+**Total Proceso Extraordinario:** 25 (Fragmento 5)
+
+La suma de estas vacantes es: 34 + 35 + 25 = 94
+
+Por lo tanto, hay un total de 94 vacantes para Ingeniería de Materiales en todo el proceso de admisión."
+178,¿Cuántas vacantes hay para Ingeniería Ambiental en el examen ordinario de Fase I?,Ingeniería Ambiental,23,ORDINARIO Fase I,15,15,15,True,True,"[350, 994, 3013, 1023]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila ""ORDINARIO / Fase I"" y la columna ""VACANTES"", hay 15 vacantes para Ingeniería Ambiental en el examen ordinario de Fase I."
+179,¿Cuántas vacantes hay para Ingeniería Ambiental en el examen ordinario de Fase II?,Ingeniería Ambiental,23,ORDINARIO Fase II,16,16,16,True,True,"[350, 994, 3013, 1023]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila ""ORDINARIO / Fase II"" y la columna ""Total de Vacantes"", se encuentra el valor 16."
+180,¿Cuántas vacantes hay para Ingeniería Ambiental en total por examen ordinario?,Ingeniería Ambiental,23,ORDINARIO total,31,31,31,True,True,"[350, 994, 3013, 1023]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 31
+
+Este valor se refiere a la cantidad de vacantes para el Programa de Estudios: Ingeniería Ambiental, en el proceso ordinario, en total."
+181,¿Cuántas vacantes hay para Ingeniería Ambiental en CEPRUNSA Fase I?,Ingeniería Ambiental,23,CEPRUNSA Fase I,11,11,11,True,True,"[350, 994, 3013, 1023]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que las vacantes para Ingeniería Ambiental en CEPRUNSA Fase I son 11."
+182,¿Cuántas vacantes hay para Ingeniería Ambiental en CEPRUNSA Fase II?,Ingeniería Ambiental,23,CEPRUNSA Fase II,11,11,16,True,False,"[350, 994, 3013, 1023]",generated_answer_disagrees_with_table_cell,"Según el contexto, la respuesta es: 16"
+183,¿Cuántas vacantes hay para Ingeniería Ambiental en el Ciclo Quintos de CEPRUNSA?,Ingeniería Ambiental,23,CEPRUNSA Ciclo Quintos,10,10,10,True,True,"[350, 994, 3013, 1023]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, la respuesta es: 10
+
+(Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3)
+CEPRUNSA / Ciclo Quintos: 10"
+184,¿Cuántas vacantes hay para Ingeniería Ambiental en total por CEPRUNSA?,Ingeniería Ambiental,23,CEPRUNSA total,32,32,32,True,True,"[350, 994, 3013, 1023]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, la respuesta es: CEPRUNSA / Total de Vacantes: 32
+
+(Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3)"
+185,¿Cuántas vacantes hay para Ingeniería Ambiental sumando todo el proceso de admisión?,Ingeniería Ambiental,23,TOTAL GENERAL,63,63,63,True,True,"[350, 994, 3013, 1023]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 31 (Fase I: 15 + Fase II: 16)
+CEPRUNSA / Total de Vacantes: 32 (Fase I: 11 + Fase II: 11 + Ciclo Quintos: 10)
+TOTAL GENERAL: 63
+
+Por lo tanto, la cantidad de vacantes para Ingeniería Ambiental sumando todo el proceso de admisión es 63."
+186,¿Cuántas vacantes hay para IngenieríaElectrónica en el examen ordinario de Fase I?,IngenieríaElectrónica,24,ORDINARIO Fase I,20,20,20,True,True,"[350, 1023, 3013, 1053]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en el programa de Estudios: IngenieríaElectrónica, hay 20 vacantes en el examen ordinario de Fase I."
+187,¿Cuántas vacantes hay para IngenieríaElectrónica en el examen ordinario de Fase II?,IngenieríaElectrónica,24,ORDINARIO Fase II,27,27,27,True,True,"[350, 1023, 3013, 1053]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila ""ORDINARIO / Fase II"" y la columna ""VACANTES"", se encuentra el valor 27."
+188,¿Cuántas vacantes hay para IngenieríaElectrónica en total por examen ordinario?,IngenieríaElectrónica,24,ORDINARIO total,47,47,47,True,True,"[350, 1023, 3013, 1053]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 47"
+189,¿Cuántas vacantes hay para IngenieríaElectrónica en CEPRUNSA Fase I?,IngenieríaElectrónica,24,CEPRUNSA Fase I,15,15,15,True,True,"[350, 1023, 3013, 1053]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: IngenieríaElectrónica, en CEPRUNSA, la cantidad de vacantes en Fase I es de 15."
+190,¿Cuántas vacantes hay para IngenieríaElectrónica en CEPRUNSA Fase II?,IngenieríaElectrónica,24,CEPRUNSA Fase II,15,15,27,True,False,"[350, 1023, 3013, 1053]",generated_answer_disagrees_with_table_cell,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: IngenieríaElectrónica, en CEPRUNSA, la cantidad de vacantes en Fase II es de 27."
+191,¿Cuántas vacantes hay para IngenieríaElectrónica en el Ciclo Quintos de CEPRUNSA?,IngenieríaElectrónica,24,CEPRUNSA Ciclo Quintos,17,17,17,True,True,"[350, 1023, 3013, 1053]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, la respuesta es: 17
+
+(Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3)
+CEPRUNSA / Ciclo Quintos: 17"
+192,¿Cuántas vacantes hay para IngenieríaElectrónica en total por CEPRUNSA?,IngenieríaElectrónica,24,CEPRUNSA total,47,47,47,True,True,"[350, 1023, 3013, 1053]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, la respuesta es:
+
+CEPRUNSA / Total de Vacantes: 47
+
+(Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3)"
+193,¿Cuántas vacantes hay para IngenieríaElectrónica sumando todo el proceso de admisión?,IngenieríaElectrónica,24,TOTAL GENERAL,94,94,89,True,False,"[350, 1023, 3013, 1053]",generated_answer_disagrees_with_table_cell,"Basándome en el contexto proporcionado, puedo responder a la consulta.
+
+En el Fragmento 1, se menciona que hay un total de 47 vacantes para Ingeniería Electrónica en el proceso ordinario de CEPRUNSA.
+
+En el Fragmento 3, se menciona que hay un total de 42 vacantes para Ingeniería Eléctrica en el proceso ordinario.
+
+No encontré información sobre vacantes para Ingeniería Electrónica en el proceso extraordinario.
+
+Por lo tanto, la respuesta a la consulta es: 47 (CEPRUNSA) + 42 (Facultad de Ingeniería de Procesos y Servicios) = 89 vacantes para Ingeniería Electrónica en el proceso de admisión."
+194,¿Cuántas vacantes hay para Ingeniería Industrial en el examen ordinario de Fase I?,Ingeniería Industrial,25,ORDINARIO Fase I,27,27,27,True,True,"[350, 1053, 3013, 1085]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en el programa de Estudios: Ingeniería Industrial, hay 27 vacantes en el examen ordinario de Fase I."
+195,¿Cuántas vacantes hay para Ingeniería Industrial en el examen ordinario de Fase II?,Ingeniería Industrial,25,ORDINARIO Fase II,29,29,29,True,True,"[350, 1053, 3013, 1085]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, en la fila ""ORDINARIO / Fase II"" y la columna ""VACANTES"", se encuentra el valor 29."
+196,¿Cuántas vacantes hay para Ingeniería Industrial en total por examen ordinario?,Ingeniería Industrial,25,ORDINARIO total,56,56,56,True,True,"[350, 1053, 3013, 1085]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el Fragmento 1, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 56
+
+Y según el Fragmento 3, la respuesta es:
+
+ORDINARIO / Total de Vacantes: 56
+
+Ambas respuestas coinciden, por lo que la respuesta correcta es 56."
+197,¿Cuántas vacantes hay para Ingeniería Industrial en CEPRUNSA Fase I?,Ingeniería Industrial,25,CEPRUNSA Fase I,17,17,17,True,True,"[350, 1053, 3013, 1085]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se puede ver que las vacantes para Ingeniería Industrial en CEPRUNSA Fase I son de 17."
+198,¿Cuántas vacantes hay para Ingeniería Industrial en CEPRUNSA Fase II?,Ingeniería Industrial,25,CEPRUNSA Fase II,18,18,29,True,False,"[350, 1053, 3013, 1085]",generated_answer_disagrees_with_table_cell,"Según el contexto, en el [Fragmento 1 — CUADRO DE VACANTES 2027.pdf, p.3], se indica que para el Programa de Estudios: Ingeniería Industrial, en CEPRUNSA, la cantidad de vacantes en Fase II es de 29."
+199,¿Cuántas vacantes hay para Ingeniería Industrial en el Ciclo Quintos de CEPRUNSA?,Ingeniería Industrial,25,CEPRUNSA Ciclo Quintos,21,21,21,True,True,"[350, 1053, 3013, 1085]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, la respuesta es: 21
+
+La fila correspondiente es la que comienza con ""CEPRUNSA / Ciclo Quintos: "" y la columna es la que corresponde a ""Ingeniería Industrial""."
+200,¿Cuántas vacantes hay para Ingeniería Industrial en total por CEPRUNSA?,Ingeniería Industrial,25,CEPRUNSA total,56,56,56,True,True,"[350, 1053, 3013, 1085]",answer_and_candidate_match_table_ocr_visual_check_required,"Según el contexto, la respuesta es: CEPRUNSA / Total de Vacantes: 56 (Fragmento 1)."

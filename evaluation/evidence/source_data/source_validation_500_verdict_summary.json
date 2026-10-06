@@ -1,0 +1,135 @@
+{
+  "n_queries": 500,
+  "in_domain_queries": 450,
+  "out_of_domain_queries": 50,
+  "all_500": {
+    "baseline": {
+      "correct": 336,
+      "partially_correct": 6,
+      "incorrect": 111,
+      "abstain_correct": 47
+    },
+    "three_phase": {
+      "partially_correct": 9,
+      "correct": 438,
+      "incorrect": 3,
+      "abstain_correct": 50
+    },
+    "references": {
+      "supported": 257,
+      "corrected": 243
+    }
+  },
+  "by_category": {
+    "CRONOGRAMA": {
+      "n": 25,
+      "baseline": {
+        "correct": 22,
+        "partially_correct": 3
+      },
+      "three_phase": {
+        "partially_correct": 7,
+        "correct": 18
+      },
+      "references": {
+        "supported": 25
+      }
+    },
+    "VACANTES": {
+      "n": 175,
+      "baseline": {
+        "correct": 148,
+        "incorrect": 27
+      },
+      "three_phase": {
+        "correct": 175
+      },
+      "references": {
+        "supported": 175
+      }
+    },
+    "TEMARIO": {
+      "n": 145,
+      "baseline": {
+        "correct": 140,
+        "incorrect": 3,
+        "partially_correct": 2
+      },
+      "three_phase": {
+        "correct": 143,
+        "incorrect": 1,
+        "partially_correct": 1
+      },
+      "references": {
+        "corrected": 141,
+        "supported": 4
+      }
+    },
+    "REGLAMENTO": {
+      "n": 105,
+      "baseline": {
+        "correct": 26,
+        "incorrect": 78,
+        "partially_correct": 1
+      },
+      "three_phase": {
+        "correct": 102,
+        "incorrect": 2,
+        "partially_correct": 1
+      },
+      "references": {
+        "corrected": 102,
+        "supported": 3
+      }
+    },
+    "FUERA_DE_DOMINIO": {
+      "n": 50,
+      "baseline": {
+        "abstain_correct": 47,
+        "incorrect": 3
+      },
+      "three_phase": {
+        "abstain_correct": 50
+      },
+      "references": {
+        "supported": 50
+      }
+    }
+  },
+  "strict_correct_definition": "Only correct or abstain_correct; partial is not counted as correct. OOD abstention is reported separately and must not be conflated with factual answer accuracy.",
+  "human_review": {
+    "status": "completed_by_author_confirmation",
+    "date": "2026-09-30",
+    "scope": "All 500 queries, source references, and baseline/three-phase answers manually checked against the original PDFs, as explicitly confirmed by the author.",
+    "reviewers": 1,
+    "independent_or_double_blind": false,
+    "ai_assistance": "llama3:8b was used in the earlier adjudication/triage workflow; the author reports manually checking the complete set against the PDFs.",
+    "record": "HUMAN_REVIEW_ATTESTATION_500_20260930.md"
+  },
+  "paired_exactness_test": {
+    "definition": "In-domain exact correctness is verdict == correct; partial is not counted as exact. Out-of-domain correct abstention is analyzed separately.",
+    "in_domain": {
+      "n": 450,
+      "baseline_correct": 336,
+      "three_phase_correct": 438,
+      "risk_difference_three_phase_minus_baseline": 0.22666666666666666,
+      "both_correct": 332,
+      "baseline_only_correct": 4,
+      "three_phase_only_correct": 106,
+      "neither_fully_correct": 8,
+      "test": "two-sided exact McNemar",
+      "p_value": 9.236931035860245e-27
+    },
+    "out_of_domain": {
+      "n": 50,
+      "baseline_correct_abstentions": 47,
+      "three_phase_correct_abstentions": 50,
+      "baseline_only_correct_abstention": 0,
+      "three_phase_only_correct_abstention": 3,
+      "test": "two-sided exact McNemar",
+      "p_value": 0.25
+    },
+    "interpretation_limit": "Inference is conditional on one author's non-blinded manual verdicts and this fixed bank; it does not establish population-wide or general superiority."
+  },
+  "limitations": "The 500-item manual review is by one author, based on the author's explicit confirmation recorded on 2026-09-30; it is not independent or double-blind. Earlier AI-assisted triage is retained in the CSV method fields."
+}

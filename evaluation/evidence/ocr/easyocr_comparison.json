@@ -1,0 +1,866 @@
+{
+  "reference_note": "Transcripción visual por el asistente desde renders del PDF original, antes de inspeccionar los resultados OCR v2 de tablas. Muestra de desarrollo; requiere segunda revisión humana y un documento reservado para generalización. No se usa para entrenar ni corregir valores en el motor.",
+  "cells": [
+    {
+      "page": 3,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 0,
+      "expected": "15",
+      "previous": "",
+      "new": "15",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 1,
+      "expected": "23",
+      "previous": "",
+      "new": "23",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 2,
+      "expected": "38",
+      "previous": "",
+      "new": "38",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 3,
+      "expected": "10",
+      "previous": "",
+      "new": "10",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 4,
+      "expected": "10",
+      "previous": "",
+      "new": "10",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 5,
+      "expected": "12",
+      "previous": "12",
+      "new": "12",
+      "previous_exact": true,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 6,
+      "expected": "32",
+      "previous": "",
+      "new": "82i",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 7,
+      "expected": "70",
+      "previous": "70",
+      "new": "7o",
+      "previous_exact": true,
+      "new_exact": false
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 8,
+      "expected": "0",
+      "previous": "",
+      "new": "0",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 9,
+      "expected": "0",
+      "previous": "",
+      "new": "0",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 10,
+      "expected": "140",
+      "previous": "140",
+      "new": "140",
+      "previous_exact": true,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Medicina",
+      "column_sample": 0,
+      "expected": "13",
+      "previous": "",
+      "new": "13",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Medicina",
+      "column_sample": 1,
+      "expected": "17",
+      "previous": "",
+      "new": "17",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Medicina",
+      "column_sample": 2,
+      "expected": "30",
+      "previous": "",
+      "new": "30",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Medicina",
+      "column_sample": 3,
+      "expected": "12",
+      "previous": "",
+      "new": "12",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Medicina",
+      "column_sample": 4,
+      "expected": "12",
+      "previous": "",
+      "new": "12",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Medicina",
+      "column_sample": 5,
+      "expected": "13",
+      "previous": "",
+      "new": "3  13",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 3,
+      "row": "Medicina",
+      "column_sample": 6,
+      "expected": "37",
+      "previous": "",
+      "new": "37",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Medicina",
+      "column_sample": 7,
+      "expected": "0",
+      "previous": "",
+      "new": "6  0",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 3,
+      "row": "Medicina",
+      "column_sample": 8,
+      "expected": "0",
+      "previous": "",
+      "new": "1 0",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 3,
+      "row": "Medicina",
+      "column_sample": 9,
+      "expected": "0",
+      "previous": "",
+      "new": "0",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Medicina",
+      "column_sample": 10,
+      "expected": "67",
+      "previous": "",
+      "new": "67",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería de Sistemas",
+      "column_sample": 0,
+      "expected": "18",
+      "previous": "",
+      "new": "18",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería de Sistemas",
+      "column_sample": 1,
+      "expected": "20",
+      "previous": "",
+      "new": "120",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería de Sistemas",
+      "column_sample": 2,
+      "expected": "38",
+      "previous": "",
+      "new": "38",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería de Sistemas",
+      "column_sample": 3,
+      "expected": "11",
+      "previous": "",
+      "new": "11",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería de Sistemas",
+      "column_sample": 4,
+      "expected": "12",
+      "previous": "",
+      "new": "12",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería de Sistemas",
+      "column_sample": 5,
+      "expected": "12",
+      "previous": "",
+      "new": "3  12",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería de Sistemas",
+      "column_sample": 6,
+      "expected": "35",
+      "previous": "",
+      "new": "35",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería de Sistemas",
+      "column_sample": 7,
+      "expected": "0",
+      "previous": "",
+      "new": "6 0",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería de Sistemas",
+      "column_sample": 8,
+      "expected": "0",
+      "previous": "",
+      "new": "10",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería de Sistemas",
+      "column_sample": 9,
+      "expected": "0",
+      "previous": "",
+      "new": "1 0",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 3,
+      "row": "Ingeniería de Sistemas",
+      "column_sample": 10,
+      "expected": "73",
+      "previous": "",
+      "new": "73",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Contabilidad",
+      "column_sample": 0,
+      "expected": "40",
+      "previous": "29",
+      "new": "3 40",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 3,
+      "row": "Contabilidad",
+      "column_sample": 1,
+      "expected": "50",
+      "previous": "",
+      "new": "50",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Contabilidad",
+      "column_sample": 2,
+      "expected": "90",
+      "previous": "",
+      "new": "90",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Contabilidad",
+      "column_sample": 3,
+      "expected": "31",
+      "previous": "",
+      "new": "31",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Contabilidad",
+      "column_sample": 4,
+      "expected": "32",
+      "previous": "",
+      "new": "32",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Contabilidad",
+      "column_sample": 5,
+      "expected": "27",
+      "previous": "",
+      "new": "3 27",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 3,
+      "row": "Contabilidad",
+      "column_sample": 6,
+      "expected": "90",
+      "previous": "",
+      "new": "90",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Contabilidad",
+      "column_sample": 7,
+      "expected": "0",
+      "previous": "",
+      "new": "1 0",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 3,
+      "row": "Contabilidad",
+      "column_sample": 8,
+      "expected": "0",
+      "previous": "20",
+      "new": "20",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 3,
+      "row": "Contabilidad",
+      "column_sample": 9,
+      "expected": "20",
+      "previous": "",
+      "new": "0",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 3,
+      "row": "Contabilidad",
+      "column_sample": 10,
+      "expected": "200",
+      "previous": "",
+      "new": "200",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Total ordinario",
+      "column_sample": 0,
+      "expected": "1106",
+      "previous": "1106",
+      "new": "TOTAL DL VACANIFS PRoceso ordinakioi   1106",
+      "previous_exact": true,
+      "new_exact": false
+    },
+    {
+      "page": 3,
+      "row": "Total ordinario",
+      "column_sample": 1,
+      "expected": "1318",
+      "previous": "1318",
+      "new": "1318",
+      "previous_exact": true,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Total ordinario",
+      "column_sample": 2,
+      "expected": "2424",
+      "previous": "2424",
+      "new": "1 2424 707",
+      "previous_exact": true,
+      "new_exact": false
+    },
+    {
+      "page": 3,
+      "row": "Total ordinario",
+      "column_sample": 3,
+      "expected": "707",
+      "previous": "707",
+      "new": "1 2424 707",
+      "previous_exact": true,
+      "new_exact": false
+    },
+    {
+      "page": 3,
+      "row": "Total ordinario",
+      "column_sample": 4,
+      "expected": "695",
+      "previous": "695",
+      "new": "695",
+      "previous_exact": true,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Total ordinario",
+      "column_sample": 5,
+      "expected": "703",
+      "previous": "703",
+      "new": "h = 703",
+      "previous_exact": true,
+      "new_exact": false
+    },
+    {
+      "page": 3,
+      "row": "Total ordinario",
+      "column_sample": 6,
+      "expected": "2105",
+      "previous": "2105",
+      "new": "2105",
+      "previous_exact": true,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Total ordinario",
+      "column_sample": 7,
+      "expected": "110",
+      "previous": "110",
+      "new": "110",
+      "previous_exact": true,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Total ordinario",
+      "column_sample": 8,
+      "expected": "60",
+      "previous": "60",
+      "new": "60",
+      "previous_exact": true,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Total ordinario",
+      "column_sample": 9,
+      "expected": "40",
+      "previous": "40",
+      "new": "40",
+      "previous_exact": true,
+      "new_exact": true
+    },
+    {
+      "page": 3,
+      "row": "Total ordinario",
+      "column_sample": 10,
+      "expected": "4739",
+      "previous": "4739",
+      "new": "4739",
+      "previous_exact": true,
+      "new_exact": true
+    },
+    {
+      "page": 4,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 0,
+      "expected": "8",
+      "previous": "",
+      "new": "68",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 4,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 1,
+      "expected": "1",
+      "previous": "",
+      "new": "1 1",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 4,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 2,
+      "expected": "0",
+      "previous": "",
+      "new": "6 0",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 4,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 3,
+      "expected": "1",
+      "previous": "",
+      "new": "1",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 4,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 4,
+      "expected": "1",
+      "previous": "",
+      "new": "Deportista 5 destacados",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 4,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 5,
+      "expected": "7",
+      "previous": "",
+      "new": "Personas con discapacida",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 4,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 6,
+      "expected": "1",
+      "previous": "",
+      "new": "1",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 4,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 7,
+      "expected": "1",
+      "previous": "",
+      "new": "1",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 4,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 8,
+      "expected": "1",
+      "previous": "",
+      "new": "1",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 4,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 9,
+      "expected": "0",
+      "previous": "",
+      "new": "0",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 4,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 10,
+      "expected": "0",
+      "previous": "",
+      "new": "Egresados y Bachilleres de Univ- con Ucencla",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 4,
+      "row": "Ingeniería Agronómica",
+      "column_sample": 11,
+      "expected": "21",
+      "previous": "",
+      "new": "21",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 4,
+      "row": "Medicina",
+      "column_sample": 0,
+      "expected": "10",
+      "previous": "10",
+      "new": "10",
+      "previous_exact": true,
+      "new_exact": true
+    },
+    {
+      "page": 4,
+      "row": "Medicina",
+      "column_sample": 1,
+      "expected": "1",
+      "previous": "",
+      "new": "61",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 4,
+      "row": "Medicina",
+      "column_sample": 2,
+      "expected": "1",
+      "previous": "",
+      "new": "1",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 4,
+      "row": "Medicina",
+      "column_sample": 3,
+      "expected": "1",
+      "previous": "",
+      "new": "1",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 4,
+      "row": "Medicina",
+      "column_sample": 4,
+      "expected": "1",
+      "previous": "",
+      "new": "1",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 4,
+      "row": "Medicina",
+      "column_sample": 5,
+      "expected": "3",
+      "previous": "",
+      "new": "6 3",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 4,
+      "row": "Medicina",
+      "column_sample": 6,
+      "expected": "0",
+      "previous": "",
+      "new": "6  0",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 4,
+      "row": "Medicina",
+      "column_sample": 7,
+      "expected": "1",
+      "previous": "",
+      "new": "1",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 4,
+      "row": "Medicina",
+      "column_sample": 8,
+      "expected": "1",
+      "previous": "",
+      "new": "",
+      "previous_exact": false,
+      "new_exact": false
+    },
+    {
+      "page": 4,
+      "row": "Medicina",
+      "column_sample": 9,
+      "expected": "1",
+      "previous": "",
+      "new": "1",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 4,
+      "row": "Medicina",
+      "column_sample": 10,
+      "expected": "1",
+      "previous": "",
+      "new": "1",
+      "previous_exact": false,
+      "new_exact": true
+    },
+    {
+      "page": 4,
+      "row": "Medicina",
+      "column_sample": 11,
+      "expected": "21",
+      "previous": "",
+      "new": "21",
+      "previous_exact": false,
+      "new_exact": true
+    }
+  ],
+  "text_regions": [
+    {
+      "page": 1,
+      "bbox": [
+        0.14,
+        0.115,
+        0.84,
+        0.163
+      ],
+      "text": "RESOLUCIÓN DE CONSEJO UNIVERSITARIO N° 0073-2026 Arequipa, 04 de marzo de 2026.",
+      "previous": "resolución de consejo universitario n' 0073-2026 arequipa; 04 de marzo de 2026.",
+      "previous_edit_distance": 2,
+      "new": "resolución de consejo universitario n' 0073-2026 arequipa; 04 de marzo de 2026.",
+      "new_edit_distance": 2,
+      "reference_characters": 79
+    },
+    {
+      "page": 1,
+      "bbox": [
+        0.14,
+        0.168,
+        0.84,
+        0.199
+      ],
+      "text": "Visto el Oficio N° 0162-2026-VR.AC., del Vicerrectorado Académico de la Universidad Nacional de San Agustín de Arequipa.",
+      "previous": "visto el oficio n 0162-2026-vr.ac., del vicerrectorado académico de la universidad nacional de san agustín de arequipa.",
+      "previous_edit_distance": 1,
+      "new": "visto el oficio n' 0162-2026-vrac., del vicerrectorado académico de la universidad nacional de san agustín de arequipa.",
+      "new_edit_distance": 2,
+      "reference_characters": 120
+    },
+    {
+      "page": 2,
+      "bbox": [
+        0.15,
+        0.441,
+        0.84,
+        0.471
+      ],
+      "text": "Por estas consideraciones y conforme a las atribuciones conferidas al Consejo Universitario por la Ley Universitaria N° 30220,",
+      "previous": "por estas consideraciones y conforme a las atribuciones conferidas al consejo universitario por la ley universitaria n? 30220,",
+      "previous_edit_distance": 1,
+      "new": "por estas consideraciones y conforme a las atribuciones conferidas al consejo universitario por la ley universitaria n? 30220,",
+      "new_edit_distance": 1,
+      "reference_characters": 126
+    },
+    {
+      "page": 2,
+      "bbox": [
+        0.15,
+        0.51,
+        0.84,
+        0.565
+      ],
+      "text": "1. APROBAR el Cuadro de Vacantes Proceso Ordinario de Admisión 2027, y el Cuadro de Vacantes Proceso Extraordinario de Admisión 2027 de la Universidad Nacional de San Agustín de Arequipa, los mismos que forman parte integrante de la presente Resolución.",
+      "previous": "1. aprobar el cuadro de vacantes proceso ordinario de admisión 2027, y el cuadro de vacantes proceso extraordinario de admisión 2027 de la universidad nacional de san agustín de arequipa; los mismos' que forman parte integrante de la presente resolución:",
+      "previous_edit_distance": 3,
+      "new": "aprobar el cuadro de vacantes proceso ordinario de admisión 2027 . y el cuadro de vacantes proceso extraordinario de admisión 2027 de la universidad nacional dé san agustín de arequipa; los mismos' que' forman parte integrante de la presente resolución:",
+      "new_edit_distance": 10,
+      "reference_characters": 253
+    }
+  ],
+  "numeric_cell_count": 79,
+  "numeric_exact": {
+    "previous": 0.189873417721519,
+    "new": 0.6329113924050633
+  },
+  "sample_CER": {
+    "previous": 0.012110726643598616,
+    "new": 0.025951557093425604
+  }
+}
