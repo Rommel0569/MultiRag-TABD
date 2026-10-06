@@ -1,0 +1,93 @@
+[INFO] Cargando multilingual-e5-base...
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 199/199 [00:00<00:00, 2877.56it/s]
+C:\Users\USER\Documents\TOPICOS\ceprunsa_mvrag\app\embeddings.py:16: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  EMBED_DIM    = _embed_model.get_sentence_embedding_dimension()
+[INFO] Embeddings listos. Dimensión: 768
+[OK] CRONOGRAMA: 36 vectores, 36 documentos cargados
+[OK] VACANTES: 141 vectores, 141 documentos cargados
+[OK] TEMARIO: 441 vectores, 441 documentos cargados
+[OK] REGLAMENTO: 274 vectores, 274 documentos cargados
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 201/201 [00:00<00:00, 15245.40it/s]
+[transformers] The tokenizer you are loading from 'amberoad/bert-multilingual-passage-reranking-msmarco' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+1 C01
+2 C02
+4 C04
+5 C05
+6 C06
+8 C08
+11 C11
+12 C12
+14 C14
+19 V05
+40 T01
+41 T02
+42 T03
+43 T04
+44 T05
+45 T06
+46 T07
+47 T08
+48 T09
+49 T10
+50 T11
+51 T12
+52 T13
+53 T14
+54 N01
+55 N02
+56 N03
+57 N04
+58 N05
+59 N06
+60 R01
+62 R03
+63 R04
+64 R05
+65 R06
+66 R07
+67 R08
+68 R09
+69 R10
+70 R11
+71 R12
+72 R13
+73 R14
+74 R15
+{
+ "CRONOGRAMA": {
+  "A top5": 8,
+  "B top8": 8,
+  "C top5+nbr": 8,
+  "D top8+nbr": 8,
+  "n": 9
+ },
+ "VACANTES": {
+  "A top5": 1,
+  "B top8": 1,
+  "C top5+nbr": 1,
+  "D top8+nbr": 1,
+  "n": 1
+ },
+ "TEMARIO": {
+  "A top5": 13,
+  "B top8": 14,
+  "C top5+nbr": 14,
+  "D top8+nbr": 15,
+  "n": 20
+ },
+ "REGLAMENTO": {
+  "A top5": 14,
+  "B top8": 14,
+  "C top5+nbr": 14,
+  "D top8+nbr": 14,
+  "n": 14
+ },
+ "ALL": {
+  "A top5": 36,
+  "B top8": 37,
+  "C top5+nbr": 37,
+  "D top8+nbr": 38,
+  "n": 44
+ }
+}

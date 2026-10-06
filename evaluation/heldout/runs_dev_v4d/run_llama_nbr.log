@@ -1,0 +1,101 @@
+[INFO] Cargando multilingual-e5-base...
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 199/199 [00:00<00:00, 6961.12it/s]
+C:\Users\USER\Documents\TOPICOS\ceprunsa_mvrag\app\embeddings.py:16: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  EMBED_DIM    = _embed_model.get_sentence_embedding_dimension()
+[INFO] Embeddings listos. Dimensión: 768
+[OK] CRONOGRAMA: 36 vectores, 36 documentos cargados
+[OK] VACANTES: 141 vectores, 141 documentos cargados
+[OK] TEMARIO: 441 vectores, 441 documentos cargados
+[OK] REGLAMENTO: 274 vectores, 274 documentos cargados
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 201/201 [00:00<00:00, 26562.12it/s]
+[transformers] The tokenizer you are loading from 'amberoad/bert-multilingual-passage-reranking-msmarco' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+Warning: You are sending unauthenticated requests to the HF Hub.[L_nbr 2/89] C02 hybrid_fallback_generation 37.175s err=False
+[L_nbr 3/89] C03 structured_table_date_cell 26.702s err=False
+[L_nbr 4/89] C04 hybrid_fallback_generation 20.661s err=False
+[L_nbr 5/89] C05 hybrid_fallback_generation 26.185s err=False
+[L_nbr 6/89] C06 hybrid_fallback_generation 56.359s err=False
+[L_nbr 7/89] C07 structured_table_date_cell 7.656s err=False
+[L_nbr 8/89] C08 hybrid_fallback_generation 58.726s err=False
+[L_nbr 9/89] C09 structured_schedule_days 12.973s err=False
+[L_nbr 10/89] C10 structured_table_date_cell 7.927s err=False
+[L_nbr 11/89] C11 hybrid_fallback_generation 22.4s err=False
+[L_nbr 12/89] C12 hybrid_fallback_generation 28.62s err=False
+[L_nbr 13/89] C13 structured_table_date_cell 4.83s err=False
+[L_nbr 14/89] C14 hybrid_fallback_generation 20.786s err=False
+[L_nbr 15/89] V01 structured_column_cell 5.357s err=False
+[L_nbr 16/89] V02 structured_column_cell 9.007s err=False
+[L_nbr 17/89] V03 structured_column_superlative 8.798s err=False
+[L_nbr 18/89] V04 structured_aggregate_summary_row 5.92s err=False
+[L_nbr 19/89] V05 hybrid_fallback_generation 49.521s err=False
+[L_nbr 20/89] V06 structured_column_list 17.576s err=False
+[L_nbr 21/89] V07 structured_column_comparison 7.875s err=False
+[L_nbr 22/89] V08 structured_column_cell 5.668s err=False
+[L_nbr 23/89] V09 structured_column_cell 6.031s err=False
+[L_nbr 24/89] V10 structured_column_cell 8.292s err=False
+[L_nbr 25/89] V11 structured_column_list 12.587s err=False
+[L_nbr 26/89] V12 structured_column_cell 6.349s err=False
+[L_nbr 27/89] V13 structured_column_cell 7.222s err=False
+[L_nbr 28/89] V14 structured_column_cell 5.031s err=False
+[L_nbr 29/89] V15 structured_column_cell 8.92s err=False
+[L_nbr 30/89] V16 structured_column_sum 5.891s err=False
+[L_nbr 31/89] V17 structured_column_cell 5.853s err=False
+[L_nbr 32/89] V18 hybrid_fallback_generation 50.46s err=False
+[L_nbr 33/89] V19 structured_aggregate_summary_row 5.482s err=False
+[L_nbr 34/89] V20 structured_column_cell 4.909s err=False
+[L_nbr 35/89] V21 structured_column_superlative 13.707s err=False
+[L_nbr 36/89] X01 structured_column_cell 4.471s err=False
+[L_nbr 37/89] X02 structured_column_cell 8.67s err=False
+[L_nbr 38/89] X03 structured_column_cell 6.096s err=False
+[L_nbr 39/89] X04 structured_column_cell 6.795s err=False
+[L_nbr 40/89] T01 hybrid_fallback_generation 62.397s err=False
+[L_nbr 41/89] T02 hybrid_fallback_generation 50.832s err=False
+[L_nbr 42/89] T03 hybrid_fallback_generation 51.289s err=False
+[L_nbr 43/89] T04 hybrid_fallback_generation 96.865s err=False
+[L_nbr 44/89] T05 hybrid_fallback_generation 51.092s err=False
+[L_nbr 45/89] T06 hybrid_fallback_generation 71.13s err=False
+[L_nbr 46/89] T07 hybrid_fallback_generation 52.78s err=False
+[L_nbr 47/89] T08 hybrid_fallback_generation 57.416s err=False
+[L_nbr 48/89] T09 hybrid_fallback_generation 40.943s err=False
+[L_nbr 49/89] T10 hybrid_fallback_generation 32.331s err=False
+[L_nbr 50/89] T11 hybrid_fallback_generation 34.053s err=False
+[L_nbr 51/89] T12 hybrid_fallback_generation 39.848s err=False
+[L_nbr 52/89] T13 hybrid_fallback_generation 62.816s err=False
+[L_nbr 53/89] T14 hybrid_fallback_generation 57.675s err=False
+[L_nbr 54/89] N01 hybrid_fallback_generation 37.469s err=False
+[L_nbr 55/89] N02 hybrid_fallback_generation 31.014s err=False
+[L_nbr 56/89] N03 hybrid_fallback_generation 48.551s err=False
+[L_nbr 57/89] N04 hybrid_fallback_generation 68.521s err=False
+[L_nbr 58/89] N05 hybrid_fallback_generation 32.071s err=False
+[L_nbr 59/89] N06 hybrid_fallback_generation 88.007s err=False
+[L_nbr 60/89] R01 hybrid_fallback_generation 41.662s err=False
+[L_nbr 61/89] R02 hybrid_fallback_generation 72.511s err=False
+[L_nbr 62/89] R03 hybrid_fallback_generation 55.562s err=False
+[L_nbr 63/89] R04 hybrid_fallback_generation 70.66s err=False
+[L_nbr 64/89] R05 hybrid_fallback_generation 51.185s err=False
+[L_nbr 65/89] R06 hybrid_fallback_generation 88.199s err=False
+[L_nbr 66/89] R07 hybrid_fallback_generation 59.305s err=False
+[L_nbr 67/89] R08 hybrid_fallback_generation 77.78s err=False
+[L_nbr 68/89] R09 hybrid_fallback_generation 67.126s err=False
+[L_nbr 69/89] R10 hybrid_fallback_generation 41.612s err=False
+[L_nbr 70/89] R11 hybrid_fallback_generation 5359.428s err=False
+[L_nbr 71/89] R12 hybrid_fallback_generation 83.384s err=False
+[L_nbr 72/89] R13 hybrid_fallback_generation 108.676s err=False
+[L_nbr 73/89] R14 hybrid_fallback_generation 96.012s err=False
+[L_nbr 74/89] R15 hybrid_fallback_generation 54.094s err=False
+[L_nbr 75/89] U01 hybrid_fallback_generation 44.198s err=False
+[L_nbr 76/89] U02 hybrid_fallback_generation 64.973s err=False
+[L_nbr 77/89] U03 hybrid_fallback_generation 49.288s err=False
+[L_nbr 78/89] U04 hybrid_fallback_generation 36.597s err=False
+[L_nbr 79/89] U05 hybrid_fallback_generation 45.806s err=False
+[L_nbr 80/89] U06 hybrid_fallback_generation 53.568s err=False
+[L_nbr 81/89] O01 hybrid_fallback_generation 37.656s err=False
+[L_nbr 82/89] O02 hybrid_fallback_generation 51.331s err=False
+[L_nbr 83/89] O03 router_ood 0.0s err=False
+[L_nbr 84/89] O04 router_ood 0.0s err=False
+[L_nbr 85/89] O05 router_ood 6.817s err=False
+[L_nbr 86/89] O06 router_ood 0.0s err=False
+[L_nbr 87/89] O07 router_ood 3.573s err=False
+[L_nbr 88/89] O08 router_ood 8.62s err=False
+[L_nbr 89/89] O09 router_ood 10.701s err=False
+[DONE]
+LNBRDONE

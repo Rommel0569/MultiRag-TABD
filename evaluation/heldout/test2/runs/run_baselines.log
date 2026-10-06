@@ -1,0 +1,151 @@
+[INFO] Cargando multilingual-e5-base...
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 199/199 [00:00<00:00, 5252.71it/s]
+C:\Users\USER\Documents\TOPICOS\ceprunsa_mvrag\evaluation\heldout\app_v4_frozen\embeddings.py:16: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  EMBED_DIM    = _embed_model.get_sentence_embedding_dimension()
+[INFO] Embeddings listos. Dimensión: 768
+[OK] CRONOGRAMA: 36 vectores, 36 documentos cargados
+[OK] VACANTES: 141 vectores, 141 documentos cargados
+[OK] TEMARIO: 441 vectores, 441 documentos cargados
+[OK] REGLAMENTO: 274 vectores, 274 documentos cargados
+[V4 1/138] W01 structured_table_cell 0.004s err=False
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 201/201 [00:00<00:00, 30691.15it/s]
+[transformers] The tokenizer you are loading from 'amberoad/bert-multilingual-passage-reranking-msmarco' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[V4 2/138] W02 hybrid_fallback_generation 48.651s err=False
+[V4 3/138] W03 hybrid_fallback_generation 19.767s err=False
+[V4 4/138] W04 hybrid_fallback_generation 18.886s err=False
+[V4 5/138] W05 structured_table_cell 3.308s err=False
+[V4 6/138] W06 structured_table_cell 1.099s err=False
+[V4 7/138] W07 structured_table_cell 1.116s err=False
+[V4 8/138] W08 hybrid_fallback_generation 21.18s err=False
+[V4 9/138] W09 hybrid_fallback_generation 22.933s err=False
+[V4 10/138] W10 structured_table_cell 3.692s err=False
+[V4 11/138] W11 hybrid_fallback_generation 19.446s err=False
+[V4 12/138] W12 hybrid_fallback_generation 18.593s err=False
+[V4 13/138] W13 hybrid_fallback_generation 18.671s err=False
+[V4 14/138] W14 structured_table_cell 0.003s err=False
+[V4 15/138] W15 structured_table_cell 0.003s err=False
+[V4 16/138] W16 structured_table_cell 3.476s err=False
+[V4 17/138] W17 structured_table_cell 1.229s err=False
+[V4 18/138] W18 hybrid_fallback_generation 20.145s err=False
+[V4 19/138] W19 structured_table_cell 3.403s err=False
+[V4 20/138] W20 structured_table_cell 1.126s err=False
+[V4 21/138] W21 structured_table_cell 0.003s err=False
+[V4 22/138] W22 hybrid_fallback_generation 21.173s err=False
+[V4 23/138] W23 structured_table_cell 0.003s err=False
+[V4 24/138] W24 structured_table_cell 3.425s err=False
+[V4 25/138] W25 structured_table_cell 1.191s err=False
+[V4 26/138] W26 structured_table_cell 1.185s err=False
+[V4 27/138] W27 structured_table_cell 0.003s err=False
+[V4 28/138] W28 structured_table_cell 1.144s err=False
+[V4 29/138] W29 hybrid_fallback_generation 46.259s err=False
+[V4 30/138] W30 hybrid_fallback_generation 23.689s err=False
+[V4 31/138] W31 hybrid_fallback_generation 17.453s err=False
+[V4 32/138] W32 hybrid_fallback_generation 17.754s err=False
+[V4 33/138] W33 hybrid_fallback_generation 20.953s err=False
+[V4 34/138] W34 hybrid_fallback_generation 42.815s err=False
+[V4 35/138] W35 structured_table_cell 0.003s err=False
+[V4 36/138] W36 hybrid_fallback_generation 28.369s err=False
+[V4 37/138] W37 hybrid_fallback_generation 40.424s err=False
+[V4 38/138] W38 hybrid_fallback_generation 43.013s err=False
+[V4 39/138] W39 hybrid_fallback_generation 35.414s err=False
+[V4 40/138] W40 hybrid_fallback_generation 24.267s err=False
+[V4 41/138] W41 hybrid_fallback_generation 35.015s err=False
+[V4 42/138] W42 hybrid_fallback_generation 31.867s err=False
+[V4 43/138] X11 hybrid_fallback_generation 27.539s err=False
+[V4 44/138] X12 structured_table_cell 3.989s err=False
+[V4 45/138] X13 hybrid_fallback_generation 22.905s err=False
+[V4 46/138] X14 hybrid_fallback_generation 38.272s err=False
+[V4 47/138] X15 structured_table_cell 3.684s err=False
+[V4 48/138] S01 hybrid_fallback_generation 22.03s err=False
+[V4 49/138] S02 hybrid_fallback_generation 12.876s err=False
+[V4 50/138] S03 hybrid_fallback_generation 43.265s err=False
+[V4 51/138] S04 structured_table_date_cell 0.008s err=False
+[V4 52/138] S05 structured_table_date_cell 0.002s err=False
+[V4 53/138] S06 hybrid_fallback_generation 30.097s err=False
+[V4 54/138] S07 hybrid_fallback_generation 13.997s err=False
+[V4 55/138] S08 hybrid_fallback_generation 28.882s err=False
+[V4 56/138] S09 hybrid_fallback_generation 15.339s err=False
+[V4 57/138] S10 hybrid_fallback_generation 29.221s err=False
+[V4 58/138] S11 hybrid_fallback_generation 14.721s err=False
+[V4 59/138] S12 hybrid_fallback_generation 49.382s err=False
+[V4 60/138] S13 structured_table_date_cell 3.45s err=False
+[V4 61/138] S14 hybrid_fallback_generation 11.44s err=False
+[V4 62/138] S15 hybrid_fallback_generation 57.33s err=False
+[V4 63/138] S16 hybrid_fallback_generation 28.602s err=False
+[V4 64/138] S17 hybrid_fallback_generation 67.33s err=False
+[V4 65/138] Q01 hybrid_fallback_generation 30.745s err=False
+[V4 66/138] Q02 hybrid_fallback_generation 35.761s err=False
+[V4 67/138] Q03 hybrid_fallback_generation 23.789s err=False
+[V4 68/138] Q04 hybrid_fallback_generation 18.13s err=False
+[V4 69/138] Q05 hybrid_fallback_generation 24.124s err=False
+[V4 70/138] Q06 hybrid_fallback_generation 20.668s err=False
+[V4 71/138] Q07 hybrid_fallback_generation 22.115s err=False
+[V4 72/138] Q08 hybrid_fallback_generation 21.888s err=False
+[V4 73/138] Q09 hybrid_fallback_generation 20.052s err=False
+[V4 74/138] Q10 hybrid_fallback_generation 23.024s err=False
+[V4 75/138] Q11 hybrid_fallback_generation 17.523s err=False
+[V4 76/138] Q12 router_ood 3.315s err=False
+[V4 77/138] Q13 hybrid_fallback_generation 14.345s err=False
+[V4 78/138] Q14 hybrid_fallback_generation 32.93s err=False
+[V4 79/138] Q15 router_ood 3.458s err=False
+[V4 80/138] Q16 hybrid_fallback_generation 20.56s err=False
+[V4 81/138] Q17 hybrid_fallback_generation 22.674s err=False
+[V4 82/138] Q18 hybrid_fallback_generation 22.023s err=False
+[V4 83/138] Q19 hybrid_fallback_generation 19.492s err=False
+[V4 84/138] Q20 hybrid_fallback_generation 15.902s err=False
+[V4 85/138] Q21 router_ood 3.402s err=False
+[V4 86/138] Q22 hybrid_fallback_generation 21.353s err=False
+[V4 87/138] Q23 hybrid_fallback_generation 21.519s err=False
+[V4 88/138] Q24 hybrid_fallback_generation 14.01s err=False
+[V4 89/138] Q25 hybrid_fallback_generation 35.713s err=False
+[V4 90/138] Q26 hybrid_fallback_generation 19.427s err=False
+[V4 91/138] Q27 hybrid_fallback_generation 19.143s err=False
+[V4 92/138] Q28 hybrid_fallback_generation 22.318s err=False
+[V4 93/138] Q29 hybrid_fallback_generation 25.598s err=False
+[V4 94/138] Q30 hybrid_fallback_generation 29.623s err=False
+[V4 95/138] G01 hybrid_fallback_generation 28.477s err=False
+[V4 96/138] G02 hybrid_fallback_generation 27.2s err=False
+[V4 97/138] G03 hybrid_fallback_generation 55.254s err=False
+[V4 98/138] G04 hybrid_fallback_generation 29.992s err=False
+[V4 99/138] G05 hybrid_fallback_generation 35.137s err=False
+[V4 100/138] G06 hybrid_fallback_generation 33.222s err=False
+[V4 101/138] G07 hybrid_fallback_generation 64.674s err=False
+[V4 102/138] G08 router_ood 3.452s err=False
+[V4 103/138] G09 hybrid_fallback_generation 22.022s err=False
+[V4 104/138] G10 hybrid_fallback_generation 25.37s err=False
+[V4 105/138] G11 hybrid_fallback_generation 38.151s err=False
+[V4 106/138] G12 hybrid_fallback_generation 36.046s err=False
+[V4 107/138] G13 hybrid_fallback_generation 34.827s err=False
+[V4 108/138] G14 hybrid_fallback_generation 34.466s err=False
+[V4 109/138] G15 hybrid_fallback_generation 44.79s err=False
+[V4 110/138] G16 hybrid_fallback_generation 32.529s err=False
+[V4 111/138] G17 hybrid_fallback_generation 31.105s err=False
+[V4 112/138] G18 hybrid_fallback_generation 14.028s err=False
+[V4 113/138] G19 hybrid_fallback_generation 55.31s err=False
+[V4 114/138] G20 hybrid_fallback_generation 35.526s err=False
+[V4 115/138] G21 hybrid_fallback_generation 33.339s err=False
+[V4 116/138] G22 hybrid_fallback_generation 51.054s err=False
+[V4 117/138] G23 structured_article_extract 0.007s err=False
+[V4 118/138] G24 hybrid_fallback_generation 31.458s err=False
+[V4 119/138] G25 hybrid_fallback_generation 16.277s err=False
+[V4 120/138] G26 router_ood 3.473s err=False
+[V4 121/138] G27 router_ood 1.282s err=False
+[V4 122/138] G28 hybrid_fallback_generation 23.183s err=False
+[V4 123/138] G29 hybrid_fallback_generation 40.906s err=False
+[V4 124/138] N01 hybrid_fallback_generation 24.983s err=False
+[V4 125/138] N02 hybrid_fallback_generation 16.844s err=False
+[V4 126/138] N03 hybrid_fallback_generation 17.93s err=False
+[V4 127/138] N04 hybrid_fallback_generation 29.966s err=False
+[V4 128/138] N05 hybrid_fallback_generation 17.151s err=False
+[V4 129/138] Z01 router_ood 3.333s err=False
+[V4 130/138] Z02 router_ood 1.243s err=False
+[V4 131/138] Z03 router_ood 1.301s err=False
+[V4 132/138] Z04 router_ood 1.291s err=False
+[V4 133/138] Z05 router_ood 1.203s err=False
+[V4 134/138] Z06 hybrid_fallback_generation 34.301s err=False
+[V4 135/138] Z07 router_ood 3.568s err=False
+[V4 136/138] Z08 router_ood 1.49s err=False
+[V4 137/138] Z09 router_ood 1.425s err=False
+[V4 138/138] Z10 router_ood 1.221s err=False
+[DONE]

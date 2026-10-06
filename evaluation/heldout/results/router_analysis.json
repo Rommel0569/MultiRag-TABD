@@ -1,0 +1,184 @@
+{
+ "n": 216,
+ "router_all": {
+  "n": 216,
+  "accuracy": 0.875,
+  "per_class": {
+   "CRONOGRAMA": {
+    "n": 31,
+    "recall": 0.9032258064516129,
+    "precision": 0.8484848484848485
+   },
+   "VACANTES": {
+    "n": 72,
+    "recall": 0.9861111111111112,
+    "precision": 0.9726027397260274
+   },
+   "TEMARIO": {
+    "n": 50,
+    "recall": 0.92,
+    "precision": 0.7796610169491526
+   },
+   "REGLAMENTO": {
+    "n": 44,
+    "recall": 0.6363636363636364,
+    "precision": 1.0
+   },
+   "FUERA_DE_DOMINIO": {
+    "n": 19,
+    "recall": 0.8421052631578947,
+    "precision": 0.6956521739130435
+   }
+  }
+ },
+ "router_rule_resolved": {
+  "n": 66,
+  "accuracy": 0.9242424242424242,
+  "per_class": {
+   "CRONOGRAMA": {
+    "n": 19,
+    "recall": 1.0,
+    "precision": 0.7916666666666666
+   },
+   "VACANTES": {
+    "n": 36,
+    "recall": 1.0,
+    "precision": 1.0
+   },
+   "TEMARIO": {
+    "n": 1,
+    "recall": 1.0,
+    "precision": 1.0
+   },
+   "REGLAMENTO": {
+    "n": 5,
+    "recall": 0.4,
+    "precision": 1.0
+   },
+   "FUERA_DE_DOMINIO": {
+    "n": 5,
+    "recall": 0.6,
+    "precision": 1.0
+   }
+  }
+ },
+ "router_llm_resolved": {
+  "n": 150,
+  "accuracy": 0.8533333333333334,
+  "per_class": {
+   "CRONOGRAMA": {
+    "n": 12,
+    "recall": 0.75,
+    "precision": 1.0
+   },
+   "VACANTES": {
+    "n": 36,
+    "recall": 0.9722222222222222,
+    "precision": 0.9459459459459459
+   },
+   "TEMARIO": {
+    "n": 49,
+    "recall": 0.9183673469387755,
+    "precision": 0.7758620689655172
+   },
+   "REGLAMENTO": {
+    "n": 39,
+    "recall": 0.6666666666666666,
+    "precision": 1.0
+   },
+   "FUERA_DE_DOMINIO": {
+    "n": 14,
+    "recall": 0.9285714285714286,
+    "precision": 0.65
+   }
+  }
+ },
+ "router_Dev": {
+  "n": 83,
+  "accuracy": 0.9397590361445783,
+  "per_class": {
+   "CRONOGRAMA": {
+    "n": 14,
+    "recall": 0.9285714285714286,
+    "precision": 0.9285714285714286
+   },
+   "VACANTES": {
+    "n": 25,
+    "recall": 1.0,
+    "precision": 1.0
+   },
+   "TEMARIO": {
+    "n": 20,
+    "recall": 0.95,
+    "precision": 0.8636363636363636
+   },
+   "REGLAMENTO": {
+    "n": 15,
+    "recall": 0.9333333333333333,
+    "precision": 1.0
+   },
+   "FUERA_DE_DOMINIO": {
+    "n": 9,
+    "recall": 0.7777777777777778,
+    "precision": 0.875
+   }
+  }
+ },
+ "router_Test": {
+  "n": 133,
+  "accuracy": 0.8345864661654135,
+  "per_class": {
+   "CRONOGRAMA": {
+    "n": 17,
+    "recall": 0.8823529411764706,
+    "precision": 0.7894736842105263
+   },
+   "VACANTES": {
+    "n": 47,
+    "recall": 0.9787234042553191,
+    "precision": 0.9583333333333334
+   },
+   "TEMARIO": {
+    "n": 30,
+    "recall": 0.9,
+    "precision": 0.7297297297297297
+   },
+   "REGLAMENTO": {
+    "n": 29,
+    "recall": 0.4827586206896552,
+    "precision": 1.0
+   },
+   "FUERA_DE_DOMINIO": {
+    "n": 10,
+    "recall": 0.9,
+    "precision": 0.6
+   }
+  }
+ },
+ "rule_share": 0.3055555555555556,
+ "ood_decision_before_check": {
+  "false_reject_in_domain": 7,
+  "missed_ood": 3
+ },
+ "ood_decision_after_check": {
+  "false_reject_in_domain": 3,
+  "missed_ood": 5
+ },
+ "supervised_on_dev_test": {
+  "Linear SVM (TF-IDF)": {
+   "accuracy": 0.49537037037037035,
+   "reglamento_recall": 0.022727272727272728,
+   "ms": 0.34860499981732573
+  },
+  "Naive Bayes (TF-IDF)": {
+   "accuracy": 0.7037037037037037,
+   "reglamento_recall": 0.022727272727272728,
+   "ms": 0.3583349998734775
+  },
+  "Logistic regression (e5)": {
+   "accuracy": 0.6851851851851852,
+   "reglamento_recall": 0.0,
+   "ms": null
+  }
+ }
+}

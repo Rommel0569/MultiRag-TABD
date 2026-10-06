@@ -1,0 +1,30 @@
+[INFO] Cargando multilingual-e5-base...
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 199/199 [00:00<00:00, 6792.98it/s]
+C:\Users\USER\Documents\TOPICOS\ceprunsa_mvrag\app\embeddings.py:16: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  EMBED_DIM    = _embed_model.get_sentence_embedding_dimension()
+[INFO] Embeddings listos. Dimensión: 768
+[OK] CRONOGRAMA: 36 vectores, 36 documentos cargados
+[OK] VACANTES: 141 vectores, 141 documentos cargados
+[OK] TEMARIO: 441 vectores, 441 documentos cargados
+[OK] REGLAMENTO: 274 vectores, 274 documentos cargados
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 201/201 [00:00<00:00, 11612.17it/s]
+[transformers] The tokenizer you are loading from 'amberoad/bert-multilingual-passage-reranking-msmarco' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[Q_top5 1/89] C01 hybrid_fallback_generation 33.57s err=False
+[Q_top5 2/89] C02 hybrid_fallback_generation 19.754s err=False
+[Q_top5 3/89] C03 structured_table_date_cell 7.585s err=False
+[Q_top5 4/89] C04 hybrid_fallback_generation 13.62s err=False
+[Q_top5 5/89] C05 hybrid_fallback_generation 12.056s err=False
+[Q_top5 6/89] C06 hybrid_fallback_generation 26.867s err=False
+[Q_top5 7/89] C07 structured_table_date_cell 11.529s err=False
+[Q_top5 8/89] C08 hybrid_fallback_generation 27.818s err=False
+[Q_top5 9/89] C09 structured_table_date_cell 15.937s err=False
+[Q_top5 10/89] C10 structured_table_date_cell 18.35s err=False
+[Q_top5 11/89] C11 hybrid_fallback_generation 11.957s err=False
+[Q_top5 12/89] C12 hybrid_fallback_generation 20.287s err=False
+[Q_top5 13/89] C13 structured_table_date_cell 10.215s err=False
+[Q_top5 14/89] C14 hybrid_fallback_generation 11.525s err=False
+[Q_top5 15/89] V01 structured_column_cell 8.492s err=False
+[Q_top5 16/89] V02 structured_column_cell 12.583s err=False
+[Q_top5 17/89] V03 structured_column_superlative 11.008s err=False
+[Q_top5 18/89] V04 structured_aggregate_summary_row 9.413s err=False

@@ -1,0 +1,241 @@
+[INFO] Cargando multilingual-e5-base...
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 199/199 [00:00<00:00, 11594.20it/s]
+C:\Users\USER\Documents\TOPICOS\ceprunsa_mvrag\app\embeddings.py:16: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  EMBED_DIM    = _embed_model.get_sentence_embedding_dimension()
+[INFO] Embeddings listos. Dimensión: 768
+[OK] CRONOGRAMA: 36 vectores, 36 documentos cargados
+[OK] VACANTES: 141 vectores, 141 documentos cargados
+[OK] TEMARIO: 441 vectores, 441 documentos cargados
+[OK] REGLAMENTO: 274 vectores, 274 documentos cargados
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 201/201 [00:00<00:00, 39148.14it/s]
+[transformers] The tokenizer you are loading from 'amberoad/bert-multilingual-passage-reranking-msmarco' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[V4d 1/60] K01 hybrid_fallback_generation 83.169s err=False
+[V4d 2/60] K02 hybrid_fallback_generation 65.205s err=False
+[V4d 3/60] K03 hybrid_fallback_generation 71.07s err=False
+[V4d 4/60] K04 hybrid_fallback_generation 105.385s err=False
+[V4d 5/60] K05 hybrid_fallback_generation 85.811s err=False
+[V4d 6/60] K06 hybrid_fallback_generation 76.68s err=False
+[V4d 7/60] K07 hybrid_fallback_generation 99.779s err=False
+[V4d 8/60] K08 hybrid_fallback_generation 72.099s err=False
+[V4d 9/60] K09 hybrid_fallback_generation 89.446s err=False
+[V4d 10/60] K10 hybrid_fallback_generation 52.455s err=False
+[V4d 11/60] K11 hybrid_fallback_generation 66.069s err=False
+[V4d 12/60] K12 hybrid_fallback_generation 67.806s err=False
+[V4d 13/60] K13 router_ood 19.025s err=False
+[V4d 14/60] K14 hybrid_fallback_generation 70.158s err=False
+[V4d 15/60] K15 hybrid_fallback_generation 79.78s err=False
+[V4d 16/60] K16 hybrid_fallback_generation 115.762s err=False
+[V4d 17/60] K17 hybrid_fallback_generation 81.55s err=False
+[V4d 18/60] K18 hybrid_fallback_generation 86.665s err=False
+[V4d 19/60] K19 hybrid_fallback_generation 51.321s err=False
+[V4d 20/60] K20 hybrid_fallback_generation 66.823s err=False
+[V4d 21/60] V01 structured_column_cell 10.718s err=False
+[V4d 22/60] V02 structured_column_cell 12.843s err=False
+[V4d 23/60] V03 structured_column_cell 9.255s err=False
+[V4d 24/60] V04 hybrid_fallback_generation 48.483s err=False
+[V4d 25/60] V05 structured_column_cell 8.738s err=False
+[V4d 26/60] V06 hybrid_fallback_generation 45.375s err=False
+[V4d 27/60] V07 hybrid_fallback_generation 49.362s err=False
+[V4d 28/60] V08 structured_column_cell 13.704s err=False
+[V4d 29/60] V09 structured_aggregate_sum_rows 14.215s err=False
+[V4d 30/60] V10 structured_column_cell 14.012s err=False
+[V4d 31/60] V11 structured_aggregate_comparison 14.404s err=False
+[V4d 32/60] V12 structured_aggregate_sum_columns 8.824s err=False
+[V4d 33/60] V13 structured_aggregate_sum_rows 15.807s err=False
+[V4d 34/60] V14 structured_column_cell 9.95s err=False
+[V4d 35/60] V15 structured_aggregate_group_superlative 12.518s err=False
+[V4d 36/60] V16 structured_aggregate_group_sum 24.475s err=False
+[V4d 37/60] T01 hybrid_fallback_generation 57.076s err=False
+[V4d 38/60] T02 hybrid_fallback_generation 63.873s err=False
+[V4d 39/60] T03 hybrid_fallback_generation 58.095s err=False
+[V4d 40/60] T04 hybrid_fallback_generation 51.032s err=False
+[V4d 41/60] T05 hybrid_fallback_generation 37.359s err=False
+[V4d 42/60] T06 hybrid_fallback_generation 34.022s err=False
+[V4d 43/60] T07 hybrid_fallback_generation 33.001s err=False
+[V4d 44/60] T08 hybrid_fallback_generation 36.239s err=False
+[V4d 45/60] T09 router_ood 9.341s err=False
+[V4d 46/60] T10 hybrid_fallback_generation 68.359s err=False
+[V4d 47/60] T11 hybrid_fallback_generation 38.233s err=False
+[V4d 48/60] T12 hybrid_fallback_generation 42.951s err=False
+[V4d 49/60] T13 hybrid_fallback_generation 79.827s err=False
+[V4d 50/60] T14 hybrid_fallback_generation 65.596s err=False
+[V4d 51/60] T15 hybrid_fallback_generation 48.944s err=False
+[V4d 52/60] T16 hybrid_fallback_generation 67.17s err=False
+[V4d 53/60] C01 hybrid_fallback_generation 27.094s err=False
+[V4d 54/60] C02 structured_table_date_cell 12.432s err=False
+[V4d 55/60] C03 hybrid_fallback_generation 40.061s err=False
+[V4d 56/60] C04 hybrid_fallback_generation 19.916s err=False
+[V4d 57/60] C05 hybrid_fallback_generation 19.73s err=False
+[V4d 58/60] C06 hybrid_fallback_generation 37.766s err=False
+[V4d 59/60] C07 structured_table_date_cell 11.832s err=False
+[V4d 60/60] C08 hybrid_fallback_generation 37.088s err=False
+[DONE]
+[INFO] Cargando multilingual-e5-base...
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 199/199 [00:00<00:00, 2128.71it/s]
+C:\Users\USER\Documents\TOPICOS\ceprunsa_mvrag\app\embeddings.py:16: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  EMBED_DIM    = _embed_model.get_sentence_embedding_dimension()
+[INFO] Embeddings listos. Dimensión: 768
+[OK] CRONOGRAMA: 36 vectores, 36 documentos cargados
+[OK] VACANTES: 141 vectores, 141 documentos cargados
+[OK] TEMARIO: 441 vectores, 441 documentos cargados
+[OK] REGLAMENTO: 274 vectores, 274 documentos cargados
+[V1 1/60] K01 15.577s err=False
+[V1 2/60] K02 27.018s err=False
+[V1 3/60] K03 27.332s err=False
+[V1 4/60] K04 37.351s err=False
+[V1 5/60] K05 37.531s err=False
+[V1 6/60] K06 21.385s err=False
+[V1 7/60] K07 22.25s err=False
+[V1 8/60] K08 28.624s err=False
+[V1 9/60] K09 22.653s err=False
+[V1 10/60] K10 17.941s err=False
+[V1 11/60] K11 22.968s err=False
+[V1 12/60] K12 33.416s err=False
+[V1 13/60] K13 24.859s err=False
+[V1 14/60] K14 36.222s err=False
+[V1 15/60] K15 15.951s err=False
+[V1 16/60] K16 48.643s err=False
+[V1 17/60] K17 50.626s err=False
+[V1 18/60] K18 40.562s err=False
+[V1 19/60] K19 21.645s err=False
+[V1 20/60] K20 21.793s err=False
+[V1 21/60] V01 11.52s err=False
+[V1 22/60] V02 16.091s err=False
+[V1 23/60] V03 15.903s err=False
+[V1 24/60] V04 20.506s err=False
+[V1 25/60] V05 15.628s err=False
+[V1 26/60] V06 25.74s err=False
+[V1 27/60] V07 20.393s err=False
+[V1 28/60] V08 18.631s err=False
+[V1 29/60] V09 38.504s err=False
+[V1 30/60] V10 33.677s err=False
+[V1 31/60] V11 24.212s err=False
+[V1 32/60] V12 23.272s err=False
+[V1 33/60] V13 11.66s err=False
+[V1 34/60] V14 18.412s err=False
+[V1 35/60] V15 23.539s err=False
+[V1 36/60] V16 26.367s err=False
+[V1 37/60] T01 25.552s err=False
+[V1 38/60] T02 19.334s err=False
+[V1 39/60] T03 25.38s err=False
+[V1 40/60] T04 15.375s err=False
+[V1 41/60] T05 16.126s err=False
+[V1 42/60] T06 18.161s err=False
+[V1 43/60] T07 12.65s err=False
+[V1 44/60] T08 19.356s err=False
+[V1 45/60] T09 7.784s err=False
+[V1 46/60] T10 20.478s err=False
+[V1 47/60] T11 22.648s err=False
+[V1 48/60] T12 19.114s err=False
+[V1 49/60] T13 34.604s err=False
+[V1 50/60] T14 24.192s err=False
+[V1 51/60] T15 18.351s err=False
+[V1 52/60] T16 14.96s err=False
+[V1 53/60] C01 9.772s err=False
+[V1 54/60] C02 6.062s err=False
+[V1 55/60] C03 9.384s err=False
+[V1 56/60] C04 5.569s err=False
+[V1 57/60] C05 5.524s err=False
+[V1 58/60] C06 15.122s err=False
+[V1 59/60] C07 16.047s err=False
+[V1 60/60] C08 14.64s err=False
+[DONE]
+[INFO] Cargando multilingual-e5-base...
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 199/199 [00:00<00:00, 5242.88it/s]
+C:\Users\USER\Documents\TOPICOS\ceprunsa_mvrag\app\embeddings.py:16: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  EMBED_DIM    = _embed_model.get_sentence_embedding_dimension()
+[INFO] Embeddings listos. Dimensión: 768
+[OK] CRONOGRAMA: 36 vectores, 36 documentos cargados
+[OK] VACANTES: 141 vectores, 141 documentos cargados
+[OK] TEMARIO: 441 vectores, 441 documentos cargados
+[OK] REGLAMENTO: 274 vectores, 274 documentos cargados
+[V1c 1/60] K01 15.87s err=False
+[V1c 2/60] K02 26.093s err=False
+[V1c 3/60] K03 17.525s err=False
+[V1c 4/60] K04 21.113s err=False
+[V1c 5/60] K05 21.697s err=False
+[V1c 6/60] K06 18.476s err=False
+[V1c 7/60] K07 20.551s err=False
+[V1c 8/60] K08 26.791s err=False
+[V1c 9/60] K09 18.249s err=False
+[V1c 10/60] K10 22.536s err=False
+[V1c 11/60] K11 24.794s err=False
+[V1c 12/60] K12 39.97s err=False
+[V1c 13/60] K13 25.657s err=False
+[V1c 14/60] K14 25.376s err=False
+[V1c 15/60] K15 20.403s err=False
+[V1c 16/60] K16 42.051s err=False
+[V1c 17/60] K17 29.095s err=False
+[V1c 18/60] K18 55.454s err=False
+[V1c 19/60] K19 9.718s err=False
+[V1c 20/60] K20 23.629s err=False
+[V1c 21/60] V01 25.267s err=False
+[V1c 22/60] V02 20.692s err=False
+[V1c 23/60] V03 23.5s err=False
+[V1c 24/60] V04 21.543s err=False
+[V1c 25/60] V05 25.641s err=False
+[V1c 26/60] V06 23.029s err=False
+[V1c 27/60] V07 23.41s err=False
+[V1c 28/60] V08 24.487s err=False
+[V1c 29/60] V09 27.996s err=False
+[V1c 30/60] V10 31.507s err=False
+[V1c 31/60] V11 28.004s err=False
+[V1c 32/60] V12 21.302s err=False
+[V1c 33/60] V13 11.837s err=False
+[V1c 34/60] V14 21.287s err=False
+[V1c 35/60] V15 30.727s err=False
+[V1c 36/60] V16 22.987s err=False
+[V1c 37/60] T01 25.605s err=False
+[V1c 38/60] T02 25.637s err=False
+[V1c 39/60] T03 26.084s err=False
+[V1c 40/60] T04 18.186s err=False
+[V1c 41/60] T05 21.258s err=False
+[V1c 42/60] T06 22.336s err=False
+[V1c 43/60] T07 21.465s err=False
+[V1c 44/60] T08 18.43s err=False
+[V1c 45/60] T09 21.605s err=False
+[V1c 46/60] T10 31.359s err=False
+[V1c 47/60] T11 24.789s err=False
+[V1c 48/60] T12 23.758s err=False
+[V1c 49/60] T13 42.377s err=False
+[V1c 50/60] T14 22.357s err=False
+[V1c 51/60] T15 23.481s err=False
+[V1c 52/60] T16 22.297s err=False
+[V1c 53/60] C01 17.251s err=False
+[V1c 54/60] C02 13.246s err=False
+[V1c 55/60] C03 17.415s err=False
+[V1c 56/60] C04 16.19s err=False
+[V1c 57/60] C05 14.392s err=False
+[V1c 58/60] C06 21.92s err=False
+[V1c 59/60] C07 20.716s err=False
+[V1c 60/60] C08 18.15s err=False
+[DONE]
+[INFO] Cargando multilingual-e5-base...
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 199/199 [00:00<00:00, 3976.38it/s]
+C:\Users\USER\Documents\TOPICOS\ceprunsa_mvrag\app\embeddings.py:16: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  EMBED_DIM    = _embed_model.get_sentence_embedding_dimension()
+[INFO] Embeddings listos. Dimensión: 768
+[OK] CRONOGRAMA: 36 vectores, 36 documentos cargados
+[OK] VACANTES: 141 vectores, 141 documentos cargados
+[OK] TEMARIO: 441 vectores, 441 documentos cargados
+[OK] REGLAMENTO: 274 vectores, 274 documentos cargados
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 201/201 [00:00<00:00, 23818.48it/s]
+[transformers] The tokenizer you are loading from 'amberoad/bert-multilingual-passage-reranking-msmarco' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+[V4d 1/15] N01 hybrid_fallback_generation 56.236s err=False
+[V4d 2/15] N02 hybrid_fallback_generation 44.431s err=False
+[V4d 3/15] N03 hybrid_fallback_generation 64.034s err=False
+[V4d 4/15] N04 hybrid_fallback_generation 38.569s err=False
+[V4d 5/15] N05 hybrid_fallback_generation 58.541s err=False
+[V4d 6/15] Z01 router_ood 13.717s err=False
+[V4d 7/15] Z02 router_ood 13.785s err=False
+[V4d 8/15] Z03 router_ood 9.845s err=False
+[V4d 9/15] Z04 hybrid_fallback_generation 83.977s err=False
+[V4d 10/15] Z05 router_ood 14.813s err=False
+[V4d 11/15] Z06 hybrid_fallback_generation 36.185s err=False
+[V4d 12/15] Z07 hybrid_fallback_generation 35.399s err=False
+[V4d 13/15] Z08 router_ood 9.852s err=False
+[V4d 14/15] Z09 router_ood 14.569s err=False
+[V4d 15/15] Z10 router_ood 12.977s err=False
+[DONE]
+FINALDONE

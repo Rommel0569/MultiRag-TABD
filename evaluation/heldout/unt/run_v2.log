@@ -1,0 +1,67 @@
+[INFO] Cargando multilingual-e5-base...
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 199/199 [00:00<00:00, 5419.21it/s]
+C:\Users\USER\Documents\TOPICOS\ceprunsa_mvrag\app\embeddings.py:16: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  EMBED_DIM    = _embed_model.get_sentence_embedding_dimension()
+[INFO] Embeddings listos. Dimensión: 768
+[OK] CRONOGRAMA: 36 vectores, 36 documentos cargados
+[OK] VACANTES: 141 vectores, 141 documentos cargados
+[OK] TEMARIO: 441 vectores, 441 documentos cargados
+[OK] REGLAMENTO: 274 vectores, 274 documentos cargados
+INGEST: {'pages': 24, 'native_pages': 22, 'ocr_pages': 2, 'status': 'awaiting_ocr_consent'} segments: None
+FORCED NATIVE INDEXING of all pages (no OCR); segments: 76
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 201/201 [00:00<00:00, 29250.40it/s]
+[transformers] The tokenizer you are loading from 'amberoad/bert-multilingual-passage-reranking-msmarco' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[G 12/63] U12 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 74.9s err=False
+[G 13/63] U13 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 38.8s err=False
+[G 14/63] U14 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 63.6s err=False
+[G 15/63] U15 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 65.9s err=False
+[G 16/63] U16 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 76.4s err=False
+[G 17/63] U17 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 93.7s err=False
+[G 18/63] U18 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 60.7s err=False
+[G 19/63] U19 FASE 2 — CLASIFICADOR DEL CONTEXTO 1.2s err=False
+[G 20/63] U20 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 76.6s err=False
+[G 21/63] U21 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 96.2s err=False
+[G 22/63] U22 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 80.3s err=False
+[G 23/63] U23 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 83.3s err=False
+[G 24/63] U24 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 85.0s err=False
+[G 25/63] U25 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 93.8s err=False
+[G 26/63] U26 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 66.5s err=False
+[G 27/63] U27 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 82.0s err=False
+[G 28/63] U28 FASE 2 — CLASIFICADOR DEL CONTEXTO 1.4s err=False
+[G 29/63] U29 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 90.0s err=False
+[G 30/63] U30 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 88.8s err=False
+[G 31/63] U31 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 75.1s err=False
+[G 32/63] U32 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 73.9s err=False
+[G 33/63] U33 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 104.7s err=False
+[G 34/63] U34 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 69.8s err=False
+[G 35/63] U35 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 61.3s err=False
+[G 36/63] U36 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 89.7s err=False
+[G 37/63] U37 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 102.5s err=False
+[G 38/63] U38 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 72.5s err=False
+[G 39/63] U39 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 77.6s err=False
+[G 40/63] U40 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 110.7s err=False
+[G 41/63] U41 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 85.5s err=False
+[G 42/63] U42 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 66.1s err=False
+[G 43/63] U43 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 87.8s err=False
+[G 44/63] U44 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 110.1s err=False
+[G 45/63] U45 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 69.1s err=False
+[G 46/63] U46 FASE 2 — CLASIFICADOR DEL CONTEXTO 1.2s err=False
+[G 47/63] U47 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 100.5s err=False
+[G 48/63] U48 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 102.8s err=False
+[G 49/63] U49 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 90.3s err=False
+[G 50/63] U50 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 98.5s err=False
+[G 51/63] U51 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 64.2s err=False
+[G 52/63] U52 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 65.1s err=False
+[G 53/63] U53 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 100.0s err=False
+[G 54/63] U54 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 41.4s err=False
+[G 55/63] U55 FASE 3 — RECUPERACIÓN HÍBRIDA + RERANKING + GENERACIÓN 48.3s err=False
+[G 56/63] U56 FASE 2 — CLASIFICADOR DEL CONTEXTO 1.0s err=False
+[G 57/63] U57 FASE 2 — CLASIFICADOR DEL CONTEXTO 0.9s err=False
+[G 58/63] U58 FASE 2 — CLASIFICADOR DEL CONTEXTO 0.9s err=False
+[G 59/63] U59 FASE 2 — CLASIFICADOR DEL CONTEXTO 0.9s err=False
+[G 60/63] U60 FASE 2 — CLASIFICADOR DEL CONTEXTO 0.8s err=False
+[G 61/63] U61 FASE 2 — CLASIFICADOR DEL CONTEXTO 1.0s err=False
+[G 62/63] U62 FASE 2 — CLASIFICADOR DEL CONTEXTO 0.9s err=False
+[G 63/63] U63 FASE 2 — CLASIFICADOR DEL CONTEXTO 0.9s err=False
+[DONE]

@@ -1,0 +1,493 @@
+{
+ "created_utc": "2026-10-03T12:17:44.660144+00:00",
+ "seed": 2027,
+ "quota": {
+  "VACANTES": 24,
+  "TEMARIO": 14,
+  "REGLAMENTO": 14,
+  "CRONOGRAMA": 5
+ },
+ "n": 60,
+ "consultas": [
+  {
+   "id": "W07",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "cupos de Filosofía para ciclo quintos",
+   "ground_truth": "7 (fuente: CUADRO DE VACANTES 2027 p.3)"
+  },
+  {
+   "id": "W30",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "Ingeniería de Sistemas: ¿cuántos cupos en el ordinario fase 2?",
+   "ground_truth": "20 (fuente: CUADRO DE VACANTES 2027 p.3)"
+  },
+  {
+   "id": "W06",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "total general de vacantes de Trabajo Social",
+   "ground_truth": "110 (fuente: CUADRO DE VACANTES 2027 p.3)"
+  },
+  {
+   "id": "W01",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes de Ingeniería Geofísica hay en el ciclo quintos de CEPRUNSA?",
+   "ground_truth": "11 (fuente: CUADRO DE VACANTES 2027 p.3)"
+  },
+  {
+   "id": "W42",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "locate",
+   "query": "¿Qué carrera tiene exactamente 29 vacantes en total?",
+   "ground_truth": "Ingeniería Sanitaria (fuente: p.3)"
+  },
+  {
+   "id": "W21",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes tiene Turismo y Hotelería sumando ordinario, CEPRUNSA y filiales?",
+   "ground_truth": "90 (fuente: CUADRO DE VACANTES 2027 p.3)"
+  },
+  {
+   "id": "W26",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "CEPRUNSA fase II, Ingeniería de Industrias Alimentarias: ¿cuántos cupos?",
+   "ground_truth": "18 (fuente: CUADRO DE VACANTES 2027 p.3)"
+  },
+  {
+   "id": "W12",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes de Relaciones Públicas hay por CEPRUNSA segunda fase?",
+   "ground_truth": "22 (fuente: CUADRO DE VACANTES 2027 p.3)"
+  },
+  {
+   "id": "W41",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "aggregate",
+   "query": "¿Cuántas vacantes tienen en total las carreras biomédicas?",
+   "ground_truth": "511 (fuente: p.3)"
+  },
+  {
+   "id": "W40",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "aggregate",
+   "query": "¿Cuántas vacantes hay en total en las tres filiales?",
+   "ground_truth": "210 (110 + 60 + 40) (fuente: p.3)"
+  },
+  {
+   "id": "W23",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes tiene Marketing sumando ordinario, CEPRUNSA y filiales?",
+   "ground_truth": "45 (fuente: CUADRO DE VACANTES 2027 p.3)"
+  },
+  {
+   "id": "W38",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "aggregate",
+   "query": "¿Cuántas vacantes tiene el ordinario en la fase I sumando todas las carreras?",
+   "ground_truth": "1106 (fuente: p.3)"
+  },
+  {
+   "id": "W18",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "vacantes de Finanzas ordinario segunda fase",
+   "ground_truth": "28 (fuente: CUADRO DE VACANTES 2027 p.3)"
+  },
+  {
+   "id": "W19",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "cupos de Ingeniería Industrial para ciclo quintos",
+   "ground_truth": "21 (fuente: CUADRO DE VACANTES 2027 p.3)"
+  },
+  {
+   "id": "W05",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "total de vacantes CEPRUNSA para Enfermería",
+   "ground_truth": "37 (fuente: CUADRO DE VACANTES 2027 p.3)"
+  },
+  {
+   "id": "W22",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "Ingeniería Química: ¿cuántos cupos en el ordinario fase 2?",
+   "ground_truth": "27 (fuente: CUADRO DE VACANTES 2027 p.3)"
+  },
+  {
+   "id": "W10",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "CEPRUNSA fase II, Ingeniería Metalúrgica: ¿cuántos cupos?",
+   "ground_truth": "11 (fuente: CUADRO DE VACANTES 2027 p.3)"
+  },
+  {
+   "id": "W03",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "vacantes de Gestión Pública, ordinario, fase I",
+   "ground_truth": "5 (fuente: CUADRO DE VACANTES 2027 p.3)"
+  },
+  {
+   "id": "W09",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes de Sociología hay por CEPRUNSA primera fase?",
+   "ground_truth": "7 (fuente: CUADRO DE VACANTES 2027 p.3)"
+  },
+  {
+   "id": "W25",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "CEPRUNSA fase II, Antropología: ¿cuántos cupos?",
+   "ground_truth": "10 (fuente: CUADRO DE VACANTES 2027 p.3)"
+  },
+  {
+   "id": "W27",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes de Ingeniería Agronómica hay en el ciclo quintos de CEPRUNSA?",
+   "ground_truth": "12 (fuente: CUADRO DE VACANTES 2027 p.3)"
+  },
+  {
+   "id": "X11",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "En el proceso extraordinario, ¿cuántas vacantes totales tiene Ingeniería Pesquera?",
+   "ground_truth": "27 (fuente: p.4)"
+  },
+  {
+   "id": "W29",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "Contabilidad: suma de las dos fases del ordinario",
+   "ground_truth": "90 (fuente: CUADRO DE VACANTES 2027 p.3)"
+  },
+  {
+   "id": "W14",
+   "source_set": "sealed_test",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes de Derecho tiene CEPRUNSA en total?",
+   "ground_truth": "80 (fuente: CUADRO DE VACANTES 2027 p.3)"
+  },
+  {
+   "id": "Q17",
+   "source_set": "sealed_test",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué métodos para resolver sistemas de ecuaciones se estudian?",
+   "ground_truth": "sustitución, igualación y reducción (fuente: TEMARIO pp.9-33)"
+  },
+  {
+   "id": "Q08",
+   "source_set": "sealed_test",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué tipos de cálculos estequiométricos hay?",
+   "ground_truth": "masa-masa, mol-mol, volumen-volumen (fuente: TEMARIO pp.9-33)"
+  },
+  {
+   "id": "Q06",
+   "source_set": "sealed_test",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué teorías ácido-base se estudian?",
+   "ground_truth": "Arrhenius y Brønsted-Lowry (fuente: TEMARIO pp.9-33)"
+  },
+  {
+   "id": "Q24",
+   "source_set": "sealed_test",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué curvas se ven en geometría analítica?",
+   "ground_truth": "circunferencia, parábola y elipse (además de la recta) (fuente: TEMARIO pp.9-33)"
+  },
+  {
+   "id": "Q11",
+   "source_set": "sealed_test",
+   "category": "TEMARIO",
+   "type": "locate",
+   "query": "¿En qué tema de física se ven las leyes de Kepler?",
+   "ground_truth": "Cantidad de movimiento y gravitación (fuente: TEMARIO pp.9-33)"
+  },
+  {
+   "id": "Q12",
+   "source_set": "sealed_test",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué se ve en hidrostática?",
+   "ground_truth": "densidad, presión, Pascal, Arquímedes, flotación, tensión superficial (fuente: TEMARIO pp.9-33)"
+  },
+  {
+   "id": "Q29",
+   "source_set": "sealed_test",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué clases de progresiones hay en aritmética?",
+   "ground_truth": "aritmética y geométrica (fuente: TEMARIO pp.9-33)"
+  },
+  {
+   "id": "Q13",
+   "source_set": "sealed_test",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué leyes entran en inducción electromagnética?",
+   "ground_truth": "ley de Faraday, ley de Lenz (flujo magnético, generadores y transformadores) (fuente: TEMARIO pp.9-33)"
+  },
+  {
+   "id": "Q15",
+   "source_set": "sealed_test",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué medidas de dispersión entran en estadística descriptiva?",
+   "ground_truth": "rango, varianza y desviación estándar (fuente: TEMARIO pp.9-33)"
+  },
+  {
+   "id": "Q23",
+   "source_set": "sealed_test",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué ángulos notables entran en trigonometría?",
+   "ground_truth": "30°, 45°, 60°, 37° y 53° (fuente: TEMARIO pp.9-33)"
+  },
+  {
+   "id": "Q28",
+   "source_set": "sealed_test",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué estados físicos de la materia se estudian en química?",
+   "ground_truth": "gaseoso, líquido y sólido (fuente: TEMARIO pp.9-33)"
+  },
+  {
+   "id": "Q22",
+   "source_set": "sealed_test",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué sistemas de medida angular se usan en trigonometría?",
+   "ground_truth": "sexagesimal, centesimal y radial (fuente: TEMARIO pp.9-33)"
+  },
+  {
+   "id": "Q25",
+   "source_set": "sealed_test",
+   "category": "TEMARIO",
+   "type": "aggregate",
+   "query": "¿Cuántos temas tiene álgebra?",
+   "ground_truth": "16 (I a XVI) (fuente: TEMARIO pp.9-33)"
+  },
+  {
+   "id": "Q26",
+   "source_set": "sealed_test",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué se estudia de números complejos?",
+   "ground_truth": "definición y forma binómica, módulo, conjugado, operaciones (fuente: TEMARIO pp.9-33)"
+  },
+  {
+   "id": "G20",
+   "source_set": "sealed_test",
+   "category": "REGLAMENTO",
+   "type": "list",
+   "query": "¿Qué periodo de violencia da derecho a las vacantes de víctimas?",
+   "ground_truth": "entre mayo de 1980 y noviembre de 2000 (Art. 76.8) (fuente: REGLAMENTO pp.11-17 (printed))"
+  },
+  {
+   "id": "G27",
+   "source_set": "sealed_test",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Cuándo recogen las claves de respuesta?",
+   "ground_truth": "del internamiento el día del examen, inmediatamente después de culminada la evaluación (Art. 47.2) (fuente: REGLAMENTO pp.11-17 (printed))"
+  },
+  {
+   "id": "G04",
+   "source_set": "sealed_test",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Cómo califican mi examen?",
+   "ground_truth": "de manera anónima y automatizada, con apoyo de la OTI (Art. 44) (fuente: REGLAMENTO pp.11-17 (printed))"
+  },
+  {
+   "id": "G25",
+   "source_set": "sealed_test",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿En CEPRUNSA puedo pedir que me exoneren de la deuda?",
+   "ground_truth": "No, bajo ningún concepto (Art. 68.2) (fuente: REGLAMENTO pp.11-17 (printed))"
+  },
+  {
+   "id": "G07",
+   "source_set": "sealed_test",
+   "category": "REGLAMENTO",
+   "type": "list",
+   "query": "¿En qué casos me califican con cero?",
+   "ground_truth": "no rinde; llena mal el código o marca un tema que no corresponde; recibe ayuda; usa equipos de comunicación; altera el orden… (fuente: REGLAMENTO pp.11-17 (printed))"
+  },
+  {
+   "id": "G02",
+   "source_set": "sealed_test",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Qué puntaje necesito para ganar vacante en el ordinario?",
+   "ground_truth": "igual o superior a la mediana calculada del programa, en estricto orden de mérito (Art. 41) (fuente: REGLAMENTO pp.11-17 (printed))"
+  },
+  {
+   "id": "G11",
+   "source_set": "sealed_test",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Cuántas evaluaciones rindo en la modalidad CEPRUNSA?",
+   "ground_truth": "una sola (Art. 59) (fuente: REGLAMENTO pp.11-17 (printed))"
+  },
+  {
+   "id": "G16",
+   "source_set": "sealed_test",
+   "category": "REGLAMENTO",
+   "type": "lookup",
+   "query": "En el ciclo del extraordinario, ¿qué porcentaje de inasistencias se permite?",
+   "ground_truth": "10% (Art. 77) (fuente: REGLAMENTO pp.11-17 (printed))"
+  },
+  {
+   "id": "G09",
+   "source_set": "sealed_test",
+   "category": "REGLAMENTO",
+   "type": "lookup",
+   "query": "¿Cuál es el máximo de inasistencias en el CEPRUNSA?",
+   "ground_truth": "30% del total de clases (Art. 60) (fuente: REGLAMENTO pp.11-17 (printed))"
+  },
+  {
+   "id": "G17",
+   "source_set": "sealed_test",
+   "category": "REGLAMENTO",
+   "type": "list",
+   "query": "¿Cómo se pondera la evaluación del ciclo del extraordinario?",
+   "ground_truth": "razonamiento lógico y matemático 50%; verbal y comprensión lectora 50% (Art. 78) (fuente: REGLAMENTO pp.11-17 (printed))"
+  },
+  {
+   "id": "G28",
+   "source_set": "sealed_test",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Qué hacen en el CEPRUNSA además de las clases normales?",
+   "ground_truth": "seminarios, clases de reforzamiento académico y envío de prácticas (Art. 62) (fuente: REGLAMENTO pp.11-17 (printed))"
+  },
+  {
+   "id": "G21",
+   "source_set": "sealed_test",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "En CEPRUNSA, ¿hasta cuándo puedo cambiar de programa de estudios?",
+   "ground_truth": "hasta antes del inicio de clases del programa, previa autorización de la DA (Art. 64) (fuente: REGLAMENTO pp.11-17 (printed))"
+  },
+  {
+   "id": "G14",
+   "source_set": "sealed_test",
+   "category": "REGLAMENTO",
+   "type": "lookup",
+   "query": "¿Cuánto dura el ciclo de preparación del extraordinario?",
+   "ground_truth": "tres (3) semanas (Art. 77) (fuente: REGLAMENTO pp.11-17 (printed))"
+  },
+  {
+   "id": "G13",
+   "source_set": "sealed_test",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "Si me inscribí en una filial, ¿me devuelven el pago?",
+   "ground_truth": "Por ningún motivo procede la devolución (p.14) (fuente: REGLAMENTO pp.11-17 (printed))"
+  },
+  {
+   "id": "S03",
+   "source_set": "sealed_test",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Qué día es la evaluación de conocimientos del ordinario I fase?",
+   "ground_truth": "09/08/2026 (fuente: CRONOGRAMA p.2)"
+  },
+  {
+   "id": "S06",
+   "source_set": "sealed_test",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Desde cuándo me puedo inscribir al ordinario de segunda fase?",
+   "ground_truth": "01/02/2027 (fuente: CRONOGRAMA p.3)"
+  },
+  {
+   "id": "S05",
+   "source_set": "sealed_test",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Cuándo es la evaluación previa del examen extraordinario?",
+   "ground_truth": "14/02/2027 (fuente: CRONOGRAMA p.2)"
+  },
+  {
+   "id": "S10",
+   "source_set": "sealed_test",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Desde cuándo se puede inscribir uno al ordinario de primera fase?",
+   "ground_truth": "22/06/2026 (fuente: CRONOGRAMA p.2)"
+  },
+  {
+   "id": "S02",
+   "source_set": "sealed_test",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Cuándo es la evaluación previa del ordinario de primera fase?",
+   "ground_truth": "02/08/2026 (fuente: CRONOGRAMA p.2)"
+  },
+  {
+   "id": "F01",
+   "source_set": "official_faq",
+   "category": "FAQ",
+   "type": "faq",
+   "query": "¿Cómo puedo ingresar a las clases del CEPRUNSA?",
+   "ground_truth": "Acceder con la cuenta CEPRUNSA recibida al inscribirse, ingresar a Google Classroom, seleccionar el salón y hacer clic en el enlace de Google Meet."
+  },
+  {
+   "id": "F02",
+   "source_set": "official_faq",
+   "category": "FAQ",
+   "type": "faq",
+   "query": "¿Cómo puedo realizar el pago de las cuotas?",
+   "ground_truth": "Utilizar el código web asignado en SISADMISION en cualquier canal del BCP (agentes, banca móvil, banca por internet o Yape), seleccionando \"UNSA-VIRTUAL\"."
+  },
+  {
+   "id": "F03",
+   "source_set": "official_faq",
+   "category": "FAQ",
+   "type": "faq",
+   "query": "¿Puedo retirarme o solicitar la exoneración de cuotas del CEPRUNSA?",
+   "ground_truth": "No. El postulante no puede solicitar, bajo ningún concepto, devolución y/o reembolso del monto abonado ni exoneración de deuda."
+  }
+ ]
+}

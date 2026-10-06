@@ -1,0 +1,15 @@
+pending questions: 60; already spent S/0.000; cap S/2.55
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 199/199 [00:00<00:00, 4308.91it/s]
+[4/60] measured spend S/0.266
+[8/60] measured spend S/0.535
+[12/60] measured spend S/0.797
+[16/60] measured spend S/1.035
+[20/60] measured spend S/1.297
+[24/60] measured spend S/1.452
+[28/60] measured spend S/1.638
+[32/60] measured spend S/1.794
+[36/60] measured spend S/1.946
+[40/60] measured spend S/2.196
+[44/60] measured spend S/2.420
+[STOP] next batch could exceed the cap (spent S/2.420, worst-case batch S/0.192)
+[DONE]

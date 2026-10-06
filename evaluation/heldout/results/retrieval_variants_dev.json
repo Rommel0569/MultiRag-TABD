@@ -1,0 +1,37 @@
+{
+ "CRONOGRAMA": {
+  "A top5": 8,
+  "B top8": 8,
+  "C top5+nbr": 8,
+  "D top8+nbr": 8,
+  "n": 9
+ },
+ "VACANTES": {
+  "A top5": 1,
+  "B top8": 1,
+  "C top5+nbr": 1,
+  "D top8+nbr": 1,
+  "n": 1
+ },
+ "TEMARIO": {
+  "A top5": 13,
+  "B top8": 14,
+  "C top5+nbr": 14,
+  "D top8+nbr": 15,
+  "n": 20
+ },
+ "REGLAMENTO": {
+  "A top5": 14,
+  "B top8": 14,
+  "C top5+nbr": 14,
+  "D top8+nbr": 14,
+  "n": 14
+ },
+ "ALL": {
+  "A top5": 36,
+  "B top8": 37,
+  "C top5+nbr": 37,
+  "D top8+nbr": 38,
+  "n": 44
+ }
+}
