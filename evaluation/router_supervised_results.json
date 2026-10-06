@@ -1,0 +1,21 @@
+{
+ "Linear SVM (TF-IDF)": {
+  "acc30": 0.5,
+  "recall_regl": 0.0,
+  "macroF1_30": 0.45212121212121215,
+  "ms": 0.8313453335237379
+ },
+ "Naive Bayes (TF-IDF)": {
+  "acc30": 0.6,
+  "recall_regl": 0.0,
+  "macroF1_30": 0.522937062937063,
+  "ms": 0.3123799999593757
+ },
+ "e5 + LogReg": {
+  "acc30": 0.7,
+  "recall_regl": 0.16666666666666666,
+  "macroF1_30": 0.6533333333333333,
+  "ms": 69.26409333051802
+ },
+ "_note": "Entrenado con el banco de 500 (plantillas); evaluado en las 30 consultas coloquiales originales (0 solapamiento). La CV agrupada por plantilla se descarto: cada plantilla pertenece a una sola categoria."
+}

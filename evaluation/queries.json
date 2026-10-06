@@ -1,0 +1,215 @@
+{
+  "_instrucciones": "Banco de 30 consultas coloquiales para evaluacion (O1-O3). Si conservas las 30 consultas originales del articulo, reemplaza estas por esas. 'categoria_correcta' = anotacion manual para eval_router.py. 'parafrasis' = conjunto TEST para eval_cache.py. Campo 'ground_truth': escribe la respuesta correcta segun los PDFs oficiales (la necesita run_ragas.py para context_recall).",
+  "consultas": [
+    {
+      "id": 1,
+      "query": "cuando es el examen del ceprunsa?",
+      "categoria_correcta": "CRONOGRAMA",
+      "parafrasis": "que dia rinden la prueba del cepr?",
+      "ground_truth": "Segun el cronograma oficial 2027, la evaluacion de conocimientos del CEPRUNSA I Fase es el 05/07/2026, la del CEPRUNSA Ciclo Quintos el 01/11/2026 y la del CEPRUNSA II Fase el 24/01/2027."
+    },
+    {
+      "id": 2,
+      "query": "hasta cuando puedo inscribirme al ceprunsa 2027?",
+      "categoria_correcta": "CRONOGRAMA",
+      "parafrasis": "cual es la fecha limite para la inscripcion al cepr?",
+      "ground_truth": "Las inscripciones del CEPRUNSA I Fase van del 23/03/2026 al 17/04/2026, las del Ciclo Quintos del 27/07/2026 al 14/08/2026 y las de la II Fase del 12/10/2026 al 06/11/2026."
+    },
+    {
+      "id": 3,
+      "query": "cuando empiezan las clases del ceprunsa?",
+      "categoria_correcta": "CRONOGRAMA",
+      "parafrasis": "que fecha inician las clases en el cepr?",
+      "ground_truth": "Las clases del CEPRUNSA inician el 27/04/2026 en la I Fase, el 24/08/2026 en el Ciclo Quintos y el 16/11/2026 en la II Fase."
+    },
+    {
+      "id": 4,
+      "query": "cuando salen los resultados del examen?",
+      "categoria_correcta": "CRONOGRAMA",
+      "parafrasis": "que dia publican los resultados de la prueba?",
+      "ground_truth": "El cronograma oficial no especifica una fecha de publicacion de resultados; las evaluaciones de conocimientos son el 05/07/2026 (I Fase), el 01/11/2026 (Ciclo Quintos) y el 24/01/2027 (II Fase)."
+    },
+    {
+      "id": 5,
+      "query": "cuando es la entrega de carnets para los alumnos?",
+      "categoria_correcta": "CRONOGRAMA",
+      "parafrasis": "en que fecha dan los carnets a los estudiantes?",
+      "ground_truth": "El cronograma oficial de admision 2027 no incluye una fecha de entrega de carnets."
+    },
+    {
+      "id": 6,
+      "query": "hay examen en diciembre o en enero?",
+      "categoria_correcta": "CRONOGRAMA",
+      "parafrasis": "el examen se rinde en diciembre o enero?",
+      "ground_truth": "No hay examen programado en diciembre; la evaluacion de conocimientos de la II Fase del CEPRUNSA es el 24/01/2027, en enero."
+    },
+    {
+      "id": 7,
+      "query": "cuantas fases tiene el proceso del ceprunsa?",
+      "categoria_correcta": "CRONOGRAMA",
+      "parafrasis": "el proceso de admision del cepr cuantas etapas tiene?",
+      "ground_truth": "El proceso CEPRUNSA 2027 comprende tres examenes: CEPRUNSA I Fase, CEPRUNSA Ciclo Quintos y CEPRUNSA II Fase."
+    },
+    {
+      "id": 8,
+      "query": "cuantas vacantes hay para medicina?",
+      "categoria_correcta": "VACANTES",
+      "parafrasis": "cuantos ingresan a medicina por el ceprunsa?",
+      "ground_truth": "Medicina tiene 37 vacantes por CEPRUNSA (12 en Fase I, 12 en Fase II y 13 en Ciclo Quintos) y 30 por examen ordinario, con un total general de 67 vacantes en el proceso de admision 2027."
+    },
+    {
+      "id": 9,
+      "query": "cuantas vacantes hay para ingenieria de sistemas?",
+      "categoria_correcta": "VACANTES",
+      "parafrasis": "cuantos puestos hay pa sistemas en el cepr?",
+      "ground_truth": "Ingenieria de Sistemas tiene 35 vacantes por CEPRUNSA (11 en Fase I, 12 en Fase II y 12 en Ciclo Quintos) y 38 por examen ordinario, con un total general de 73 vacantes."
+    },
+    {
+      "id": 10,
+      "query": "que carreras tienen mas vacantes en el ceprunsa?",
+      "categoria_correcta": "VACANTES",
+      "parafrasis": "cuales son las carreras con mayor cantidad de vacantes?",
+      "ground_truth": "Via CEPRUNSA, las carreras con mas vacantes son Contabilidad y Economia (90 cada una), seguidas de Derecho y Psicologia (80 cada una). En el total general destacan Administracion (230), Contabilidad (200) y Economia (180)."
+    },
+    {
+      "id": 11,
+      "query": "hay vacantes para derecho?",
+      "categoria_correcta": "VACANTES",
+      "parafrasis": "cuantos entran a derecho por el cepr?",
+      "ground_truth": "Si; Derecho tiene 80 vacantes por CEPRUNSA (29 en Fase I, 27 en Fase II y 24 en Ciclo Quintos) y 80 por examen ordinario, con un total general de 160 vacantes."
+    },
+    {
+      "id": 12,
+      "query": "cuantas vacantes tiene arquitectura este año?",
+      "categoria_correcta": "VACANTES",
+      "parafrasis": "para arquitectura cuantos puestos ofrece el ceprunsa?",
+      "ground_truth": "Arquitectura tiene 55 vacantes por CEPRUNSA (18 en Fase I, 18 en Fase II y 19 en Ciclo Quintos) y 55 por examen ordinario, con un total general de 110 vacantes."
+    },
+    {
+      "id": 13,
+      "query": "cuantas vacantes hay en total en el ceprunsa 2027?",
+      "categoria_correcta": "VACANTES",
+      "parafrasis": "cual es el total de vacantes que ofrece el cepr este proceso?",
+      "ground_truth": "El CEPRUNSA ofrece 2105 vacantes en total (707 en Fase I, 695 en Fase II y 703 en Ciclo Quintos); el proceso ordinario de admision 2027 completo suma 4739 vacantes."
+    },
+    {
+      "id": 14,
+      "query": "hay vacantes para enfermeria en areas biomedicas?",
+      "categoria_correcta": "VACANTES",
+      "parafrasis": "enfermeria cuantas vacantes tiene en biomedicas?",
+      "ground_truth": "Si; Enfermeria pertenece al area de Biomedicas y tiene 37 vacantes por CEPRUNSA (11 en Fase I, 12 en Fase II y 14 en Ciclo Quintos) y 37 por examen ordinario, 74 en total."
+    },
+    {
+      "id": 15,
+      "query": "que temas vienen en el examen de matematica?",
+      "categoria_correcta": "TEMARIO",
+      "parafrasis": "que contenidos de mate entran en la prueba?",
+      "ground_truth": "El temario de Matematica incluye conjuntos y operaciones entre conjuntos, sistemas numericos (naturales, enteros y racionales), potenciacion y radicacion, divisibilidad, numeros primos y razonamiento algebraico, entre otros contenidos."
+    },
+    {
+      "id": 16,
+      "query": "que cursos se evaluan en el examen del ceprunsa?",
+      "categoria_correcta": "TEMARIO",
+      "parafrasis": "cuales son las materias que toman en el examen del cepr?",
+      "ground_truth": "El temario 2027 comprende materias como Razonamiento Verbal (comprension lectora y analogias), Razonamiento Matematico, Matematica, Quimica, Historia, Geografia y otras asignaturas de ciencias y humanidades."
+    },
+    {
+      "id": 17,
+      "query": "cuantas preguntas tiene el examen?",
+      "categoria_correcta": "TEMARIO",
+      "parafrasis": "de cuantas preguntas es la prueba del ceprunsa?",
+      "ground_truth": "Los documentos oficiales del temario y la matriz de evaluacion no especifican el numero de preguntas del examen."
+    },
+    {
+      "id": 18,
+      "query": "que temas de fisica debo estudiar?",
+      "categoria_correcta": "TEMARIO",
+      "parafrasis": "que contenidos de fisica vienen en el examen?",
+      "ground_truth": "El temario incluye contenidos de ciencias fisicas como transferencia de calor, cambios de estado, relacion masa-energia, estructura atomica y geografia fisica (geosfera, tectonica de placas)."
+    },
+    {
+      "id": 19,
+      "query": "cuanto vale cada pregunta del examen?",
+      "categoria_correcta": "TEMARIO",
+      "parafrasis": "cual es el puntaje por pregunta en la prueba?",
+      "ground_truth": "Los documentos no especifican el puntaje por pregunta; el reglamento establece que la evaluacion previa pondera el 50% del puntaje final y se promedia con la evaluacion de conocimientos."
+    },
+    {
+      "id": 20,
+      "query": "que temas de quimica entran para el examen de biomedicas?",
+      "categoria_correcta": "TEMARIO",
+      "parafrasis": "que contenidos de quimica evaluan para biomedicas?",
+      "ground_truth": "El temario de Quimica incluye la Quimica como ciencia (definicion, ramas, metodo cientifico, Sistema Internacional de Unidades), la materia y sus transformaciones, propiedades y clasificacion de la materia, energia y estructura atomica."
+    },
+    {
+      "id": 21,
+      "query": "razonamiento verbal que temas tiene?",
+      "categoria_correcta": "TEMARIO",
+      "parafrasis": "que se evalua en razonamiento verbal?",
+      "ground_truth": "Razonamiento Verbal evalua comprension lectora (literal e inferencial), analogias verbales (semanticas, funcionales, causa-efecto), relaciones parte-todo y evaluacion de la informacion del texto."
+    },
+    {
+      "id": 22,
+      "query": "que pasa si me sorprenden copiando en el examen?",
+      "categoria_correcta": "REGLAMENTO",
+      "parafrasis": "cual es la sancion si te encuentran plagiando en la prueba?",
+      "ground_truth": "Segun el articulo 124 del reglamento, los postulantes que cometan actos de suplantacion seran derivados al Ministerio Publico para la denuncia y las acciones legales correspondientes, y quedan impedidos de postular segun el articulo 126."
+    },
+    {
+      "id": 23,
+      "query": "puedo postular al ceprunsa si aun estoy en quinto de secundaria?",
+      "categoria_correcta": "REGLAMENTO",
+      "parafrasis": "los que todavia estan en quinto pueden inscribirse al cepr?",
+      "ground_truth": "Si; el CEPRUNSA contempla la modalidad Ciclo Quintos dirigida a estudiantes de quinto anio de Educacion Basica Regular."
+    },
+    {
+      "id": 24,
+      "query": "que documentos necesito para inscribirme?",
+      "categoria_correcta": "REGLAMENTO",
+      "parafrasis": "que papeles piden para la inscripcion al ceprunsa?",
+      "ground_truth": "Para confirmar la inscripcion, el postulante debe descargar el codigo web del SISADMISION y realizar el pago por derecho de admision, conforme al articulo 31 del reglamento."
+    },
+    {
+      "id": 25,
+      "query": "cuanto cuesta la inscripcion al ceprunsa?",
+      "categoria_correcta": "REGLAMENTO",
+      "parafrasis": "cual es el pago para inscribirse al cepr?",
+      "ground_truth": "El reglamento no publica montos especificos: establece que el postulante debe pagar los derechos de admision conforme a la normativa institucional vigente y que ningun pago es reembolsable."
+    },
+    {
+      "id": 26,
+      "query": "puedo cambiarme de carrera despues de inscribirme?",
+      "categoria_correcta": "REGLAMENTO",
+      "parafrasis": "se puede cambiar la carrera elegida luego de la inscripcion?",
+      "ground_truth": "Si; el reglamento permite el cambio de programa de estudios previo pago del monto correspondiente; si el postulante no completa el procedimiento, no puede solicitar la devolucion del pago."
+    },
+    {
+      "id": 27,
+      "query": "si no llego al puntaje minimo igual puedo ingresar?",
+      "categoria_correcta": "REGLAMENTO",
+      "parafrasis": "hay ingreso si no alcanzo la nota minima?",
+      "ground_truth": "No; el postulante debe alcanzar un puntaje igual o superior a la mediana calculada para el programa de estudios al que postula, y las vacantes se cubren en estricto orden de merito."
+    },
+    {
+      "id": 28,
+      "query": "cual es el mejor restaurante cerca de la unsa?",
+      "categoria_correcta": "FUERA_DE_DOMINIO",
+      "parafrasis": "donde puedo almorzar rico por la universidad?",
+      "ground_truth": "La consulta esta fuera del alcance del sistema; solo se responde sobre el proceso de admision de CEPRUNSA: cronogramas, vacantes, temario y reglamento."
+    },
+    {
+      "id": 29,
+      "query": "quien gano el partido de melgar ayer?",
+      "categoria_correcta": "FUERA_DE_DOMINIO",
+      "parafrasis": "como quedo melgar en su ultimo partido?",
+      "ground_truth": "La consulta esta fuera del alcance del sistema; solo se responde sobre el proceso de admision de CEPRUNSA: cronogramas, vacantes, temario y reglamento."
+    },
+    {
+      "id": 30,
+      "query": "cuanto esta el dolar hoy?",
+      "categoria_correcta": "FUERA_DE_DOMINIO",
+      "parafrasis": "cual es el tipo de cambio del dolar?",
+      "ground_truth": "La consulta esta fuera del alcance del sistema; solo se responde sobre el proceso de admision de CEPRUNSA: cronogramas, vacantes, temario y reglamento."
+    }
+  ]
+}
