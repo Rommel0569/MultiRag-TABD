@@ -1,0 +1,4 @@
+# Optional AWS SDK for Textract. Keep it separate from the default dependencies;
+# installing the SDK does not enable Textract or send documents to AWS.
+boto3>=1.43.105,<2
+botocore[crt]>=1.43.105,<1.44

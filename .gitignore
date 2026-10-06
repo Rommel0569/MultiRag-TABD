@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+
+app/data/cache/
+data/workspaces/
+data/cache/
+data/ocr_audit/
+data/index_ocr_revision/
+data/index_textract_*/
+tmp/
+evaluation/archive/
+evaluation/runs/
+.env
+.env.*
+!.env.example
+
+# local environments and build output
+venv/
+node_modules/
+fronted/fronted/node_modules/
+fronted/fronted/dist/
+.DS_Store

@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.png binary
+*.pdf binary
+# byte-exact: the freeze files record SHA-256 of these sources
+app/*.py -text
+evaluation/heldout/app_v4_frozen/*.py -text
+evaluation/heldout/app_v4c_snapshot/*.py -text
