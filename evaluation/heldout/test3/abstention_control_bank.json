@@ -1,0 +1,171 @@
+{
+ "n": 15,
+ "note": "abstention control (5 unanswerable + 10 out-of-domain) from the earlier sealed bank",
+ "consultas": [
+  {
+   "id": "N01",
+   "category": "SIN_RESPUESTA",
+   "type": "unanswerable",
+   "query": "¿Cuántos alumnos ingresaron el año pasado?",
+   "gold": "no figura en los documentos",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent",
+   "sim_to_dev": 0.626
+  },
+  {
+   "id": "N02",
+   "category": "SIN_RESPUESTA",
+   "type": "unanswerable",
+   "query": "¿Cuánto cuesta el ciclo de preparación del CEPRUNSA en soles?",
+   "gold": "el reglamento remite a montos aprobados por el CU; no da cifras",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent",
+   "sim_to_dev": 0.686
+  },
+  {
+   "id": "N03",
+   "category": "SIN_RESPUESTA",
+   "type": "unanswerable",
+   "query": "¿Hay vacantes para Ingeniería Naval?",
+   "gold": "el programa no figura en el cuadro de vacantes",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent",
+   "sim_to_dev": 0.682
+  },
+  {
+   "id": "N04",
+   "category": "SIN_RESPUESTA",
+   "type": "unanswerable",
+   "query": "¿Hay cronograma publicado para el proceso de ingreso del 2030?",
+   "gold": "los documentos solo cubren el proceso 2027",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent",
+   "sim_to_dev": 0.492
+  },
+  {
+   "id": "N05",
+   "category": "SIN_RESPUESTA",
+   "type": "unanswerable",
+   "query": "¿Hay vacantes para Ingeniería Aeronáutica?",
+   "gold": "el programa no figura en el cuadro de vacantes",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent",
+   "sim_to_dev": 0.703
+  },
+  {
+   "id": "Z01",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Cuál es la capital de Chile?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a",
+   "sim_to_dev": 0.657
+  },
+  {
+   "id": "Z02",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Quién descubrió América?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a",
+   "sim_to_dev": 0.5
+  },
+  {
+   "id": "Z03",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "Dame una receta de lomo saltado",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a",
+   "sim_to_dev": 0.667
+  },
+  {
+   "id": "Z04",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Cuánto es 48 entre 6?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a",
+   "sim_to_dev": 0.698
+  },
+  {
+   "id": "Z05",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Cómo se juega ajedrez?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a",
+   "sim_to_dev": 0.492
+  },
+  {
+   "id": "Z06",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Cuándo son las inscripciones de la Universidad de Piura?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a",
+   "sim_to_dev": 0.839
+  },
+  {
+   "id": "Z07",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "Escríbeme una canción de amor",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a",
+   "sim_to_dev": 0.543
+  },
+  {
+   "id": "Z08",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Qué películas hay en el cine hoy?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a",
+   "sim_to_dev": 0.561
+  },
+  {
+   "id": "Z09",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Cómo se renueva el pasaporte?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a",
+   "sim_to_dev": 0.538
+  },
+  {
+   "id": "Z10",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Qué temperatura hace en Lima?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a",
+   "sim_to_dev": 0.783
+  }
+ ]
+}

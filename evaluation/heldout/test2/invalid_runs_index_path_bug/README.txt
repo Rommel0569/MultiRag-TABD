@@ -1,0 +1,1 @@
+Invalid: the frozen copy resolved CEPRUNSA_INDEX_DIR relative to its own folder, found no index and retrieved 0 chunks (all answers = 'no relevant information'). Not results. Re-run with an absolute index path; code unchanged (hashes = FREEZE.json).

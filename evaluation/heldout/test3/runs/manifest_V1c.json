@@ -1,0 +1,7 @@
+{
+ "started_utc": "2026-10-03T19:01:06.707703+00:00",
+ "bank_sha256": "a4792ae399770cb4146ace36f47a642dbcc5e3c03604f033bcf7bb9b36fbd189",
+ "label": "V1c",
+ "freeze": "evaluation/heldout/FREEZE4.json",
+ "model": "ollama qwen2.5:7b T=0.1"
+}

@@ -1,0 +1,1123 @@
+{
+ "status": "HELDOUT_BANK_WRITTEN_AFTER_CODE_FREEZE",
+ "n": 89,
+ "created_utc": "2026-10-02T20:17:31.334331+00:00",
+ "max_similarity_to_any_seen_question": 0.895,
+ "top5_most_similar": [
+  [
+   0.895,
+   "C07",
+   "¿Qué día es la evaluación de aptitudes académicas del extraordinario?"
+  ],
+  [
+   0.874,
+   "V08",
+   "¿Cuántas vacantes de Enfermería hay en ciclo quintos de CEPRUNSA?"
+  ],
+  [
+   0.843,
+   "U04",
+   "¿Cuántas vacantes hay para Medicina Veterinaria?"
+  ],
+  [
+   0.811,
+   "U05",
+   "¿Cuántas vacantes hay para Odontología?"
+  ],
+  [
+   0.809,
+   "V03",
+   "¿Qué carrera tiene más vacantes en total?"
+  ]
+ ],
+ "consultas": [
+  {
+   "id": "C01",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Hasta cuándo me puedo inscribir al ordinario de la primera fase?",
+   "gold": "17/07/2026",
+   "must": [
+    "17[/-]07[/-]2026|17 de julio"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA DE ADMISION 2027.pdf p.2"
+  },
+  {
+   "id": "C02",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Cuándo se da el examen ordinario de segunda fase?",
+   "gold": "14/03/2027 (evaluación de conocimientos)",
+   "must": [
+    "14[/-]03[/-]2027|14 de marzo"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA DE ADMISION 2027.pdf p.3"
+  },
+  {
+   "id": "C03",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "cuando es la evaluacion previa del ciclo quintos de ceprunsa",
+   "gold": "18/10/2026",
+   "must": [
+    "18[/-]10[/-]2026|18 de octubre"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA DE ADMISION 2027.pdf p.2"
+  },
+  {
+   "id": "C04",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Desde qué día empiezan las clases de CEPRUNSA segunda fase?",
+   "gold": "16/11/2026",
+   "must": [
+    "16[/-]11[/-]2026|16 de noviembre"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA DE ADMISION 2027.pdf p.2"
+  },
+  {
+   "id": "C05",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "En el examen extraordinario, ¿cuándo asignan las vacantes?",
+   "gold": "23/02/2027",
+   "must": [
+    "23[/-]02[/-]2027|23 de febrero"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA DE ADMISION 2027.pdf p.2"
+  },
+  {
+   "id": "C06",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "Soy de Camaná, ¿qué día rindo el examen en filiales?",
+   "gold": "20/03/2027 (evaluación de conocimientos, filiales)",
+   "must": [
+    "20[/-]03[/-]2027|20 de marzo"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA DE ADMISION 2027.pdf p.3"
+  },
+  {
+   "id": "C07",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Qué día es la evaluación de aptitudes académicas del extraordinario?",
+   "gold": "21/02/2027",
+   "must": [
+    "21[/-]02[/-]2027|21 de febrero"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA DE ADMISION 2027.pdf p.2"
+  },
+  {
+   "id": "C08",
+   "category": "CRONOGRAMA",
+   "type": "aggregate",
+   "query": "¿Cuántos exámenes distintos hay en el cronograma de admisión 2027?",
+   "gold": "7 (CEPRUNSA I fase, ordinario I, CEPRUNSA ciclo quintos, CEPRUNSA II fase, extraordinario, ordinario II, ordinario filiales)",
+   "must": [
+    "(?<![\\d.,/])7(?![\\d/])|siete"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA DE ADMISION 2027.pdf p.2-3"
+  },
+  {
+   "id": "C09",
+   "category": "CRONOGRAMA",
+   "type": "multistep",
+   "query": "Si me inscribo el último día en CEPRUNSA I fase, ¿cuántos días faltan para que empiecen las clases?",
+   "gold": "10 días (inscripción hasta 17/04/2026; inicio de clases 27/04/2026)",
+   "must": [
+    "(?<![\\d.,/])10(?![\\d/])|diez"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA DE ADMISION 2027.pdf p.2"
+  },
+  {
+   "id": "C10",
+   "category": "CRONOGRAMA",
+   "type": "comparison",
+   "query": "¿Qué cierra primero, las inscripciones del extraordinario o las del ordinario de segunda fase?",
+   "gold": "Extraordinario (27/01/2027) cierra antes que ordinario II (26/02/2027)",
+   "must": [
+    "extraordinario",
+    "27[/-]01[/-]2027|27 de enero"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA DE ADMISION 2027.pdf p.2-3"
+  },
+  {
+   "id": "C11",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Cuándo es la evaluación de conocimientos de CEPRUNSA primera fase?",
+   "gold": "05/07/2026",
+   "must": [
+    "05[/-]07[/-]2026|5 de julio"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA DE ADMISION 2027.pdf p.2"
+  },
+  {
+   "id": "C12",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "hasta que dia se puede inscribir uno en ciclo quintos",
+   "gold": "14/08/2026",
+   "must": [
+    "14[/-]08[/-]2026|14 de agosto"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA DE ADMISION 2027.pdf p.2"
+  },
+  {
+   "id": "C13",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Cuándo termina la inscripción para el ordinario de filiales?",
+   "gold": "16/03/2027",
+   "must": [
+    "16[/-]03[/-]2027|16 de marzo"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA DE ADMISION 2027.pdf p.3"
+  },
+  {
+   "id": "C14",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Cuándo es la evaluación previa de CEPRUNSA segunda fase?",
+   "gold": "10/01/2027",
+   "must": [
+    "10[/-]01[/-]2027|10 de enero"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA DE ADMISION 2027.pdf p.2"
+  },
+  {
+   "id": "V01",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes hay en total para Derecho?",
+   "gold": "160",
+   "must": [
+    "(?<![\\d.,/])160(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "V02",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "Medicina, ¿cuántos cupos hay en la segunda fase del ordinario?",
+   "gold": "17",
+   "must": [
+    "(?<![\\d.,/])17(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "V03",
+   "category": "VACANTES",
+   "type": "superlative",
+   "query": "¿Qué carrera tiene más vacantes en total?",
+   "gold": "Administración (230)",
+   "must": [
+    "administracion",
+    "(?<![\\d.,/])230(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "V04",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes ofrece en total el proceso ordinario 2027?",
+   "gold": "4739",
+   "must": [
+    "4[ .,]?739"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "V05",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "cuantos cupos ay en ceprunsa pa ingenieria de sistemas",
+   "gold": "35 (total CEPRUNSA)",
+   "must": [
+    "(?<![\\d.,/])35(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "V06",
+   "category": "VACANTES",
+   "type": "list",
+   "query": "¿En qué carreras hay vacantes para El Pedregal?",
+   "gold": "Ingeniería Agronómica (70) y Administración (40)",
+   "must": [
+    "agronomic",
+    "administracion"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "V07",
+   "category": "VACANTES",
+   "type": "multistep",
+   "query": "¿Cuántas vacantes más tiene Ingeniería Industrial que Ingeniería Civil en total?",
+   "gold": "33 (112 - 79)",
+   "must": [
+    "(?<![\\d.,/])33(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "V08",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes de Enfermería hay en ciclo quintos de CEPRUNSA?",
+   "gold": "14",
+   "must": [
+    "(?<![\\d.,/])14(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "V09",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "Psicología: ¿cuántas vacantes en la fase I del ordinario?",
+   "gold": "34",
+   "must": [
+    "(?<![\\d.,/])34(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "V10",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuál es el total de vacantes de Arquitectura?",
+   "gold": "110",
+   "must": [
+    "(?<![\\d.,/])110(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "V11",
+   "category": "VACANTES",
+   "type": "list",
+   "query": "¿Para qué carreras hay cupos en Mollendo y cuántos en total?",
+   "gold": "Administración (40) y Contabilidad (20): 60",
+   "must": [
+    "administracion",
+    "contabilidad",
+    "(?<![\\d.,/])60(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "V12",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes totales tiene Educación Inicial?",
+   "gold": "34",
+   "must": [
+    "(?<![\\d.,/])34(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "V13",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "vacantes de biologia en total",
+   "gold": "83",
+   "must": [
+    "(?<![\\d.,/])83(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "V14",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes tiene Matemáticas en el ordinario, en total?",
+   "gold": "32 (total ordinario)",
+   "must": [
+    "(?<![\\d.,/])32(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "V15",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántos cupos hay para Ingeniería Química en la fase II del ordinario?",
+   "gold": "27",
+   "must": [
+    "(?<![\\d.,/])27(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "V16",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes hay en la filial de Camaná?",
+   "gold": "40",
+   "must": [
+    "(?<![\\d.,/])40(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "V17",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes tiene Ciencias de la Computación en total?",
+   "gold": "60",
+   "must": [
+    "(?<![\\d.,/])60(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "V18",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes de Turismo y Hotelería hay por CEPRUNSA fase I?",
+   "gold": "10",
+   "must": [
+    "(?<![\\d.,/])10(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "V19",
+   "category": "VACANTES",
+   "type": "aggregate",
+   "query": "¿Cuántas vacantes ordinarias suman todas las ingenierías?",
+   "gold": "871 (subtotal ingenierías, ordinario)",
+   "must": [
+    "(?<![\\d.,/])871(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "V20",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes tiene Antropología en total?",
+   "gold": "60",
+   "must": [
+    "(?<![\\d.,/])60(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "V21",
+   "category": "VACANTES",
+   "type": "superlative",
+   "query": "¿Cuál es la carrera con menos vacantes en total?",
+   "gold": "Gestión con mención en Gestión Pública y en Gestión de Proyectos (28 cada una)",
+   "must": [
+    "gestion",
+    "(?<![\\d.,/])28(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.3"
+  },
+  {
+   "id": "X01",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes extraordinarias hay para Medicina?",
+   "gold": "21",
+   "must": [
+    "(?<![\\d.,/])21(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.4"
+  },
+  {
+   "id": "X02",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "En el extraordinario, ¿cuántos cupos de primeros puestos tiene Ingeniería Industrial?",
+   "gold": "28",
+   "must": [
+    "(?<![\\d.,/])28(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.4"
+  },
+  {
+   "id": "X03",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes extraordinarias en total tiene Ingeniería de Materiales?",
+   "gold": "34",
+   "must": [
+    "(?<![\\d.,/])34(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.4"
+  },
+  {
+   "id": "X04",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "Ingeniería Agronómica: ¿cuántas vacantes del extraordinario son para personas con discapacidad?",
+   "gold": "7",
+   "must": [
+    "(?<![\\d.,/])7(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027.pdf p.4"
+  },
+  {
+   "id": "T01",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué se ve en probabilidad dentro de razonamiento matemático?",
+   "gold": "espacio muestral simple; comparar probabilidades elementales; probabilidad clásica básica en contextos cotidianos",
+   "must": [
+    "espacio muestral",
+    "compar\\w+ probabilidades|situaciones elementales",
+    "clasica"
+   ],
+   "abstain": false,
+   "source": "TEMARIO Y MATRIZ DE EVALUACION 2027.pdf pp.3-6"
+  },
+  {
+   "id": "T02",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué tipos de analogías entran en razonamiento verbal?",
+   "gold": "semánticas, funcionales, causa-efecto, parte-todo, inclusión-exclusión",
+   "must": [
+    "semantic",
+    "funcional",
+    "causa.{0,3}efecto",
+    "parte.{0,3}todo",
+    "inclusion"
+   ],
+   "abstain": false,
+   "source": "TEMARIO Y MATRIZ DE EVALUACION 2027.pdf pp.3-6"
+  },
+  {
+   "id": "T03",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué conectores lógicos tengo que dominar?",
+   "gold": "negación, conjunción, disyunción, condicional",
+   "must": [
+    "negacion",
+    "conjuncion",
+    "disyuncion",
+    "condicional"
+   ],
+   "abstain": false,
+   "source": "TEMARIO Y MATRIZ DE EVALUACION 2027.pdf pp.3-6"
+  },
+  {
+   "id": "T04",
+   "category": "TEMARIO",
+   "type": "aggregate",
+   "query": "¿Cuántos temas tiene razonamiento lógico?",
+   "gold": "9 (I a IX)",
+   "must": [
+    "(?<![\\d.,/])9(?![\\d/])|nueve"
+   ],
+   "abstain": false,
+   "source": "TEMARIO Y MATRIZ DE EVALUACION 2027.pdf pp.3-6"
+  },
+  {
+   "id": "T05",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué falacias simples se evalúan?",
+   "gold": "generalización indebida, contradicción, falsa causa, ambigüedad lógica",
+   "must": [
+    "generalizacion",
+    "contradiccion",
+    "falsa causa",
+    "ambiguedad"
+   ],
+   "abstain": false,
+   "source": "TEMARIO Y MATRIZ DE EVALUACION 2027.pdf pp.3-6"
+  },
+  {
+   "id": "T06",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué contenidos hay en estadística y análisis de datos?",
+   "gold": "tablas de datos; gráficos de barras y circulares; medidas de tendencia central; evaluar críticamente información numérica",
+   "must": [
+    "tablas",
+    "grafic",
+    "tendencia central",
+    "critica"
+   ],
+   "abstain": false,
+   "source": "TEMARIO Y MATRIZ DE EVALUACION 2027.pdf pp.3-6"
+  },
+  {
+   "id": "T07",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "Dime los temas de razonamiento verbal",
+   "gold": "I relaciones semánticas básicas; II analogías verbales; III series y clasificaciones verbales; IV lógica de enunciados; V razonamiento argumentativo básico; VI pragmática en enunciados; VII corrección por sentido",
+   "must": [
+    "relaciones semanticas",
+    "analogias",
+    "series y clasificaciones",
+    "logica de enunciados",
+    "argumentativo",
+    "pragmatica",
+    "correccion por sentido"
+   ],
+   "abstain": false,
+   "source": "TEMARIO Y MATRIZ DE EVALUACION 2027.pdf pp.3-6"
+  },
+  {
+   "id": "T08",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué debo saber sobre silogismos?",
+   "gold": "premisa mayor, premisa menor, conclusión; validez de un silogismo simple; errores de razonamiento deductivo",
+   "must": [
+    "premisa mayor",
+    "premisa menor",
+    "conclusion",
+    "validez"
+   ],
+   "abstain": false,
+   "source": "TEMARIO Y MATRIZ DE EVALUACION 2027.pdf pp.3-6"
+  },
+  {
+   "id": "T09",
+   "category": "TEMARIO",
+   "type": "locate",
+   "query": "¿En qué tema de razonamiento matemático se ven problemas de edades?",
+   "gold": "Razonamiento algebraico intuitivo (III)",
+   "must": [
+    "algebraic"
+   ],
+   "abstain": false,
+   "source": "TEMARIO Y MATRIZ DE EVALUACION 2027.pdf pp.3-6"
+  },
+  {
+   "id": "T10",
+   "category": "TEMARIO",
+   "type": "locate",
+   "query": "¿Dónde entran las simetrías en razonamiento matemático?",
+   "gold": "Razonamiento geométrico (IV)",
+   "must": [
+    "geometric"
+   ],
+   "abstain": false,
+   "source": "TEMARIO Y MATRIZ DE EVALUACION 2027.pdf pp.3-6"
+  },
+  {
+   "id": "T11",
+   "category": "TEMARIO",
+   "type": "locate",
+   "query": "¿Se estudian diagramas de árbol? ¿en qué tema?",
+   "gold": "Sí, en Análisis combinatorio intuitivo (V)",
+   "must": [
+    "combinatori"
+   ],
+   "abstain": false,
+   "source": "TEMARIO Y MATRIZ DE EVALUACION 2027.pdf pp.3-6"
+  },
+  {
+   "id": "T12",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué se evalúa en pragmática en enunciados?",
+   "gold": "intención comunicativa; presuposiciones explícitas; mensajes implícitos simples; adecuación del mensaje a la situación",
+   "must": [
+    "intencion comunicativa",
+    "presuposicion",
+    "implicit",
+    "adecuacion"
+   ],
+   "abstain": false,
+   "source": "TEMARIO Y MATRIZ DE EVALUACION 2027.pdf pp.3-6"
+  },
+  {
+   "id": "T13",
+   "category": "TEMARIO",
+   "type": "aggregate",
+   "query": "¿Cuántos temas tiene razonamiento matemático?",
+   "gold": "7 (I a VII)",
+   "must": [
+    "(?<![\\d.,/])7(?![\\d/])|siete"
+   ],
+   "abstain": false,
+   "source": "TEMARIO Y MATRIZ DE EVALUACION 2027.pdf pp.3-6"
+  },
+  {
+   "id": "T14",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué piden en proposiciones y enunciados lógicos?",
+   "gold": "identificar proposiciones; distinguir verdaderas y falsas; reconocer enunciados no proposicionales; analizar afirmaciones simples y compuestas",
+   "must": [
+    "identificar proposiciones",
+    "verdaderas y falsas",
+    "no proposicionales",
+    "simples y compuestas"
+   ],
+   "abstain": false,
+   "source": "TEMARIO Y MATRIZ DE EVALUACION 2027.pdf pp.3-6"
+  },
+  {
+   "id": "N01",
+   "category": "TEMARIO",
+   "type": "lookup",
+   "query": "¿Cuántas preguntas de química hay para biomédicas?",
+   "gold": "6",
+   "must": [
+    "(?<![\\d.,/])6(?![\\d/])|(?<![\\d.,/])06(?![\\d/])|seis"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO DE ADMISION 2027.pdf Art.38 (printed p.10)"
+  },
+  {
+   "id": "N02",
+   "category": "TEMARIO",
+   "type": "lookup",
+   "query": "Para sociales, ¿cuántas preguntas de historia?",
+   "gold": "8",
+   "must": [
+    "(?<![\\d.,/])8(?![\\d/])|(?<![\\d.,/])08(?![\\d/])|ocho"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO DE ADMISION 2027.pdf Art.38 (printed p.10)"
+  },
+  {
+   "id": "N03",
+   "category": "TEMARIO",
+   "type": "lookup",
+   "query": "¿Cuántas preguntas de física tiene el examen para ingenierías?",
+   "gold": "7",
+   "must": [
+    "(?<![\\d.,/])7(?![\\d/])|(?<![\\d.,/])07(?![\\d/])|siete"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO DE ADMISION 2027.pdf Art.38 (printed p.10)"
+  },
+  {
+   "id": "N04",
+   "category": "TEMARIO",
+   "type": "lookup",
+   "query": "¿Cuántas preguntas tiene en total el examen ordinario?",
+   "gold": "80",
+   "must": [
+    "(?<![\\d.,/])80(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO DE ADMISION 2027.pdf Art.38 (printed p.10)"
+  },
+  {
+   "id": "N05",
+   "category": "TEMARIO",
+   "type": "lookup",
+   "query": "¿Cuántas preguntas de biología para biomédicas?",
+   "gold": "9",
+   "must": [
+    "(?<![\\d.,/])9(?![\\d/])|(?<![\\d.,/])09(?![\\d/])|nueve"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO DE ADMISION 2027.pdf Art.38 (printed p.10)"
+  },
+  {
+   "id": "N06",
+   "category": "TEMARIO",
+   "type": "lookup",
+   "query": "Razonamiento verbal en ingenierías: ¿cuántas preguntas?",
+   "gold": "4",
+   "must": [
+    "(?<![\\d.,/])4(?![\\d/])|(?<![\\d.,/])04(?![\\d/])|cuatro"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO DE ADMISION 2027.pdf Art.38 (printed p.10)"
+  },
+  {
+   "id": "R01",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Pueden postular personas condenadas por terrorismo?",
+   "gold": "No: están impedidas de inscribirse (Art. 23)",
+   "must": [
+    "impedid|no pueden|no podran|no se permite|prohib",
+    "terroris"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO Art.23 p.7"
+  },
+  {
+   "id": "R02",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "Si no presento todos los requisitos antes del cierre, ¿qué pasa con mi preinscripción?",
+   "gold": "No será autorizado a concluir la preinscripción (Art. 28)",
+   "must": [
+    "no sera autorizad|no podra concluir|no (se|sera) .{0,30}autoriz|no .{0,20}concluir"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO Art.28 p.8"
+  },
+  {
+   "id": "R03",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "Pagué el cambio de carrera pero no terminé el trámite, ¿me devuelven la plata?",
+   "gold": "No: no podrá solicitar la devolución bajo ningún concepto (Art. 29)",
+   "must": [
+    "no podra solicitar la devolucion|no .{0,25}devol|ningun concepto|no hay devolucion|no procede"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO Art.29 p.8"
+  },
+  {
+   "id": "R04",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Hasta cuándo puedo cambiar de carrera?",
+   "gold": "Hasta antes del cierre de inscripciones, según cronograma (Art. 29)",
+   "must": [
+    "cierre de (las )?inscripciones|antes del cierre"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO Art.29 p.8"
+  },
+  {
+   "id": "R05",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Para Arquitectura hay una prueba adicional?",
+   "gold": "Sí: evaluación previa propia del programa, 50% del puntaje final (Art. 30)",
+   "must": [
+    "evaluacion previa",
+    "50|cincuenta"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO Art.30 p.8-9"
+  },
+  {
+   "id": "R06",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Dónde me registro y de dónde descargo mi carné de postulante?",
+   "gold": "En la plataforma SISADMISIÓN (Arts. 25-26)",
+   "must": [
+    "sisadmision"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO Art.25-26 p.7"
+  },
+  {
+   "id": "R07",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿El carné de postulante me sirve para otro examen?",
+   "gold": "No: es válido únicamente para el examen convocado según el cronograma (Art. 25)",
+   "must": [
+    "\\bno\\b|unicamente|solo|exclusiv",
+    "convocad|cada evaluacion|cronograma"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO Art.25 p.7"
+  },
+  {
+   "id": "R08",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "Soy ingresante con CLA, ¿tengo que regularizar mi expediente?",
+   "gold": "Sí, de manera obligatoria, según el cronograma (Art. 29)",
+   "must": [
+    "regulariz",
+    "obligatori|\\bsi\\b|debera|debe"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO Art.29 p.8"
+  },
+  {
+   "id": "R09",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Qué puedo llevar el día del examen?",
+   "gold": "Carné de postulante, documento de identidad, lápiz HB o 2B, borrador y tajador (Art. 35)",
+   "must": [
+    "carne",
+    "identidad|dni",
+    "lapiz",
+    "borrador",
+    "tajador"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO Art.35 p.10"
+  },
+  {
+   "id": "R10",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Puedo entrar al examen con una casaca con capucha?",
+   "gold": "No: no se permite vestimenta que contenga capucha (Art. 35)",
+   "must": [
+    "capucha",
+    "\\bno\\b|prohib|no se permite"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO Art.35 p.10"
+  },
+  {
+   "id": "R11",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "Ya alcancé vacante en el primer examen, ¿puedo postular de nuevo en otro examen de este año?",
+   "gold": "No: no podrá volver a postular en otros exámenes del mismo proceso del año en curso (Art. 37)",
+   "must": [
+    "\\bno\\b",
+    "mismo proceso|otros examenes|ano en curso|mismo ano"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO Art.37 p.10"
+  },
+  {
+   "id": "R12",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Qué pasa si hay una situación extrema durante el examen?",
+   "gold": "La CPS con la DA y la CSPS evalúan de inmediato la conveniencia de suspender el examen (Art. 36)",
+   "must": [
+    "suspend|suspension",
+    "inmediat|evaluar"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO Art.36 p.10"
+  },
+  {
+   "id": "R13",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Qué pasa si descubren que puse datos falsos?",
+   "gold": "Anulación de la inscripción o del ingreso, sin perjuicio de acciones administrativas y legales (Art. 33)",
+   "must": [
+    "anulacion",
+    "falsedad|adulteracion|inexactitud|falso|falsa"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO Art.33 p.9"
+  },
+  {
+   "id": "R14",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Cómo confirmo mi inscripción?",
+   "gold": "Descargar el código web del SISADMISIÓN y pagar el derecho de admisión consignando ese código (Art. 31)",
+   "must": [
+    "codigo web",
+    "pago|pagar"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO Art.31 p.9"
+  },
+  {
+   "id": "R15",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Dónde se publica la fecha y la hora de mi examen?",
+   "gold": "En la página web institucional de la UNSA, sección Admisión de Pregrado, y en el carné (Art. 34)",
+   "must": [
+    "web",
+    "admision de pregrado|institucional"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO Art.34 p.9"
+  },
+  {
+   "id": "U01",
+   "category": "SIN_RESPUESTA",
+   "type": "unanswerable",
+   "query": "¿A qué hora empieza el examen?",
+   "gold": "no figura en los documentos",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent by text search + page review"
+  },
+  {
+   "id": "U02",
+   "category": "SIN_RESPUESTA",
+   "type": "unanswerable",
+   "query": "¿Cuántos postulantes se presentan por cada vacante?",
+   "gold": "no figura en los documentos",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent by text search + page review"
+  },
+  {
+   "id": "U03",
+   "category": "SIN_RESPUESTA",
+   "type": "unanswerable",
+   "query": "¿Cuál fue el puntaje de ingreso a Medicina el año pasado?",
+   "gold": "no figura en los documentos",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent by text search + page review"
+  },
+  {
+   "id": "U04",
+   "category": "SIN_RESPUESTA",
+   "type": "unanswerable",
+   "query": "¿Cuántas vacantes hay para Medicina Veterinaria?",
+   "gold": "el programa no figura en el cuadro de vacantes",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent by text search + page review"
+  },
+  {
+   "id": "U05",
+   "category": "SIN_RESPUESTA",
+   "type": "unanswerable",
+   "query": "¿Cuántas vacantes hay para Odontología?",
+   "gold": "el programa no figura en el cuadro de vacantes",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent by text search + page review"
+  },
+  {
+   "id": "U06",
+   "category": "SIN_RESPUESTA",
+   "type": "unanswerable",
+   "query": "¿Cuándo es el examen de admisión 2028?",
+   "gold": "los documentos solo cubren el proceso 2027",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent by text search + page review"
+  },
+  {
+   "id": "O01",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Cuándo son las inscripciones de la Universidad Católica San Pablo?",
+   "gold": "fuera del dominio de admisión",
+   "must": [],
+   "abstain": true,
+   "source": "n/a"
+  },
+  {
+   "id": "O02",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Qué carreras tiene la UNI en Lima?",
+   "gold": "fuera del dominio de admisión",
+   "must": [],
+   "abstain": true,
+   "source": "n/a"
+  },
+  {
+   "id": "O03",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "Recomiéndame una receta de rocoto relleno",
+   "gold": "fuera del dominio de admisión",
+   "must": [],
+   "abstain": true,
+   "source": "n/a"
+  },
+  {
+   "id": "O04",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Cómo va a estar el clima mañana en Arequipa?",
+   "gold": "fuera del dominio de admisión",
+   "must": [],
+   "abstain": true,
+   "source": "n/a"
+  },
+  {
+   "id": "O05",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Cuánto es 15 por 12?",
+   "gold": "fuera del dominio de admisión",
+   "must": [],
+   "abstain": true,
+   "source": "n/a"
+  },
+  {
+   "id": "O06",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Quién ganó el último mundial de fútbol?",
+   "gold": "fuera del dominio de admisión",
+   "must": [],
+   "abstain": true,
+   "source": "n/a"
+  },
+  {
+   "id": "O07",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "Escríbeme un poema sobre el volcán Misti",
+   "gold": "fuera del dominio de admisión",
+   "must": [],
+   "abstain": true,
+   "source": "n/a"
+  },
+  {
+   "id": "O08",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Dónde puedo comprar un celular barato en Arequipa?",
+   "gold": "fuera del dominio de admisión",
+   "must": [],
+   "abstain": true,
+   "source": "n/a"
+  },
+  {
+   "id": "O09",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Cuál es la mejor universidad del Perú?",
+   "gold": "fuera del dominio de admisión",
+   "must": [],
+   "abstain": true,
+   "source": "n/a"
+  }
+ ]
+}

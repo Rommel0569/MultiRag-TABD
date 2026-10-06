@@ -1,0 +1,1878 @@
+{
+ "status": "TEST2_WRITTEN_BEFORE_ANY_SYSTEM_CHANGE_OR_RUN",
+ "n": 138,
+ "created_utc": "2026-10-02T22:08:10.715772+00:00",
+ "max_similarity_to_any_dev_question": 0.9137931034482759,
+ "top5": [
+  [
+   0.914,
+   "S05",
+   "¿Cuándo es la evaluación previa del examen extraordinario?"
+  ],
+  [
+   0.912,
+   "W27",
+   "¿Cuántas vacantes de Ingeniería Agronómica hay en el ciclo quintos de CEPRUNSA?"
+  ],
+  [
+   0.911,
+   "W01",
+   "¿Cuántas vacantes de Ingeniería Geofísica hay en el ciclo quintos de CEPRUNSA?"
+  ],
+  [
+   0.875,
+   "S12",
+   "¿Hasta qué día me puedo inscribir en CEPRUNSA II?"
+  ],
+  [
+   0.871,
+   "S04",
+   "¿Cuándo comienzan las clases del extraordinario?"
+  ]
+ ],
+ "consultas": [
+  {
+   "id": "W01",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes de Ingeniería Geofísica hay en el ciclo quintos de CEPRUNSA?",
+   "gold": "11",
+   "must": [
+    "(?<![\\d.,/])11(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.911
+  },
+  {
+   "id": "W02",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "vacantes de Literatura y Lingüística ordinario segunda fase",
+   "gold": "22",
+   "must": [
+    "(?<![\\d.,/])22(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.606
+  },
+  {
+   "id": "W03",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "vacantes de Gestión Pública, ordinario, fase I",
+   "gold": "5",
+   "must": [
+    "(?<![\\d.,/])5(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.574
+  },
+  {
+   "id": "W04",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "CEPRUNSA fase I, Gestión de Empresas: ¿cuántos cupos?",
+   "gold": "7",
+   "must": [
+    "(?<![\\d.,/])7(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.471
+  },
+  {
+   "id": "W05",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "total de vacantes CEPRUNSA para Enfermería",
+   "gold": "37",
+   "must": [
+    "(?<![\\d.,/])37(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.597
+  },
+  {
+   "id": "W06",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "total general de vacantes de Trabajo Social",
+   "gold": "110",
+   "must": [
+    "(?<![\\d.,/])110(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.549
+  },
+  {
+   "id": "W07",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "cupos de Filosofía para ciclo quintos",
+   "gold": "7",
+   "must": [
+    "(?<![\\d.,/])7(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.524
+  },
+  {
+   "id": "W08",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes de Historia hay por CEPRUNSA primera fase?",
+   "gold": "7",
+   "must": [
+    "(?<![\\d.,/])7(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.8
+  },
+  {
+   "id": "W09",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes de Sociología hay por CEPRUNSA primera fase?",
+   "gold": "7",
+   "must": [
+    "(?<![\\d.,/])7(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.787
+  },
+  {
+   "id": "W10",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "CEPRUNSA fase II, Ingeniería Metalúrgica: ¿cuántos cupos?",
+   "gold": "11",
+   "must": [
+    "(?<![\\d.,/])11(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.605
+  },
+  {
+   "id": "W11",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "cupos de Periodismo para ciclo quintos",
+   "gold": "11",
+   "must": [
+    "(?<![\\d.,/])11(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.542
+  },
+  {
+   "id": "W12",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes de Relaciones Públicas hay por CEPRUNSA segunda fase?",
+   "gold": "22",
+   "must": [
+    "(?<![\\d.,/])22(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.706
+  },
+  {
+   "id": "W13",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "vacantes de Ingeniería de Materiales ordinario segunda fase",
+   "gold": "21",
+   "must": [
+    "(?<![\\d.,/])21(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.708
+  },
+  {
+   "id": "W14",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes de Derecho tiene CEPRUNSA en total?",
+   "gold": "80",
+   "must": [
+    "(?<![\\d.,/])80(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.727
+  },
+  {
+   "id": "W15",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes de Administración hay en el ciclo quintos de CEPRUNSA?",
+   "gold": "21",
+   "must": [
+    "(?<![\\d.,/])21(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.818
+  },
+  {
+   "id": "W16",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "total general de vacantes de Ingeniería Eléctrica",
+   "gold": "84",
+   "must": [
+    "(?<![\\d.,/])84(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.568
+  },
+  {
+   "id": "W17",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "vacantes de Ingeniería Civil, ordinario, fase I",
+   "gold": "18",
+   "must": [
+    "(?<![\\d.,/])18(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.694
+  },
+  {
+   "id": "W18",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "vacantes de Finanzas ordinario segunda fase",
+   "gold": "28",
+   "must": [
+    "(?<![\\d.,/])28(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.688
+  },
+  {
+   "id": "W19",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "cupos de Ingeniería Industrial para ciclo quintos",
+   "gold": "21",
+   "must": [
+    "(?<![\\d.,/])21(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.646
+  },
+  {
+   "id": "W20",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "cupos de Medicina para ciclo quintos",
+   "gold": "13",
+   "must": [
+    "(?<![\\d.,/])13(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.558
+  },
+  {
+   "id": "W21",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes tiene Turismo y Hotelería sumando ordinario, CEPRUNSA y filiales?",
+   "gold": "90",
+   "must": [
+    "(?<![\\d.,/])90(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.77
+  },
+  {
+   "id": "W22",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "Ingeniería Química: ¿cuántos cupos en el ordinario fase 2?",
+   "gold": "27",
+   "must": [
+    "(?<![\\d.,/])27(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.599
+  },
+  {
+   "id": "W23",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes tiene Marketing sumando ordinario, CEPRUNSA y filiales?",
+   "gold": "45",
+   "must": [
+    "(?<![\\d.,/])45(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.726
+  },
+  {
+   "id": "W24",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "vacantes de Ingeniería Ambiental, ordinario, fase I",
+   "gold": "15",
+   "must": [
+    "(?<![\\d.,/])15(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.712
+  },
+  {
+   "id": "W25",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "CEPRUNSA fase II, Antropología: ¿cuántos cupos?",
+   "gold": "10",
+   "must": [
+    "(?<![\\d.,/])10(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.559
+  },
+  {
+   "id": "W26",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "CEPRUNSA fase II, Ingeniería de Industrias Alimentarias: ¿cuántos cupos?",
+   "gold": "18",
+   "must": [
+    "(?<![\\d.,/])18(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.679
+  },
+  {
+   "id": "W27",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes de Ingeniería Agronómica hay en el ciclo quintos de CEPRUNSA?",
+   "gold": "12",
+   "must": [
+    "(?<![\\d.,/])12(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.912
+  },
+  {
+   "id": "W28",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "total general de vacantes de Ingeniería Sanitaria",
+   "gold": "29",
+   "must": [
+    "(?<![\\d.,/])29(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.569
+  },
+  {
+   "id": "W29",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "Contabilidad: suma de las dos fases del ordinario",
+   "gold": "90",
+   "must": [
+    "(?<![\\d.,/])90(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.566
+  },
+  {
+   "id": "W30",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "Ingeniería de Sistemas: ¿cuántos cupos en el ordinario fase 2?",
+   "gold": "20",
+   "must": [
+    "(?<![\\d.,/])20(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.588
+  },
+  {
+   "id": "W31",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes hay para Psicología en la primera fase del ordinario?",
+   "gold": "34",
+   "must": [
+    "(?<![\\d.,/])34(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "CUADRO DE VACANTES 2027 p.3",
+   "sim_to_dev": 0.803
+  },
+  {
+   "id": "W32",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes de Contabilidad hay en la filial de Mollendo?",
+   "gold": "20",
+   "must": [
+    "(?<![\\d.,/])20(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "p.3",
+   "sim_to_dev": 0.759
+  },
+  {
+   "id": "W33",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes tiene Administración en El Pedregal?",
+   "gold": "40",
+   "must": [
+    "(?<![\\d.,/])40(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "p.3",
+   "sim_to_dev": 0.72
+  },
+  {
+   "id": "W34",
+   "category": "VACANTES",
+   "type": "aggregate",
+   "query": "¿Cuántas vacantes ordinarias suman Medicina y Enfermería?",
+   "gold": "67 (30 + 37)",
+   "must": [
+    "(?<![\\d.,/])67(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "p.3",
+   "sim_to_dev": 0.789
+  },
+  {
+   "id": "W35",
+   "category": "VACANTES",
+   "type": "multistep",
+   "query": "¿Cuántas vacantes de CEPRUNSA más que Medicina tiene Derecho en total?",
+   "gold": "43 (80 - 37)",
+   "must": [
+    "(?<![\\d.,/])43(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "p.3",
+   "sim_to_dev": 0.644
+  },
+  {
+   "id": "W36",
+   "category": "VACANTES",
+   "type": "superlative",
+   "query": "¿Cuál es la ingeniería con más vacantes sumando todo?",
+   "gold": "Ingeniería Industrial (112)",
+   "must": [
+    "industrial",
+    "(?<![\\d.,/])112(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "p.3",
+   "sim_to_dev": 0.733
+  },
+  {
+   "id": "W37",
+   "category": "VACANTES",
+   "type": "superlative",
+   "query": "¿Qué carrera del área de ciencias biológicas tiene más vacantes en total?",
+   "gold": "Ingeniería Agronómica (140)",
+   "must": [
+    "agronomic",
+    "(?<![\\d.,/])140(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "p.3",
+   "sim_to_dev": 0.719
+  },
+  {
+   "id": "W38",
+   "category": "VACANTES",
+   "type": "aggregate",
+   "query": "¿Cuántas vacantes tiene el ordinario en la fase I sumando todas las carreras?",
+   "gold": "1106",
+   "must": [
+    "1[ .,]?106"
+   ],
+   "abstain": false,
+   "source": "p.3",
+   "sim_to_dev": 0.746
+  },
+  {
+   "id": "W39",
+   "category": "VACANTES",
+   "type": "aggregate",
+   "query": "¿Cuántas vacantes ofrece CEPRUNSA en total para todas las carreras?",
+   "gold": "2105",
+   "must": [
+    "2[ .,]?105"
+   ],
+   "abstain": false,
+   "source": "p.3",
+   "sim_to_dev": 0.685
+  },
+  {
+   "id": "W40",
+   "category": "VACANTES",
+   "type": "aggregate",
+   "query": "¿Cuántas vacantes hay en total en las tres filiales?",
+   "gold": "210 (110 + 60 + 40)",
+   "must": [
+    "(?<![\\d.,/])210(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "p.3",
+   "sim_to_dev": 0.742
+  },
+  {
+   "id": "W41",
+   "category": "VACANTES",
+   "type": "aggregate",
+   "query": "¿Cuántas vacantes tienen en total las carreras biomédicas?",
+   "gold": "511",
+   "must": [
+    "(?<![\\d.,/])511(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "p.3",
+   "sim_to_dev": 0.667
+  },
+  {
+   "id": "W42",
+   "category": "VACANTES",
+   "type": "locate",
+   "query": "¿Qué carrera tiene exactamente 29 vacantes en total?",
+   "gold": "Ingeniería Sanitaria",
+   "must": [
+    "sanitaria"
+   ],
+   "abstain": false,
+   "source": "p.3",
+   "sim_to_dev": 0.839
+  },
+  {
+   "id": "X11",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "En el proceso extraordinario, ¿cuántas vacantes totales tiene Ingeniería Pesquera?",
+   "gold": "27",
+   "must": [
+    "(?<![\\d.,/])27(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "p.4",
+   "sim_to_dev": 0.695
+  },
+  {
+   "id": "X12",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "Extraordinario: ¿cuántos cupos de primeros puestos tiene Ciencias de la Nutrición?",
+   "gold": "6",
+   "must": [
+    "(?<![\\d.,/])6(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "p.4",
+   "sim_to_dev": 0.778
+  },
+  {
+   "id": "X13",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes extraordinarias en total hay para Matemáticas?",
+   "gold": "24",
+   "must": [
+    "(?<![\\d.,/])24(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "p.4",
+   "sim_to_dev": 0.845
+  },
+  {
+   "id": "X14",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "En Biología, ¿cuántas vacantes del extraordinario son para personas con discapacidad?",
+   "gold": "4",
+   "must": [
+    "(?<![\\d.,/])4(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "p.4",
+   "sim_to_dev": 0.867
+  },
+  {
+   "id": "X15",
+   "category": "VACANTES",
+   "type": "lookup",
+   "query": "¿Cuántos primeros puestos entran por el extraordinario a Arquitectura?",
+   "gold": "7",
+   "must": [
+    "(?<![\\d.,/])7(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "p.4",
+   "sim_to_dev": 0.581
+  },
+  {
+   "id": "S01",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Cuándo empiezan las clases del ciclo quintos?",
+   "gold": "24/08/2026",
+   "must": [
+    "24[/-]08[/-]2026|24 de agosto"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA p.2",
+   "sim_to_dev": 0.841
+  },
+  {
+   "id": "S02",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Cuándo es la evaluación previa del ordinario de primera fase?",
+   "gold": "02/08/2026",
+   "must": [
+    "02[/-]08[/-]2026|2 de agosto"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA p.2",
+   "sim_to_dev": 0.787
+  },
+  {
+   "id": "S03",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Qué día es la evaluación de conocimientos del ordinario I fase?",
+   "gold": "09/08/2026",
+   "must": [
+    "09[/-]08[/-]2026|9 de agosto"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA p.2",
+   "sim_to_dev": 0.846
+  },
+  {
+   "id": "S04",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Cuándo comienzan las clases del extraordinario?",
+   "gold": "01/02/2027",
+   "must": [
+    "01[/-]02[/-]2027|1 de febrero"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA p.2",
+   "sim_to_dev": 0.871
+  },
+  {
+   "id": "S05",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Cuándo es la evaluación previa del examen extraordinario?",
+   "gold": "14/02/2027",
+   "must": [
+    "14[/-]02[/-]2027|14 de febrero"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA p.2",
+   "sim_to_dev": 0.914
+  },
+  {
+   "id": "S06",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Desde cuándo me puedo inscribir al ordinario de segunda fase?",
+   "gold": "01/02/2027",
+   "must": [
+    "01[/-]02[/-]2027|1 de febrero"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA p.3",
+   "sim_to_dev": 0.835
+  },
+  {
+   "id": "S07",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Cuándo es la evaluación previa del ordinario II?",
+   "gold": "07/03/2027",
+   "must": [
+    "07[/-]03[/-]2027|7 de marzo"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA p.3",
+   "sim_to_dev": 0.8
+  },
+  {
+   "id": "S08",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Desde qué fecha abren inscripciones para las filiales?",
+   "gold": "01/03/2027",
+   "must": [
+    "01[/-]03[/-]2027|1 de marzo"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA p.3",
+   "sim_to_dev": 0.621
+  },
+  {
+   "id": "S09",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Cuándo abren las inscripciones del ciclo quintos?",
+   "gold": "27/07/2026",
+   "must": [
+    "27[/-]07[/-]2026|27 de julio"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA p.2",
+   "sim_to_dev": 0.659
+  },
+  {
+   "id": "S10",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Desde cuándo se puede inscribir uno al ordinario de primera fase?",
+   "gold": "22/06/2026",
+   "must": [
+    "22[/-]06[/-]2026|22 de junio"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA p.2",
+   "sim_to_dev": 0.855
+  },
+  {
+   "id": "S11",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Cuándo empiezan las inscripciones de CEPRUNSA segunda fase?",
+   "gold": "12/10/2026",
+   "must": [
+    "12[/-]10[/-]2026|12 de octubre"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA p.2",
+   "sim_to_dev": 0.767
+  },
+  {
+   "id": "S12",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Hasta qué día me puedo inscribir en CEPRUNSA II?",
+   "gold": "06/11/2026",
+   "must": [
+    "06[/-]11[/-]2026|6 de noviembre"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA p.2",
+   "sim_to_dev": 0.875
+  },
+  {
+   "id": "S13",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Desde qué fecha me inscribo al extraordinario?",
+   "gold": "04/01/2027",
+   "must": [
+    "04[/-]01[/-]2027|4 de enero"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA p.2",
+   "sim_to_dev": 0.685
+  },
+  {
+   "id": "S14",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Qué día es la evaluación de conocimientos del CEPRUNSA segunda fase?",
+   "gold": "24/01/2027",
+   "must": [
+    "24[/-]01[/-]2027|24 de enero"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA p.2",
+   "sim_to_dev": 0.853
+  },
+  {
+   "id": "S15",
+   "category": "CRONOGRAMA",
+   "type": "lookup",
+   "query": "¿Cuándo se da la evaluación de conocimientos del ciclo quintos?",
+   "gold": "01/11/2026",
+   "must": [
+    "01[/-]11[/-]2026|1 de noviembre"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA p.2",
+   "sim_to_dev": 0.754
+  },
+  {
+   "id": "S16",
+   "category": "CRONOGRAMA",
+   "type": "multistep",
+   "query": "¿Cuántos días dura la inscripción del ordinario de primera fase?",
+   "gold": "25 días (22/06/2026 a 17/07/2026)",
+   "must": [
+    "(?<![\\d.,/])25(?![\\d/])|veinticinco"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA p.2",
+   "sim_to_dev": 0.704
+  },
+  {
+   "id": "S17",
+   "category": "CRONOGRAMA",
+   "type": "comparison",
+   "query": "¿Qué se rinde primero, el examen de conocimientos de CEPRUNSA I o el del ordinario I?",
+   "gold": "CEPRUNSA I (05/07/2026) antes que ordinario I (09/08/2026)",
+   "must": [
+    "ceprunsa",
+    "05[/-]07[/-]2026|5 de julio"
+   ],
+   "abstain": false,
+   "source": "CRONOGRAMA p.2",
+   "sim_to_dev": 0.689
+  },
+  {
+   "id": "Q01",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué principios de configuración electrónica se estudian en química?",
+   "gold": "Aufbau, Hund y exclusión de Pauli",
+   "must": [
+    "aufbau",
+    "hund",
+    "pauli"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.517
+  },
+  {
+   "id": "Q02",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué propiedades periódicas entran en el examen?",
+   "gold": "radio atómico e iónico, energía de ionización, electronegatividad, carácter metálico",
+   "must": [
+    "radio atomico",
+    "ionizacion",
+    "electronegatividad",
+    "metalico"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.61
+  },
+  {
+   "id": "Q03",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué sistemas de nomenclatura química tengo que saber?",
+   "gold": "tradicional, Stock y sistemática (IUPAC)",
+   "must": [
+    "tradicional",
+    "stock",
+    "sistematica|iupac"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.588
+  },
+  {
+   "id": "Q04",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué funciones químicas inorgánicas se evalúan?",
+   "gold": "óxidos, hidruros, ácidos, bases y sales",
+   "must": [
+    "oxido",
+    "hidruro",
+    "acido",
+    "bases",
+    "sales"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.625
+  },
+  {
+   "id": "Q05",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué unidades de concentración entran en soluciones?",
+   "gold": "porcentuales, molaridad y normalidad",
+   "must": [
+    "porcentual",
+    "molaridad",
+    "normalidad"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.55
+  },
+  {
+   "id": "Q06",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué teorías ácido-base se estudian?",
+   "gold": "Arrhenius y Brønsted-Lowry",
+   "must": [
+    "arrhenius",
+    "bronsted|lowry"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.657
+  },
+  {
+   "id": "Q07",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué se ve del estado gaseoso en química?",
+   "gold": "teoría cinético-molecular, leyes de los gases, gas ideal, Dalton, Graham",
+   "must": [
+    "dalton",
+    "graham",
+    "gas ideal"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.571
+  },
+  {
+   "id": "Q08",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué tipos de cálculos estequiométricos hay?",
+   "gold": "masa-masa, mol-mol, volumen-volumen",
+   "must": [
+    "masa.{0,3}masa",
+    "mol.{0,3}mol",
+    "volumen.{0,3}volumen"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.551
+  },
+  {
+   "id": "Q09",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué entra en estática en física?",
+   "gold": "fuerzas concurrentes, fuerza elástica, torque o momento de fuerza, condiciones de equilibrio",
+   "must": [
+    "concurrentes",
+    "elastica",
+    "torque|momento",
+    "equilibrio"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.614
+  },
+  {
+   "id": "Q10",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué tipos de colisiones se estudian en física?",
+   "gold": "elásticas e inelásticas",
+   "must": [
+    "elastica",
+    "inelastica"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.574
+  },
+  {
+   "id": "Q11",
+   "category": "TEMARIO",
+   "type": "locate",
+   "query": "¿En qué tema de física se ven las leyes de Kepler?",
+   "gold": "Cantidad de movimiento y gravitación",
+   "must": [
+    "gravitacion|cantidad de movimiento"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.632
+  },
+  {
+   "id": "Q12",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué se ve en hidrostática?",
+   "gold": "densidad, presión, Pascal, Arquímedes, flotación, tensión superficial",
+   "must": [
+    "densidad",
+    "presion",
+    "pascal",
+    "arquimedes",
+    "flotacion"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.571
+  },
+  {
+   "id": "Q13",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué leyes entran en inducción electromagnética?",
+   "gold": "ley de Faraday, ley de Lenz (flujo magnético, generadores y transformadores)",
+   "must": [
+    "faraday",
+    "lenz"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.593
+  },
+  {
+   "id": "Q14",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué temas de óptica se evalúan?",
+   "gold": "propagación de la luz, reflexión, refracción, espejos, lentes delgadas, espectro electromagnético",
+   "must": [
+    "reflexion",
+    "refraccion",
+    "espejos",
+    "lentes"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.667
+  },
+  {
+   "id": "Q15",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué medidas de dispersión entran en estadística descriptiva?",
+   "gold": "rango, varianza y desviación estándar",
+   "must": [
+    "rango",
+    "varianza",
+    "desviacion estandar"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.651
+  },
+  {
+   "id": "Q16",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué temas de análisis combinatorio hay en aritmética?",
+   "gold": "factorial, variaciones, combinaciones, permutaciones",
+   "must": [
+    "factorial",
+    "variaciones",
+    "combinaciones",
+    "permutaciones"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.667
+  },
+  {
+   "id": "Q17",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué métodos para resolver sistemas de ecuaciones se estudian?",
+   "gold": "sustitución, igualación y reducción",
+   "must": [
+    "sustitucion",
+    "igualacion",
+    "reduccion"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.683
+  },
+  {
+   "id": "Q18",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Cómo se estudia la división de polinomios?",
+   "gold": "método clásico y regla de Ruffini; teoremas del residuo y del factor",
+   "must": [
+    "ruffini",
+    "clasico"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.539
+  },
+  {
+   "id": "Q19",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué casos de factorización se ven?",
+   "gold": "factor común, por agrupación, diferencia de cuadrados, trinomios, suma y diferencia de cubos",
+   "must": [
+    "agrupacion",
+    "cuadrados",
+    "cubos"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.554
+  },
+  {
+   "id": "Q20",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué puntos notables del triángulo se estudian?",
+   "gold": "baricentro, circuncentro, ortocentro, incentro, excentro",
+   "must": [
+    "baricentro",
+    "circuncentro",
+    "ortocentro",
+    "incentro",
+    "excentro"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.568
+  },
+  {
+   "id": "Q21",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué cuerpos de revolución entran en geometría?",
+   "gold": "cilindro, tronco de cilindro, cono, tronco de cono y esfera",
+   "must": [
+    "cilindro",
+    "cono",
+    "esfera"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.614
+  },
+  {
+   "id": "Q22",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué sistemas de medida angular se usan en trigonometría?",
+   "gold": "sexagesimal, centesimal y radial",
+   "must": [
+    "sexagesimal",
+    "centesimal",
+    "radial"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.557
+  },
+  {
+   "id": "Q23",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué ángulos notables entran en trigonometría?",
+   "gold": "30°, 45°, 60°, 37° y 53°",
+   "must": [
+    "(?<![\\d.,/])30(?![\\d/])",
+    "(?<![\\d.,/])45(?![\\d/])",
+    "(?<![\\d.,/])60(?![\\d/])",
+    "(?<![\\d.,/])37(?![\\d/])",
+    "(?<![\\d.,/])53(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.62
+  },
+  {
+   "id": "Q24",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué curvas se ven en geometría analítica?",
+   "gold": "circunferencia, parábola y elipse (además de la recta)",
+   "must": [
+    "circunferencia",
+    "parabola",
+    "elipse"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.587
+  },
+  {
+   "id": "Q25",
+   "category": "TEMARIO",
+   "type": "aggregate",
+   "query": "¿Cuántos temas tiene álgebra?",
+   "gold": "16 (I a XVI)",
+   "must": [
+    "(?<![\\d.,/])16(?![\\d/])|dieciseis"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.686
+  },
+  {
+   "id": "Q26",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué se estudia de números complejos?",
+   "gold": "definición y forma binómica, módulo, conjugado, operaciones",
+   "must": [
+    "binomic",
+    "modulo",
+    "conjugado"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.558
+  },
+  {
+   "id": "Q27",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué aplicaciones aritméticas hay dentro de sumatorias?",
+   "gold": "interés, descuento, mezclas y aleaciones",
+   "must": [
+    "interes",
+    "descuento",
+    "mezclas",
+    "aleaciones"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.543
+  },
+  {
+   "id": "Q28",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué estados físicos de la materia se estudian en química?",
+   "gold": "gaseoso, líquido y sólido",
+   "must": [
+    "gaseoso",
+    "liquido",
+    "solido"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.618
+  },
+  {
+   "id": "Q29",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué clases de progresiones hay en aritmética?",
+   "gold": "aritmética y geométrica",
+   "must": [
+    "aritmetic",
+    "geometric"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.629
+  },
+  {
+   "id": "Q30",
+   "category": "TEMARIO",
+   "type": "list",
+   "query": "¿Qué subtemas hay en la factorización de trinomios?",
+   "gold": "trinomio cuadrado perfecto; x²+bx+c; ax²+bx+c con a≠1",
+   "must": [
+    "trinomio"
+   ],
+   "abstain": false,
+   "source": "TEMARIO pp.9-33",
+   "sim_to_dev": 0.591
+  },
+  {
+   "id": "G01",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "Si no alcancé vacante en un examen, ¿puedo inscribirme en el siguiente?",
+   "gold": "Sí, previo pago de los derechos correspondientes (Art. 39)",
+   "must": [
+    "\\bsi\\b|puede|podra",
+    "pago|derechos"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.589
+  },
+  {
+   "id": "G02",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Qué puntaje necesito para ganar vacante en el ordinario?",
+   "gold": "igual o superior a la mediana calculada del programa, en estricto orden de mérito (Art. 41)",
+   "must": [
+    "mediana"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.605
+  },
+  {
+   "id": "G03",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "Si hay empate en la última vacante, ¿qué pasa?",
+   "gold": "ingresan todos los postulantes con ese puntaje (Art. 43)",
+   "must": [
+    "todos|ingresan|ingresaran"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.478
+  },
+  {
+   "id": "G04",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Cómo califican mi examen?",
+   "gold": "de manera anónima y automatizada, con apoyo de la OTI (Art. 44)",
+   "must": [
+    "automatizad|anonim"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.536
+  },
+  {
+   "id": "G05",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Qué ficha me dan el día del examen?",
+   "gold": "ficha óptica desglosable: identificación (izquierda) y respuestas (derecha) (Art. 45)",
+   "must": [
+    "ficha optica",
+    "identificacion",
+    "respuestas"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.694
+  },
+  {
+   "id": "G06",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Si uso un celular durante el examen qué me pasa?",
+   "gold": "calificado con cero (Art. 48.7)",
+   "must": [
+    "cero|\\b0\\b"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.566
+  },
+  {
+   "id": "G07",
+   "category": "REGLAMENTO",
+   "type": "list",
+   "query": "¿En qué casos me califican con cero?",
+   "gold": "no rinde; llena mal el código o marca un tema que no corresponde; recibe ayuda; usa equipos de comunicación; altera el orden…",
+   "must": [
+    "ayuda",
+    "equipo|aparato|comunicacion",
+    "codigo|tema"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.543
+  },
+  {
+   "id": "G08",
+   "category": "REGLAMENTO",
+   "type": "list",
+   "query": "¿Dónde están las filiales de la UNSA?",
+   "gold": "provincias de Camaná, Caylloma (El Pedregal) e Islay (Mollendo) (Art. 49)",
+   "must": [
+    "camana",
+    "caylloma|pedregal",
+    "islay|mollendo"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.623
+  },
+  {
+   "id": "G09",
+   "category": "REGLAMENTO",
+   "type": "lookup",
+   "query": "¿Cuál es el máximo de inasistencias en el CEPRUNSA?",
+   "gold": "30% del total de clases (Art. 60)",
+   "must": [
+    "(?<![\\d.,/])30(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.63
+  },
+  {
+   "id": "G10",
+   "category": "REGLAMENTO",
+   "type": "lookup",
+   "query": "¿Cuándo se considera que asistí a una clase del CEPRUNSA?",
+   "gold": "cuando permanezca más del 50% de la duración de la clase (Art. 60)",
+   "must": [
+    "(?<![\\d.,/])50(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.639
+  },
+  {
+   "id": "G11",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Cuántas evaluaciones rindo en la modalidad CEPRUNSA?",
+   "gold": "una sola (Art. 59)",
+   "must": [
+    "\\buna\\b|\\b1\\b|sola|unica"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.649
+  },
+  {
+   "id": "G12",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Qué pasa si incumplo las normas de convivencia del CEPRUNSA?",
+   "gold": "puede dar lugar a la suspensión de su preparación (Art. 63)",
+   "must": [
+    "suspension|suspend"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.587
+  },
+  {
+   "id": "G13",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "Si me inscribí en una filial, ¿me devuelven el pago?",
+   "gold": "Por ningún motivo procede la devolución (p.14)",
+   "must": [
+    "ningun motivo|no procede|no .{0,25}devol"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.496
+  },
+  {
+   "id": "G14",
+   "category": "REGLAMENTO",
+   "type": "lookup",
+   "query": "¿Cuánto dura el ciclo de preparación del extraordinario?",
+   "gold": "tres (3) semanas (Art. 77)",
+   "must": [
+    "(?<![\\d.,/])3(?![\\d/])|tres",
+    "semana"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.661
+  },
+  {
+   "id": "G15",
+   "category": "REGLAMENTO",
+   "type": "list",
+   "query": "¿Qué días se dictan las clases del ciclo de preparación del extraordinario?",
+   "gold": "de lunes a sábado, un solo turno, virtual sincrónica (Art. 77)",
+   "must": [
+    "lunes",
+    "sabado"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.641
+  },
+  {
+   "id": "G16",
+   "category": "REGLAMENTO",
+   "type": "lookup",
+   "query": "En el ciclo del extraordinario, ¿qué porcentaje de inasistencias se permite?",
+   "gold": "10% (Art. 77)",
+   "must": [
+    "(?<![\\d.,/])10(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.552
+  },
+  {
+   "id": "G17",
+   "category": "REGLAMENTO",
+   "type": "list",
+   "query": "¿Cómo se pondera la evaluación del ciclo del extraordinario?",
+   "gold": "razonamiento lógico y matemático 50%; verbal y comprensión lectora 50% (Art. 78)",
+   "must": [
+    "(?<![\\d.,/])50(?![\\d/])",
+    "verbal|comprension|logico|matematic"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.713
+  },
+  {
+   "id": "G18",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "Quiero entrar a Arquitectura por traslado externo, ¿rindo evaluación previa?",
+   "gold": "No, están exceptuados (Art. 80)",
+   "must": [
+    "\\bno\\b|exceptuad"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.493
+  },
+  {
+   "id": "G19",
+   "category": "REGLAMENTO",
+   "type": "list",
+   "query": "¿Quiénes participan en el ciclo de preparación del examen extraordinario?",
+   "gold": "primeros puestos, deportistas, Bachillerato Internacional, COAR, CAB, discapacidad, víctimas del terrorismo y de la violencia (Art. 76)",
+   "must": [
+    "deportista",
+    "coar",
+    "discapacidad",
+    "terroris|violencia"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.641
+  },
+  {
+   "id": "G20",
+   "category": "REGLAMENTO",
+   "type": "list",
+   "query": "¿Qué periodo de violencia da derecho a las vacantes de víctimas?",
+   "gold": "entre mayo de 1980 y noviembre de 2000 (Art. 76.8)",
+   "must": [
+    "1980",
+    "2000"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.536
+  },
+  {
+   "id": "G21",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "En CEPRUNSA, ¿hasta cuándo puedo cambiar de programa de estudios?",
+   "gold": "hasta antes del inicio de clases del programa, previa autorización de la DA (Art. 64)",
+   "must": [
+    "inicio de clases"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.673
+  },
+  {
+   "id": "G22",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Para qué sirve el CEPRUNSA según el reglamento?",
+   "gold": "preparar y capacitar a los postulantes que se acogen voluntariamente (Art. 57)",
+   "must": [
+    "preparar|capacitar"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.586
+  },
+  {
+   "id": "G23",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "Para el ciclo quintos, ¿qué documento piden además de los del artículo 27?",
+   "gold": "constancia de matrícula emitida por el SIAGIE (Art. 70)",
+   "must": [
+    "siagie"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.504
+  },
+  {
+   "id": "G24",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "En ciclo quintos, ¿quién se encarga de regularizar mi expediente?",
+   "gold": "la OTI (Art. 74)",
+   "must": [
+    "oti|tecnologias de la informacion"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.587
+  },
+  {
+   "id": "G25",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿En CEPRUNSA puedo pedir que me exoneren de la deuda?",
+   "gold": "No, bajo ningún concepto (Art. 68.2)",
+   "must": [
+    "\\bno\\b"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.496
+  },
+  {
+   "id": "G26",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Qué pasa si no respondo las encuestas de satisfacción del CEPRUNSA?",
+   "gold": "puede dar lugar a la suspensión de la preparación (Art. 61)",
+   "must": [
+    "suspension|suspend"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.535
+  },
+  {
+   "id": "G27",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Cuándo recogen las claves de respuesta?",
+   "gold": "del internamiento el día del examen, inmediatamente después de culminada la evaluación (Art. 47.2)",
+   "must": [
+    "internamiento|inmediat"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.7
+  },
+  {
+   "id": "G28",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Qué hacen en el CEPRUNSA además de las clases normales?",
+   "gold": "seminarios, clases de reforzamiento académico y envío de prácticas (Art. 62)",
+   "must": [
+    "seminario|reforzamiento|practicas"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.524
+  },
+  {
+   "id": "G29",
+   "category": "REGLAMENTO",
+   "type": "open",
+   "query": "¿Cómo se me asignan los puntajes al calificarme?",
+   "gold": "la DA, CPS y CSPA con apoyo de la OTI verifican tarjetas de identidad, respuestas, emparejamiento y puntajes (Art. 47)",
+   "must": [
+    "oti|tarjetas|emparejamiento|puntajes"
+   ],
+   "abstain": false,
+   "source": "REGLAMENTO pp.11-17 (printed)",
+   "sim_to_dev": 0.51
+  },
+  {
+   "id": "N01",
+   "category": "SIN_RESPUESTA",
+   "type": "unanswerable",
+   "query": "¿Cuántos alumnos ingresaron el año pasado?",
+   "gold": "no figura en los documentos",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent",
+   "sim_to_dev": 0.626
+  },
+  {
+   "id": "N02",
+   "category": "SIN_RESPUESTA",
+   "type": "unanswerable",
+   "query": "¿Cuánto cuesta el ciclo de preparación del CEPRUNSA en soles?",
+   "gold": "el reglamento remite a montos aprobados por el CU; no da cifras",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent",
+   "sim_to_dev": 0.686
+  },
+  {
+   "id": "N03",
+   "category": "SIN_RESPUESTA",
+   "type": "unanswerable",
+   "query": "¿Hay vacantes para Ingeniería Naval?",
+   "gold": "el programa no figura en el cuadro de vacantes",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent",
+   "sim_to_dev": 0.682
+  },
+  {
+   "id": "N04",
+   "category": "SIN_RESPUESTA",
+   "type": "unanswerable",
+   "query": "¿Hay cronograma publicado para el proceso de ingreso del 2030?",
+   "gold": "los documentos solo cubren el proceso 2027",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent",
+   "sim_to_dev": 0.492
+  },
+  {
+   "id": "N05",
+   "category": "SIN_RESPUESTA",
+   "type": "unanswerable",
+   "query": "¿Hay vacantes para Ingeniería Aeronáutica?",
+   "gold": "el programa no figura en el cuadro de vacantes",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent",
+   "sim_to_dev": 0.703
+  },
+  {
+   "id": "Z01",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Cuál es la capital de Chile?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a",
+   "sim_to_dev": 0.657
+  },
+  {
+   "id": "Z02",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Quién descubrió América?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a",
+   "sim_to_dev": 0.5
+  },
+  {
+   "id": "Z03",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "Dame una receta de lomo saltado",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a",
+   "sim_to_dev": 0.667
+  },
+  {
+   "id": "Z04",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Cuánto es 48 entre 6?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a",
+   "sim_to_dev": 0.698
+  },
+  {
+   "id": "Z05",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Cómo se juega ajedrez?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a",
+   "sim_to_dev": 0.492
+  },
+  {
+   "id": "Z06",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Cuándo son las inscripciones de la Universidad de Piura?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a",
+   "sim_to_dev": 0.839
+  },
+  {
+   "id": "Z07",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "Escríbeme una canción de amor",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a",
+   "sim_to_dev": 0.543
+  },
+  {
+   "id": "Z08",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Qué películas hay en el cine hoy?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a",
+   "sim_to_dev": 0.561
+  },
+  {
+   "id": "Z09",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Cómo se renueva el pasaporte?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a",
+   "sim_to_dev": 0.538
+  },
+  {
+   "id": "Z10",
+   "category": "FUERA_DE_DOMINIO",
+   "type": "ood",
+   "query": "¿Qué temperatura hace en Lima?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a",
+   "sim_to_dev": 0.783
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "started_utc": "2026-10-03T01:31:49.348649+00:00",
+ "bank": "evaluation/heldout/test2/test2_bank.json",
+ "bank_sha256": "bde5e517f052f89a1f39f61596e2dd76180bd28e1ec6e3cf0884ea3ce1abfef1",
+ "app": "evaluation/heldout/app_v4_frozen",
+ "app_sha256": {
+  "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "cache.py": "96b434442a57d912555a1460ddc4d3e87beecfc9b7a02f60a0c4f0c022a442ea",
+  "embeddings.py": "85b908ee739fec1a0e8d307570135552d0946d678a3b5c094dc9cdd0fb2db167",
+  "ingest.py": "8d2ea3eb3e6dd6270c7d5fc9e34fd5d70c24f2fc0ff32be85f03beadca95dd5a",
+  "llm.py": "8808a693f04616431e4c63400f91ce666c657bedd4717a6818d38b08599fd7c3",
+  "main.py": "f53fc116f3e59e975d9951ade6d221cb7b7b64eebda8573745b759683acce2d2",
+  "ocr_engine.py": "c55a926339cbc88b2a22fa75a138f92bd122af1867ccc0d1324446accc0e2eb2",
+  "pdf_text.py": "df9425fd6b2cf44e1bead51a2431e4effb07db630736d259269cd38767bb5af9",
+  "pipeline.py": "cc973eea9f0a7de8a3bd68a0837c36586b28ae3bba30ac44510b8b94ba31b4ac",
+  "retriever.py": "9fe9581ba903421af3ccb7556609c7c5e696c64dfe1294096e8834114867e64f",
+  "router.py": "7ddb150f5fa860af2e5d034f20e00be46c1e2af90cd7127dce9e15350eebd59f",
+  "structured_answers.py": "8fceb0cadaa8174de6bb9f1cb159eb2638bf7be68ab4ce8468072a5d7bbe61e5",
+  "textract_engine.py": "4827a1ed5eb6ae4311266b708ff17b921c73123a3bb4435ff1623d2b68c155de",
+  "workspace_manager.py": "ceb530e69ca8a11518a684dcda178b2d3a86e9cea5705747c61ecebadccf9b78"
+ },
+ "freeze": null,
+ "model": "ollama llama3:8b T=0.1",
+ "cache": "disabled"
+}

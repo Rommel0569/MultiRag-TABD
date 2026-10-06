@@ -1,0 +1,18 @@
+{
+ "started_utc": "2026-10-02T20:20:56.934132+00:00",
+ "bank_sha256": "9b051bb8acb0690d59aba818676b43fcbaef3dbe90a0ce90610b29e5e6dcd736",
+ "freeze": "2026-10-02T20:13:26.498316+00:00",
+ "n_queries": 89,
+ "systems": [
+  "V4",
+  "V6",
+  "V1",
+  "V2",
+  "V3",
+  "V5"
+ ],
+ "model": "ollama llama3:8b T=0.1",
+ "index": "data/index_textract_85_v9",
+ "cache": "disabled",
+ "finished_utc": "2026-10-02T21:44:10.302679+00:00"
+}

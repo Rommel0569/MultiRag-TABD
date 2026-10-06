@@ -1,0 +1,755 @@
+{
+ "status": "UNT_BANK_WRITTEN_BEFORE_RUNNING",
+ "n": 63,
+ "document": "Universidad Nacional de Trujillo, Reglamento de Admision (native-text PDF, 23 pp.)",
+ "created_utc": "2026-10-02T21:48:02.741782+00:00",
+ "consultas": [
+  {
+   "id": "U01",
+   "category": "UNT",
+   "type": "lookup",
+   "query": "¿Cuántas preguntas tiene la prueba de admisión?",
+   "gold": "100 (Art. 47)",
+   "must": [
+    "(?<![\\d.,/])100(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "Art.47 p.17"
+  },
+  {
+   "id": "U02",
+   "category": "UNT",
+   "type": "lookup",
+   "query": "¿Cuántos puntos vale una respuesta correcta?",
+   "gold": "4,079 puntos (Art. 51)",
+   "must": [
+    "4[.,]079"
+   ],
+   "abstain": false,
+   "source": "Art.51 p.17"
+  },
+  {
+   "id": "U03",
+   "category": "UNT",
+   "type": "lookup",
+   "query": "¿Y cuánto se descuenta por una respuesta mala?",
+   "gold": "-1,021 puntos (Art. 51)",
+   "must": [
+    "1[.,]021"
+   ],
+   "abstain": false,
+   "source": "Art.51 p.17"
+  },
+  {
+   "id": "U04",
+   "category": "UNT",
+   "type": "lookup",
+   "query": "¿Cuántas pruebas de admisión se aplican?",
+   "gold": "4, una por cada área de postulación (Art. 41)",
+   "must": [
+    "(?<![\\d.,/])4(?![\\d/])|cuatro"
+   ],
+   "abstain": false,
+   "source": "Art.41 p.14"
+  },
+  {
+   "id": "U05",
+   "category": "UNT",
+   "type": "lookup",
+   "query": "¿Qué porcentaje de las vacantes ordinarias se reserva para el CEPUNT?",
+   "gold": "40% (Art. 34)",
+   "must": [
+    "(?<![\\d.,/])40(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "Art.34 p.13"
+  },
+  {
+   "id": "U06",
+   "category": "UNT",
+   "type": "lookup",
+   "query": "¿Qué porcentaje de las vacantes de cada carrera es para personas con discapacidad?",
+   "gold": "5% (Art. 35)",
+   "must": [
+    "(?<![\\d.,/])5(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "Art.35 p.13"
+  },
+  {
+   "id": "U07",
+   "category": "UNT",
+   "type": "lookup",
+   "query": "¿Cuántas vacantes por carrera están reservadas para los de quinto de secundaria?",
+   "gold": "3 (Art. 32)",
+   "must": [
+    "(?<![\\d.,/])3(?![\\d/])|tres"
+   ],
+   "abstain": false,
+   "source": "Art.32 p.13"
+  },
+  {
+   "id": "U08",
+   "category": "UNT",
+   "type": "lookup",
+   "query": "¿Cuál es el máximo de vacantes de traslados por programa profesional?",
+   "gold": "6 (Art. 37)",
+   "must": [
+    "(?<![\\d.,/])6(?![\\d/])|seis"
+   ],
+   "abstain": false,
+   "source": "Art.37 p.14"
+  },
+  {
+   "id": "U09",
+   "category": "UNT",
+   "type": "list",
+   "query": "¿Cuántas vacantes hay como máximo para segunda profesión y en qué fase participan?",
+   "gold": "máximo 4 por programa, solo fase II (Art. 38)",
+   "must": [
+    "(?<![\\d.,/])4(?![\\d/])|cuatro",
+    "fase ii|segunda fase|fase 2"
+   ],
+   "abstain": false,
+   "source": "Art.38 p.14"
+  },
+  {
+   "id": "U10",
+   "category": "UNT",
+   "type": "lookup",
+   "query": "¿Cuántos años no puedo volver a postular si me sorprenden copiando?",
+   "gold": "5 años (Art. 56)",
+   "must": [
+    "(?<![\\d.,/])5(?![\\d/])|cinco"
+   ],
+   "abstain": false,
+   "source": "Art.56 p.18"
+  },
+  {
+   "id": "U11",
+   "category": "UNT",
+   "type": "lookup",
+   "query": "¿Cuántos postulantes de Medicina clasifican al segundo examen?",
+   "gold": "los 60 primeros puestos (Art. 39a)",
+   "must": [
+    "(?<![\\d.,/])60(?![\\d/])|sesenta"
+   ],
+   "abstain": false,
+   "source": "Art.39 p.14"
+  },
+  {
+   "id": "U12",
+   "category": "UNT",
+   "type": "lookup",
+   "query": "¿Cuánto tiempo como máximo debe demandar resolver cada pregunta?",
+   "gold": "1.8 minutos (Art. 48e)",
+   "must": [
+    "1[.,]8"
+   ],
+   "abstain": false,
+   "source": "Art.48 p.17"
+  },
+  {
+   "id": "U13",
+   "category": "UNT",
+   "type": "lookup",
+   "query": "¿Cuántas alternativas tiene cada pregunta?",
+   "gold": "cinco (Art. 48a)",
+   "must": [
+    "(?<![\\d.,/])5(?![\\d/])|cinco"
+   ],
+   "abstain": false,
+   "source": "Art.48 p.17"
+  },
+  {
+   "id": "U14",
+   "category": "UNT",
+   "type": "lookup",
+   "query": "¿Qué tamaño máximo puede tener la foto que subo al inscribirme?",
+   "gold": "2 megabytes (Art. 15b)",
+   "must": [
+    "(?<!\\d)2(?!\\d)\\s*(mb|megabyte)|dos megabyte"
+   ],
+   "abstain": false,
+   "source": "Art.15 p.8"
+  },
+  {
+   "id": "U15",
+   "category": "UNT",
+   "type": "lookup",
+   "query": "¿Qué porcentaje de las vacantes corresponde a la admisión ordinaria?",
+   "gold": "55% (Art. 31)",
+   "must": [
+    "(?<![\\d.,/])55(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "Art.31 p.13"
+  },
+  {
+   "id": "U16",
+   "category": "UNT",
+   "type": "lookup",
+   "query": "¿Cuántos créditos tengo que haber aprobado para un traslado externo?",
+   "gold": "72 créditos (o cuatro semestres / dos años) (Art. 20)",
+   "must": [
+    "(?<![\\d.,/])72(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "Art.20 p.10"
+  },
+  {
+   "id": "U17",
+   "category": "UNT",
+   "type": "list",
+   "query": "¿Qué porcentaje mínimo y máximo de vacantes se reserva para premios de excelencia?",
+   "gold": "mínimo 5% y máximo 10% (Art. 33)",
+   "must": [
+    "(?<![\\d.,/])5(?![\\d/])",
+    "(?<![\\d.,/])10(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "Art.33 p.13"
+  },
+  {
+   "id": "U18",
+   "category": "UNT",
+   "type": "list",
+   "query": "¿Cuántos exámenes sumativos tiene el CEPUNT y de cuántas preguntas cada uno?",
+   "gold": "tres sumativos de 100 preguntas cada uno (Art. 44)",
+   "must": [
+    "(?<![\\d.,/])3(?![\\d/])|tres",
+    "(?<![\\d.,/])100(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "Art.44 p.16"
+  },
+  {
+   "id": "U19",
+   "category": "UNT",
+   "type": "lookup",
+   "query": "Si estoy en quinto de secundaria, ¿a cuántas carreras puedo postular?",
+   "gold": "una sola (Disposición Segunda)",
+   "must": [
+    "\\buna\\b|\\b1\\b|sola|unica"
+   ],
+   "abstain": false,
+   "source": "Disp. Segunda p.23"
+  },
+  {
+   "id": "U20",
+   "category": "UNT",
+   "type": "list",
+   "query": "¿Qué descuento hay en el derecho de inscripción para hijos de docentes?",
+   "gold": "100% en la primera postulación y 50% en la segunda, hasta dos (Art. 70)",
+   "must": [
+    "(?<![\\d.,/])100(?![\\d/])",
+    "(?<![\\d.,/])50(?![\\d/])"
+   ],
+   "abstain": false,
+   "source": "Art.70 p.20"
+  },
+  {
+   "id": "U21",
+   "category": "UNT",
+   "type": "open",
+   "query": "¿Qué documentos tengo que subir para inscribirme por la modalidad ordinaria?",
+   "gold": "recibo de pago; foto digital a color fondo blanco; DNI/carné/pasaporte (Art. 15)",
+   "must": [
+    "recibo|pago",
+    "fotografia|foto",
+    "dni|identidad|carne|pasaporte"
+   ],
+   "abstain": false,
+   "source": "Art.15 p.8"
+  },
+  {
+   "id": "U22",
+   "category": "UNT",
+   "type": "open",
+   "query": "Si no logro vacante por el CEPUNT, ¿puedo postular al examen ordinario?",
+   "gold": "Sí, si me inscribo dentro de los plazos (Art. 14h)",
+   "must": [
+    "\\bsi\\b|puede",
+    "plazo|inscri"
+   ],
+   "abstain": false,
+   "source": "Art.14 p.7"
+  },
+  {
+   "id": "U23",
+   "category": "UNT",
+   "type": "open",
+   "query": "¿Me devuelven el pago de inscripción si ya me inscribí?",
+   "gold": "No: no tiene derecho a la devolución (Art. 83)",
+   "must": [
+    "no (tendra|tiene|hay|se devuelve|se le devolvera|procede)|no .{0,25}devol|ninguna devolucion"
+   ],
+   "abstain": false,
+   "source": "Art.83 p.22"
+  },
+  {
+   "id": "U24",
+   "category": "UNT",
+   "type": "open",
+   "query": "¿Hasta cuántos procesos puede postular un egresado de COAR o premio de excelencia?",
+   "gold": "hasta tres procesos consecutivos (Art. 75)",
+   "must": [
+    "(?<![\\d.,/])3(?![\\d/])|tres"
+   ],
+   "abstain": false,
+   "source": "Art.75 p.21"
+  },
+  {
+   "id": "U25",
+   "category": "UNT",
+   "type": "open",
+   "query": "¿Se puede ingresar por segunda opción?",
+   "gold": "No (Art. 61)",
+   "must": [
+    "\\bno\\b"
+   ],
+   "abstain": false,
+   "source": "Art.61 p.19"
+  },
+  {
+   "id": "U26",
+   "category": "UNT",
+   "type": "open",
+   "query": "¿Se pueden apelar o revisar los resultados del examen?",
+   "gold": "No: son inapelables e irrevisables (Art. 40)",
+   "must": [
+    "inapelable|irrevisable|no .{0,30}(apel|revis)"
+   ],
+   "abstain": false,
+   "source": "Art.40 p.14"
+  },
+  {
+   "id": "U27",
+   "category": "UNT",
+   "type": "open",
+   "query": "¿Qué pasa si pongo datos falsos en mi ficha de inscripción?",
+   "gold": "separado del concurso y sancionado (Art. 88)",
+   "must": [
+    "separad",
+    "sancion"
+   ],
+   "abstain": false,
+   "source": "Art.88 p.22"
+  },
+  {
+   "id": "U28",
+   "category": "UNT",
+   "type": "open",
+   "query": "¿Qué le pasa a un estudiante de la UNT que suplanta a un postulante?",
+   "gold": "es denunciado ante el Tribunal de Honor para su separación (Art. 89)",
+   "must": [
+    "tribunal de honor"
+   ],
+   "abstain": false,
+   "source": "Art.89 p.22"
+  },
+  {
+   "id": "U29",
+   "category": "UNT",
+   "type": "open",
+   "query": "Soy titulado universitario, ¿puedo postular a pregrado ordinario?",
+   "gold": "No; solo por segunda profesión o segunda especialidad (Art. 80)",
+   "must": [
+    "\\bno\\b",
+    "segunda profesion|segunda especialidad"
+   ],
+   "abstain": false,
+   "source": "Art.80 p.21"
+  },
+  {
+   "id": "U30",
+   "category": "UNT",
+   "type": "open",
+   "query": "¿Puedo cambiarme de carrera después de inscribirme?",
+   "gold": "Sí, pagando un nuevo derecho de inscripción, dentro del cronograma y antes de los padrones finales (Art. 79)",
+   "must": [
+    "nuevo derecho|nuevo pago|pagar|pago",
+    "padrones|cronograma"
+   ],
+   "abstain": false,
+   "source": "Art.79 p.21"
+  },
+  {
+   "id": "U31",
+   "category": "UNT",
+   "type": "open",
+   "query": "¿Pueden postular personas condenadas por terrorismo?",
+   "gold": "No, están impedidas (Art. 81)",
+   "must": [
+    "impedid|no pueden|no podran|prohib",
+    "terroris"
+   ],
+   "abstain": false,
+   "source": "Art.81 p.22"
+  },
+  {
+   "id": "U32",
+   "category": "UNT",
+   "type": "open",
+   "query": "¿Qué hace la universidad con las vacantes que sobran en el ordinario de la primera fase?",
+   "gold": "pasan a incrementar las vacantes del ordinario de la segunda fase (Art. 29)",
+   "must": [
+    "fase ii|segunda fase|fase 2",
+    "increment|pasan|suman|aument"
+   ],
+   "abstain": false,
+   "source": "Art.29 p.12"
+  },
+  {
+   "id": "U33",
+   "category": "UNT",
+   "type": "list",
+   "query": "¿Cuáles son las modalidades de admisión de la UNT?",
+   "gold": "ordinario (y 5to de secundaria), extraordinario, CEPUNT, traslados y segunda profesión, segundas especialidades, posgrado (Art. 10)",
+   "must": [
+    "ordinari",
+    "extraordinari",
+    "cepunt",
+    "traslado",
+    "segunda"
+   ],
+   "abstain": false,
+   "source": "Art.10 p.6"
+  },
+  {
+   "id": "U34",
+   "category": "UNT",
+   "type": "locate",
+   "query": "¿Qué prueba rinde Medicina?",
+   "gold": "Prueba A (Ciencias de la vida y la salud) (Art. 42)",
+   "must": [
+    "prueba a"
+   ],
+   "abstain": false,
+   "source": "Art.42 p.14"
+  },
+  {
+   "id": "U35",
+   "category": "UNT",
+   "type": "locate",
+   "query": "¿Qué prueba rinde Ingeniería de Sistemas?",
+   "gold": "Prueba B (Ciencias Básicas y Tecnológicas) (Art. 42)",
+   "must": [
+    "prueba b"
+   ],
+   "abstain": false,
+   "source": "Art.42 p.14"
+  },
+  {
+   "id": "U36",
+   "category": "UNT",
+   "type": "locate",
+   "query": "¿Quién califica las respuestas de los postulantes?",
+   "gold": "la OTI (Art. 59)",
+   "must": [
+    "oti|tecnologias de la informacion"
+   ],
+   "abstain": false,
+   "source": "Art.59 p.19"
+  },
+  {
+   "id": "U37",
+   "category": "UNT",
+   "type": "locate",
+   "query": "¿Quién prepara la prueba de admisión?",
+   "gold": "una comisión especial designada por la DAD con el Vicerrectorado Académico (Art. 46)",
+   "must": [
+    "comision"
+   ],
+   "abstain": false,
+   "source": "Art.46 p.16"
+  },
+  {
+   "id": "U38",
+   "category": "UNT",
+   "type": "locate",
+   "query": "¿Dónde se publican primero los resultados?",
+   "gold": "página web de la Universidad, de la DAD y del CEPUNT (Art. 60)",
+   "must": [
+    "web|pagina"
+   ],
+   "abstain": false,
+   "source": "Art.60 p.19"
+  },
+  {
+   "id": "U39",
+   "category": "UNT",
+   "type": "open",
+   "query": "¿Puedo inscribirme en dos carreras a la vez, una en la sede central y otra en una filial?",
+   "gold": "No (Art. 82)",
+   "must": [
+    "\\bno\\b"
+   ],
+   "abstain": false,
+   "source": "Art.82 p.22"
+  },
+  {
+   "id": "U40",
+   "category": "UNT",
+   "type": "open",
+   "query": "¿Qué pasa si no llego a la hora del examen?",
+   "gold": "pierden todo derecho (Art. 55)",
+   "must": [
+    "pierd|perder"
+   ],
+   "abstain": false,
+   "source": "Art.55 p.18"
+  },
+  {
+   "id": "U41",
+   "category": "UNT",
+   "type": "open",
+   "query": "¿Los docentes que enseñan en academias pueden estar en las comisiones del examen?",
+   "gold": "No en las comisiones de elaboración, traslado y calificación, ni en el cuidado de aulas (Art. 93)",
+   "must": [
+    "\\bno\\b|excepto|no pueden",
+    "comision|elaboracion|calificacion"
+   ],
+   "abstain": false,
+   "source": "Art.93 p.22"
+  },
+  {
+   "id": "U42",
+   "category": "UNT",
+   "type": "locate",
+   "query": "¿Quién aprueba el cronograma de admisión?",
+   "gold": "el Consejo Universitario a propuesta de la DAD (Art. 13)",
+   "must": [
+    "consejo universitario"
+   ],
+   "abstain": false,
+   "source": "Art.13 p.7"
+  },
+  {
+   "id": "U43",
+   "category": "UNT",
+   "type": "open",
+   "query": "¿Un profesor de la UNT puede postular a una carrera de pregrado ahí mismo?",
+   "gold": "No (Art. 95)",
+   "must": [
+    "\\bno\\b"
+   ],
+   "abstain": false,
+   "source": "Art.95 p.22"
+  },
+  {
+   "id": "U44",
+   "category": "UNT",
+   "type": "open",
+   "query": "¿Cuántos de los de quinto de secundaria ingresan directamente?",
+   "gold": "los tres primeros puestos (Disposición Segunda)",
+   "must": [
+    "(?<![\\d.,/])3(?![\\d/])|tres"
+   ],
+   "abstain": false,
+   "source": "Disp. Segunda p.23"
+  },
+  {
+   "id": "U45",
+   "category": "UNT",
+   "type": "open",
+   "query": "¿Qué se le exige al ingresante extranjero para acreditar su ingreso?",
+   "gold": "los requisitos del art. 64 con certificados convalidados por el órgano competente del Ministerio de Educación (Art. 66)",
+   "must": [
+    "convalid"
+   ],
+   "abstain": false,
+   "source": "Art.66 p.20"
+  },
+  {
+   "id": "U46",
+   "category": "UNT",
+   "type": "open",
+   "query": "Me expulsaron del CEPUNT por indisciplina, ¿por cuánto tiempo?",
+   "gold": "mínimo cinco años (Art. 87)",
+   "must": [
+    "(?<![\\d.,/])5(?![\\d/])|cinco"
+   ],
+   "abstain": false,
+   "source": "Art.87 p.22"
+  },
+  {
+   "id": "U47",
+   "category": "UNT",
+   "type": "open",
+   "query": "¿El carnet o constancia de inscripción es suficiente para entrar al examen?",
+   "gold": "Debe llevarse la constancia de inscripción y el DNI, carné de extranjería o pasaporte (Art. 25)",
+   "must": [
+    "constancia",
+    "dni|identidad|carne|pasaporte"
+   ],
+   "abstain": false,
+   "source": "Art.25 p.10-11"
+  },
+  {
+   "id": "U48",
+   "category": "UNT",
+   "type": "open",
+   "query": "¿Si hago trampa en el examen qué me pasa?",
+   "gold": "separado inmediatamente, denunciado, y no puede postular a la UNT por cinco años (Art. 56)",
+   "must": [
+    "separad|denunci",
+    "(?<![\\d.,/])5(?![\\d/])|cinco"
+   ],
+   "abstain": false,
+   "source": "Art.56 p.18"
+  },
+  {
+   "id": "U49",
+   "category": "UNT",
+   "type": "open",
+   "query": "¿Quién se encarga de todo el proceso de admisión en la UNT?",
+   "gold": "la Dirección de Admisión (DAD), bajo supervisión del Vicerrectorado Académico (Art. 11)",
+   "must": [
+    "direccion de admision|dad"
+   ],
+   "abstain": false,
+   "source": "Art.11 p.6"
+  },
+  {
+   "id": "U50",
+   "category": "UNT",
+   "type": "unanswerable",
+   "query": "¿Cuánto cuesta la inscripción en soles?",
+   "gold": "el reglamento no indica montos",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent from the document text"
+  },
+  {
+   "id": "U51",
+   "category": "UNT",
+   "type": "unanswerable",
+   "query": "¿En qué fecha es el examen de admisión?",
+   "gold": "no hay cronograma en este documento",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent from the document text"
+  },
+  {
+   "id": "U52",
+   "category": "UNT",
+   "type": "unanswerable",
+   "query": "¿Cuántas vacantes ofrece Medicina?",
+   "gold": "no hay cuadro de vacantes en este documento",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent from the document text"
+  },
+  {
+   "id": "U53",
+   "category": "UNT",
+   "type": "unanswerable",
+   "query": "¿Cuál es el puntaje mínimo aprobatorio para ingresar?",
+   "gold": "el documento no fija un valor; lo determina la DAD",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent from the document text"
+  },
+  {
+   "id": "U54",
+   "category": "UNT",
+   "type": "unanswerable",
+   "query": "¿Cuántos postulantes se presentaron el año pasado?",
+   "gold": "no figura en el documento",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent from the document text"
+  },
+  {
+   "id": "U55",
+   "category": "UNT",
+   "type": "unanswerable",
+   "query": "¿A qué hora empieza el examen?",
+   "gold": "no figura en el documento",
+   "must": [],
+   "abstain": true,
+   "source": "verified absent from the document text"
+  },
+  {
+   "id": "U56",
+   "category": "UNT",
+   "type": "ood",
+   "query": "¿Cuál es la capital de Francia?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a"
+  },
+  {
+   "id": "U57",
+   "category": "UNT",
+   "type": "ood",
+   "query": "¿Quién ganó el último mundial de fútbol?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a"
+  },
+  {
+   "id": "U58",
+   "category": "UNT",
+   "type": "ood",
+   "query": "Escríbeme un poema sobre el mar",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a"
+  },
+  {
+   "id": "U59",
+   "category": "UNT",
+   "type": "ood",
+   "query": "¿Cuánto es 15 por 12?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a"
+  },
+  {
+   "id": "U60",
+   "category": "UNT",
+   "type": "ood",
+   "query": "Recomiéndame una receta de ceviche",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a"
+  },
+  {
+   "id": "U61",
+   "category": "UNT",
+   "type": "ood",
+   "query": "¿Cómo va a estar el clima mañana en Trujillo?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a"
+  },
+  {
+   "id": "U62",
+   "category": "UNT",
+   "type": "ood",
+   "query": "¿Cuándo son las inscripciones de la Universidad de Lima?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a"
+  },
+  {
+   "id": "U63",
+   "category": "UNT",
+   "type": "ood",
+   "query": "¿Dónde puedo comprar un celular barato?",
+   "gold": "fuera del dominio",
+   "must": [],
+   "abstain": true,
+   "source": "n/a"
+  }
+ ]
+}
