@@ -1,0 +1,27 @@
+{
+ "started_utc": "2026-10-06T02:12:09.133410+00:00",
+ "bank": "evaluation/heldout/test3/test3_bank.json",
+ "bank_sha256": "a4792ae399770cb4146ace36f47a642dbcc5e3c03604f033bcf7bb9b36fbd189",
+ "variant": "no_verbalizer",
+ "gen_model": "qwen2.5:7b",
+ "retrieval": "top8_nbr",
+ "freeze": "evaluation/heldout/FREEZE4.json",
+ "app_sha256": {
+  "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "cache.py": "96b434442a57d912555a1460ddc4d3e87beecfc9b7a02f60a0c4f0c022a442ea",
+  "context_expansion.py": "d09c5b4dfdee396ea1426d749160b6475ca7ceee67defb59002da11f0d296a10",
+  "embeddings.py": "85b908ee739fec1a0e8d307570135552d0946d678a3b5c094dc9cdd0fb2db167",
+  "ingest.py": "8d2ea3eb3e6dd6270c7d5fc9e34fd5d70c24f2fc0ff32be85f03beadca95dd5a",
+  "llm.py": "4e4ce058f65b1c37d49efd7e3d7ad168dc05e387023aee2ac1e0486a78c4ea3d",
+  "main.py": "f53fc116f3e59e975d9951ade6d221cb7b7b64eebda8573745b759683acce2d2",
+  "ocr_engine.py": "c55a926339cbc88b2a22fa75a138f92bd122af1867ccc0d1324446accc0e2eb2",
+  "pdf_text.py": "df9425fd6b2cf44e1bead51a2431e4effb07db630736d259269cd38767bb5af9",
+  "pipeline.py": "71edaf6e18a589e8c32885f3d805f62fb0842a5b6b2897e3da6528ea172fb6f1",
+  "retriever.py": "9fe9581ba903421af3ccb7556609c7c5e696c64dfe1294096e8834114867e64f",
+  "router.py": "7ddb150f5fa860af2e5d034f20e00be46c1e2af90cd7127dce9e15350eebd59f",
+  "structured_answers.py": "6a41acc1f751ea39e3869d6f79f78583093a9e9758eb1c5f4552921cad8b545c",
+  "textract_engine.py": "4827a1ed5eb6ae4311266b708ff17b921c73123a3bb4435ff1623d2b68c155de",
+  "verbalizer.py": "6a03c98677b9afc0c01649a67604a2bd48b9b77e1b1f8663f3b05014eb61cb40",
+  "workspace_manager.py": "90d268d2e4946a6f0bb2be56b34790f6e097b453eaec05a989333a204d9e9fcf"
+ }
+}
