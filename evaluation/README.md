@@ -33,6 +33,7 @@ Later analyses (the 500-question bank and the held-out banks) use other runs and
 - **Frozen code.** `app_v4_frozen/` and `app_v4c_snapshot/` are the exact application snapshots of earlier versions.
 - **Runs.** `runs*/`, `test2/runs/`, `test3/runs/`, and `unt/runs*/` contain the per-question answers (`*.jsonl`) and manifests of each run. `test2/invalid_runs_index_path_bug/` keeps a first pass that gave some systems an empty index through a path error; it was discarded and repeated unchanged.
 - **Scoring.** `score_generic.py` scores any bank deterministically (gold-key regular expressions, no LLM judge) with paired bootstrap confidence intervals and the exact McNemar test. Results are written to `heldout/results/`.
+- **Ablation of the final system.** `run_ablation.py` removes one component of `V4d` at a time on Test-2 without changing the frozen code (variants: `no_structured`, `no_evidence`, `top5`, `no_verbalizer`, `terse_style`); `test3/run_ablation.sh` is the chain that was run, the answers are in `test3/ablation/`, and the scores are in `results/test3_ablation_results.md`. Generation uses temperature 0.1, so two runs of the same variant can differ by a few questions.
 - **RAGAS on Test-2.** `ragas_test3/` (the Gemini judge, with a hard spending cap; scores in `ragas_scores.csv`, measured spend in `spend.json`).
 - **Router analysis.** `router_analysis.py` produces `results/router_analysis.json`.
 
